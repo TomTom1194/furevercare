@@ -8,7 +8,7 @@ function HomeProduct({ db }) {
             <h2 className="fw-bold my-4">Pet Product</h2>
             <div className="row g-4">
                 {db.slice(0, 8).map((product) => (
-                    <div key={product.id} className="col-sm-6 col-md-3">
+                    <div key={product.id} className="col col-md-4 col-lg-3">
                         <Link
                             to={`/petowner/petproduct/${product.id}`}
                             style={{ textDecoration: "none", color: "inherit" }}

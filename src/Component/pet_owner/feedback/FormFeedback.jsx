@@ -1,6 +1,6 @@
 function FormFeedback() {
     return (
-        <div className="container col-md-5 mx-auto my-5 border rounded p-3">
+        <div className="container col-10 col-md-5 mx-auto my-5 border rounded p-3 ">
             <h2 className="text-primary mb-3 text-center">Feedback Form</h2>
             <form>
                 <div className="mb-3">

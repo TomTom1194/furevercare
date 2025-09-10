@@ -25,7 +25,7 @@ function Emergency() {
                                     <h6 className="mb-1">{vet.name}</h6>
                                     <small className="text-muted">{vet.email}</small>
                                 </div>
-                                <a href={`tel:${vet.phone}`} className="btn btn-outline-primary btn-sm">
+                                <a href={`tel:${vet.phone}`} className="btn btn-outline-primary btn-sm text-nowrap">
                                     📞 {vet.phone}
                                 </a>
                             </div>
@@ -42,7 +42,7 @@ function Emergency() {
                         {hotlines.map((hotline, index) => (
                             <li key={index} className="list-group-item d-flex justify-content-between align-items-center">
                                 <span>{hotline.name}</span>
-                                <a href={`tel:${hotline.phone}`} className="btn btn-outline-danger btn-sm">
+                                <a href={`tel:${hotline.phone}`} className="btn btn-outline-danger btn-sm text-nowrap">
                                     📞 {hotline.phone}
                                 </a>
                             </li>

@@ -25,11 +25,11 @@ function HomeCare({ db }) {
             <Swiper
                 modules={[Navigation, Pagination]}
                 spaceBetween={20}
-                slidesPerView={4} // Mặc định hiển thị 3 pet
+                slidesPerView={4}
                 navigation
                 breakpoints={{
                     320: { slidesPerView: 1 },
-                    576: { slidesPerView: 2 },
+                    576: { slidesPerView: 3 },
                     992: { slidesPerView: 4 },
                 }}
                 className="pb-4"

@@ -22,14 +22,6 @@ function PetDetail({ db }) {
     return (
         <div className="container my-4">
 
-            <div className="row mb-4">
-                <div className="col">
-                    <h2 className="fw-bold text-primary text-capitalize px-2">
-                        Information & Care Tips
-                    </h2>
-                </div>
-            </div>
-
 
             <div className="row g-4">
                 <div className="col-md-6">

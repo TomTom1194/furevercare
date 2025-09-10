@@ -22,7 +22,7 @@ function PetProduct({ db }) {
                 <div className="col-md-8">
                     <Search type="name" db={originalData} onSearch={handleSearch} />
                 </div>
-                <div className="col-md-4">
+                <div className="col-md-4 mt-2 mt-md-0">
                     <Sort type="name" db={filterData} onSort={setSortData} />
                 </div>
             </div>
