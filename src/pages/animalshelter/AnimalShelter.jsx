@@ -1,7 +1,8 @@
 import React, { useState, useMemo } from "react";
-import Animals from "../../Data/Animalshelter/animalshelter.json"; // file JSON của bạn
+import Animals from "../../Data/Animalshelter/animalshelter.json";
 
 export default function AnimalShelter() {
+  const [visibleCount, setVisibleCount] = useState(8);
   const [filters, setFilters] = useState({
     name: "",
     age: "",
@@ -34,7 +35,7 @@ export default function AnimalShelter() {
 
   return (
     <div className="container my-4">
-      <h2 className="text-center mb-4">🐾 Animal Shelter Gallery 🐾</h2>
+      {/* <h2 className="text-center mb-4">🐾 Animal Shelter Gallery 🐾</h2> */}
 
       {/* Bộ lọc */}
       <div className="card p-3 mb-4">
@@ -86,7 +87,7 @@ export default function AnimalShelter() {
       {/* Gallery */}
       <div className="row">
         {filteredAnimals.length > 0 ? (
-          filteredAnimals.map((animal) => (
+          filteredAnimals.slice(0, visibleCount).map((animal) => (
             <div
               key={animal.id}
               className="col-12 col-sm-6 col-md-4 col-lg-3 mb-4"
@@ -112,6 +113,18 @@ export default function AnimalShelter() {
           ))
         ) : (
           <p className="text-center">No animals match your filters.</p>
+        )}
+
+        {/* View more */}
+        {visibleCount < filteredAnimals.length && (
+          <div className="d-flex justify-content-center mt-4">
+            <button
+              onClick={() => setVisibleCount((prev) => prev + 8)}
+              className="px-4 py-2 fw-semibold"
+            >
+              View more {filteredAnimals.length - visibleCount} Animals ↓
+            </button>
+          </div>
         )}
       </div>
     </div>
