@@ -25,9 +25,9 @@ function Sort({ db, onSort }) {
     return (
         <div className="sort">
             <div className="d-flex align-items-center gap-2">
-                <p className="text-nowrap m-0">Sort By:</p>
-                <select className="form-select" aria-label="Default select example" onChange={(e) => setSortOption(e.target.value)}>
-                    <option value="top_selling" selected>Top Selling</option>
+                <select className="form-select" aria-label="Default select example" onChange={(e) => setSortOption(e.target.value)} value={sortOption}>
+                    <option value="" disable>Sort By</option>
+                    <option value="top_selling">Top Selling</option>
                     <option value="price_asc">Price Low to High</option>
                     <option value="price_desc">Price High to Low</option>
                     <option value="rating">Customer Rating</option>

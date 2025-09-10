@@ -3,10 +3,7 @@ import React, { useState, useEffect } from 'react';
 function Search({ type, db, onSearch }) {
     const [keySearch, setKeySearch] = useState("");
     const handleSearch = () => {
-        if (!keySearch.trim()) {
-            onSearch(db);
-            return;
-        }
+
         const searchdata = db.filter((data) => data[type]?.toLowerCase().includes(keySearch.toLowerCase()));
         onSearch(searchdata);
     }

@@ -6,9 +6,9 @@ import "swiper/css/navigation";
 import "../../../index.css";
 
 
-export default function ImageGallery({ pet }) {
-    const images = pet.images || []; // 
-    const [mainImage, setMainImage] = useState(pet.mainImage);
+export default function ImageProduct({ product }) {
+    const images = product.images || []; // 
+    const [mainImage, setMainImage] = useState(product.mainImage);
 
     return (
         <div className="container my-4">

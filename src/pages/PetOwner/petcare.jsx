@@ -1,21 +1,41 @@
+import React, { useState, useEffect } from 'react';
 import PetList from "../../Component/pet_owner/petcare/PetList";
 import Search from "../../Component/pet_owner/Search";
-import React, { useState } from 'react';
 import Filter from "../../Component/pet_owner/Filter";
 
-
 function PetCare({ db }) {
-    const [petData, setPetData] = useState(db);
+    const [originalData] = useState(db);
+    const [searchedData, setSearchedData] = useState(db);
+    const [filteredData, setFilteredData] = useState(db);
+
+
+    const handleSearch = (searchResult) => {
+        setSearchedData(searchResult);
+        setFilteredData(searchResult);
+    };
+
     return (
         <div className="petcare container">
-            <h2 className="mt-3 p-2 ">Petcare</h2>
+            <h2 className="mt-3 p-2">Petcare</h2>
+
             <div className="p-2">
-                <Search type="breed" db={db} onSearch={setPetData} />
+                <Search
+                    type="breed"
+                    db={originalData}
+                    onSearch={handleSearch}
+                />
             </div>
+
             <div className="p-2">
-                <Filter db={db} onFilter={setPetData} typefilter="species" />
+                <Filter
+                    original={searchedData}
+                    db={searchedData}
+                    onFilter={setFilteredData}
+                    typefilter="species"
+                />
             </div>
-            <PetList db={petData} />
+
+            <PetList db={filteredData} />
         </div>
     );
 }

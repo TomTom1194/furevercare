@@ -3,6 +3,9 @@ import { Link } from "react-router-dom";
 import "../../../index.css";
 
 function PetList({ db }) {
+  if (!db || db.length === 0) {
+    return <h2 className="text-center my-5 text-danger">No Pet Found!</h2>;
+  }
   return (
     <div className="container my-4">
       <div className="row g-4">

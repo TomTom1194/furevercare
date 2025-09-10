@@ -1,8 +1,9 @@
 import React, { useState, useEffect } from "react";
 
-export default function Filter({ db, onFilter, typefilter }) {
+export default function Filter({ original, db, onFilter, typefilter }) {
     const [filterOptions, setFilterOptions] = useState([]);
-    const filterTypeProduct = Array.from(new Set(db.map((p) => p[typefilter])));
+
+    const filterTypeProduct = Array.from(new Set(original.map((p) => p[typefilter])));
 
     const handleCheckboxChange = (value) => {
         let updatedOptions = [...filterOptions];
@@ -16,14 +17,14 @@ export default function Filter({ db, onFilter, typefilter }) {
 
     useEffect(() => {
         if (filterOptions.length === 0) {
-            onFilter(db);
+            onFilter(original);
         } else {
-            const filteredData = db.filter((data) =>
+            const filteredData = original.filter((data) =>
                 filterOptions.includes(data[typefilter])
             );
             onFilter(filteredData);
         }
-    }, [filterOptions, db, typefilter, onFilter]);
+    }, [filterOptions, original, typefilter, onFilter]);
 
     return (
         <div className="filter d-flex gap-2 flex-wrap">
