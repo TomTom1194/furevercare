@@ -71,12 +71,52 @@
         "age": "9-10",
         "weight": "0.15-0.2 kg",
         "feed_perday": "10-15 g"
+      },
+      {
+        "age": "1-2",
+        "weight": "0.05-0.1 kg",
+        "feed_perday": "5-7 g"
+      },
+      {
+        "age": "3-5",
+        "weight": "0.1-0.15 kg",
+        "feed_perday": "7-10 g"
+      },
+      {
+        "age": "6-8",
+        "weight": "0.12-0.18 kg",
+        "feed_perday": "8-12 g"
+      },
+      {
+        "age": "9-10",
+        "weight": "0.15-0.2 kg",
+        "feed_perday": "10-15 g"
       }
     ]
   },
   {
     "species": "rabbit",
     "feeding_table": [
+      {
+        "age": "1-2",
+        "weight": "1-2 kg",
+        "feed_perday": "50-80 g"
+      },
+      {
+        "age": "3-5",
+        "weight": "2-3 kg",
+        "feed_perday": "80-120 g"
+      },
+      {
+        "age": "6-8",
+        "weight": "2.5-4 kg",
+        "feed_perday": "100-150 g"
+      },
+      {
+        "age": "9-10",
+        "weight": "3-5 kg",
+        "feed_perday": "120-180 g"
+      },
       {
         "age": "1-2",
         "weight": "1-2 kg",
