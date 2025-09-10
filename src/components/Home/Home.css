@@ -1,0 +1,28 @@
+/* Logo responsive */
+.logo-img {
+  max-height: 120px;
+  object-fit: contain;
+}
+
+/* Buttons hover effect */
+.btn-light.custom-hover:hover,
+.btn-light.custom-hover:focus {
+  background-color: #000 !important;
+  color: #fff !important;
+  border-color: #000 !important;
+}
+
+/* Responsive adjustments */
+@media (max-width: 576px) {
+  .logo-img {
+    max-height: 80px; /* logo nhỏ hơn trên mobile */
+  }
+
+  h2 {
+    font-size: 1.5rem !important;
+  }
+
+  .card {
+    padding: 1rem !important; /* giảm padding khi màn nhỏ */
+  }
+}
