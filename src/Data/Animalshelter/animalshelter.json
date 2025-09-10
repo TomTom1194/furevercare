@@ -1,0 +1,282 @@
+[
+  {
+    "id": 1,
+    "name": "Buddy",
+    "species": "dog",
+    "breed": "pug",
+    "age": 2,
+    "description": "Buddy is a playful pug who loves cuddles and short walks. Perfect for apartment living.",
+    "mainImage": "https://example.com/images/pug_buddy_main.jpg",
+    "images": [
+      "https://example.com/images/pug_buddy_1.jpg",
+      "https://example.com/images/pug_buddy_2.jpg",
+      "https://example.com/images/pug_buddy_3.jpg"
+    ]
+  },
+  {
+    "id": 2,
+    "name": "Rocky",
+    "species": "dog",
+    "breed": "pitbull",
+    "age": 4,
+    "description": "Rocky is a loyal pitbull with a gentle heart, well-trained and loves children.",
+    "mainImage": "https://example.com/images/pitbull_rocky_main.jpg",
+    "images": [
+      "https://example.com/images/pitbull_rocky_1.jpg",
+      "https://example.com/images/pitbull_rocky_2.jpg",
+      "https://example.com/images/pitbull_rocky_3.jpg"
+    ]
+  },
+  {
+    "id": 3,
+    "name": "Max",
+    "species": "dog",
+    "breed": "rottweiler",
+    "age": 5,
+    "description": "Max is a strong rottweiler, protective yet affectionate with family.",
+    "mainImage": "https://example.com/images/rottweiler_max_main.jpg",
+    "images": [
+      "https://example.com/images/rottweiler_max_1.jpg",
+      "https://example.com/images/rottweiler_max_2.jpg",
+      "https://example.com/images/rottweiler_max_3.jpg"
+    ]
+  },
+  {
+    "id": 4,
+    "name": "Bella",
+    "species": "dog",
+    "breed": "golden retriever",
+    "age": 3,
+    "description": "Bella is a cheerful golden retriever who enjoys swimming and outdoor games.",
+    "mainImage": "https://example.com/images/golden_bella_main.jpg",
+    "images": [
+      "https://example.com/images/golden_bella_1.jpg",
+      "https://example.com/images/golden_bella_2.jpg",
+      "https://example.com/images/golden_bella_3.jpg"
+    ]
+  },
+  {
+    "id": 5,
+    "name": "Coco",
+    "species": "dog",
+    "breed": "poodle",
+    "age": 1,
+    "description": "Coco is a smart toy poodle, easy to train and very friendly with other pets.",
+    "mainImage": "https://example.com/images/poodle_coco_main.jpg",
+    "images": [
+      "https://example.com/images/poodle_coco_1.jpg",
+      "https://example.com/images/poodle_coco_2.jpg",
+      "https://example.com/images/poodle_coco_3.jpg"
+    ]
+  },
+  {
+    "id": 6,
+    "name": "Milo",
+    "species": "dog",
+    "breed": "chihuahua",
+    "age": 2,
+    "description": "Milo is a tiny chihuahua with a big personality. Loves to nap on warm laps.",
+    "mainImage": "https://example.com/images/chihuahua_milo_main.jpg",
+    "images": [
+      "https://example.com/images/chihuahua_milo_1.jpg",
+      "https://example.com/images/chihuahua_milo_2.jpg",
+      "https://example.com/images/chihuahua_milo_3.jpg"
+    ]
+  },
+  {
+    "id": 7,
+    "name": "Spot",
+    "species": "dog",
+    "breed": "dalmatian",
+    "age": 3,
+    "description": "Spot is an energetic dalmatian who enjoys running and playing fetch.",
+    "mainImage": "https://example.com/images/dalmatian_spot_main.jpg",
+    "images": [
+      "https://example.com/images/dalmatian_spot_1.jpg",
+      "https://example.com/images/dalmatian_spot_2.jpg",
+      "https://example.com/images/dalmatian_spot_3.jpg"
+    ]
+  },
+  {
+    "id": 8,
+    "name": "Snow",
+    "species": "dog",
+    "breed": "samoyed",
+    "age": 4,
+    "description": "Snow is a fluffy samoyed with a friendly smile, perfect for families.",
+    "mainImage": "https://example.com/images/samoyed_snow_main.jpg",
+    "images": [
+      "https://example.com/images/samoyed_snow_1.jpg",
+      "https://example.com/images/samoyed_snow_2.jpg",
+      "https://example.com/images/samoyed_snow_3.jpg"
+    ]
+  },
+  {
+    "id": 9,
+    "name": "Charlie",
+    "species": "dog",
+    "breed": "corgi",
+    "age": 2,
+    "description": "Charlie is a playful corgi who loves belly rubs and chasing balls.",
+    "mainImage": "https://example.com/images/corgi_charlie_main.jpg",
+    "images": [
+      "https://example.com/images/corgi_charlie_1.jpg",
+      "https://example.com/images/corgi_charlie_2.jpg",
+      "https://example.com/images/corgi_charlie_3.jpg"
+    ]
+  },
+  {
+    "id": 10,
+    "name": "Daisy",
+    "species": "dog",
+    "breed": "maltese",
+    "age": 3,
+    "description": "Daisy is a gentle maltese who enjoys being pampered and brushed.",
+    "mainImage": "https://example.com/images/maltese_daisy_main.jpg",
+    "images": [
+      "https://example.com/images/maltese_daisy_1.jpg",
+      "https://example.com/images/maltese_daisy_2.jpg",
+      "https://example.com/images/maltese_daisy_3.jpg"
+    ]
+  },
+  {
+    "id": 11,
+    "name": "Luna",
+    "species": "cat",
+    "breed": "british shorthair",
+    "age": 2,
+    "description": "Luna is a calm and affectionate British Shorthair, ideal for a quiet household.",
+    "mainImage": "https://example.com/images/british_luna_main.jpg",
+    "images": [
+      "https://example.com/images/british_luna_1.jpg",
+      "https://example.com/images/british_luna_2.jpg",
+      "https://example.com/images/british_luna_3.jpg"
+    ]
+  },
+  {
+    "id": 12,
+    "name": "Simba",
+    "species": "cat",
+    "breed": "bengal",
+    "age": 3,
+    "description": "Simba is an active bengal cat who loves climbing and exploring.",
+    "mainImage": "https://example.com/images/bengal_simba_main.jpg",
+    "images": [
+      "https://example.com/images/bengal_simba_1.jpg",
+      "https://example.com/images/bengal_simba_2.jpg",
+      "https://example.com/images/bengal_simba_3.jpg"
+    ]
+  },
+  {
+    "id": 13,
+    "name": "Misty",
+    "species": "cat",
+    "breed": "siberian",
+    "age": 4,
+    "description": "Misty is a fluffy Siberian cat with a gentle and affectionate personality.",
+    "mainImage": "https://example.com/images/siberian_misty_main.jpg",
+    "images": [
+      "https://example.com/images/siberian_misty_1.jpg",
+      "https://example.com/images/siberian_misty_2.jpg",
+      "https://example.com/images/siberian_misty_3.jpg"
+    ]
+  },
+  {
+    "id": 14,
+    "name": "Cleo",
+    "species": "cat",
+    "breed": "birman",
+    "age": 5,
+    "description": "Cleo is a gentle Birman cat who loves being held and cuddled.",
+    "mainImage": "https://example.com/images/birman_cleo_main.jpg",
+    "images": [
+      "https://example.com/images/birman_cleo_1.jpg",
+      "https://example.com/images/birman_cleo_2.jpg",
+      "https://example.com/images/birman_cleo_3.jpg"
+    ]
+  },
+  {
+    "id": 15,
+    "name": "Oreo",
+    "species": "cat",
+    "breed": "manx",
+    "age": 2,
+    "description": "Oreo is a curious Manx cat with a playful nature and unique appearance.",
+    "mainImage": "https://example.com/images/manx_oreo_main.jpg",
+    "images": [
+      "https://example.com/images/manx_oreo_1.jpg",
+      "https://example.com/images/manx_oreo_2.jpg",
+      "https://example.com/images/manx_oreo_3.jpg"
+    ]
+  },
+  {
+    "id": 16,
+    "name": "Shadow",
+    "species": "cat",
+    "breed": "himalayan",
+    "age": 6,
+    "description": "Shadow is a Himalayan cat with striking blue eyes and a calm temperament.",
+    "mainImage": "https://example.com/images/himalayan_shadow_main.jpg",
+    "images": [
+      "https://example.com/images/himalayan_shadow_1.jpg",
+      "https://example.com/images/himalayan_shadow_2.jpg",
+      "https://example.com/images/himalayan_shadow_3.jpg"
+    ]
+  },
+  {
+    "id": 17,
+    "name": "Pixie",
+    "species": "cat",
+    "breed": "munchkin",
+    "age": 1,
+    "description": "Pixie is an adorable munchkin cat with short legs and a playful spirit.",
+    "mainImage": "https://example.com/images/munchkin_pixie_main.jpg",
+    "images": [
+      "https://example.com/images/munchkin_pixie_1.jpg",
+      "https://example.com/images/munchkin_pixie_2.jpg",
+      "https://example.com/images/munchkin_pixie_3.jpg"
+    ]
+  },
+  {
+    "id": 18,
+    "name": "Sushi",
+    "species": "cat",
+    "breed": "asian cat",
+    "age": 3,
+    "description": "Sushi is a friendly Asian cat with a love for exploring new places.",
+    "mainImage": "https://example.com/images/asian_sushi_main.jpg",
+    "images": [
+      "https://example.com/images/asian_sushi_1.jpg",
+      "https://example.com/images/asian_sushi_2.jpg",
+      "https://example.com/images/asian_sushi_3.jpg"
+    ]
+  },
+  {
+    "id": 19,
+    "name": "Fluffy",
+    "species": "cat",
+    "breed": "british longhair",
+    "age": 4,
+    "description": "Fluffy is a sweet British Longhair who enjoys brushing and quiet evenings.",
+    "mainImage": "https://example.com/images/britishlonghair_fluffy_main.jpg",
+    "images": [
+      "https://example.com/images/britishlonghair_fluffy_1.jpg",
+      "https://example.com/images/britishlonghair_fluffy_2.jpg",
+      "https://example.com/images/britishlonghair_fluffy_3.jpg"
+    ]
+  },
+  {
+    "id": 20,
+    "name": "Tiger",
+    "species": "cat",
+    "breed": "thai cat",
+    "age": 5,
+    "description": "Tiger is an elegant Thai cat, intelligent and affectionate with people.",
+    "mainImage": "https://example.com/images/thaicat_tiger_main.jpg",
+    "images": [
+      "https://example.com/images/thaicat_tiger_1.jpg",
+      "https://example.com/images/thaicat_tiger_2.jpg",
+      "https://example.com/images/thaicat_tiger_3.jpg"
+    ]
+  }
+]

@@ -1,0 +1,302 @@
+[
+  {
+    "id": 1,
+    "species": "dog",
+    "breed": "pug",
+    "vaccine": "vaccinated",
+    "health_video": "https://example.com/health/pug.mp4",
+    "training_tips": "Huấn luyện pug cần kiên nhẫn, thưởng bằng đồ ăn nhỏ.",
+    "grooming_video": "https://example.com/grooming/pug.mp4",
+    "mainImage": "https://example.com/images/pug_main.jpg",
+    "images": [
+      "https://example.com/images/pug_1.jpg",
+      "https://example.com/images/pug_2.jpg",
+      "https://example.com/images/pug_3.jpg"
+    ]
+  },
+  {
+    "id": 2,
+    "species": "dog",
+    "breed": "pitbull",
+    "vaccine": "vaccinated",
+    "health_video": "https://example.com/health/pitbull.mp4",
+    "training_tips": "Pitbull cần huấn luyện kỷ luật và vận động thường xuyên.",
+    "grooming_video": "https://example.com/grooming/pitbull.mp4",
+    "mainImage": "https://example.com/images/pitbull_main.jpg",
+    "images": [
+      "https://example.com/images/pitbull_1.jpg",
+      "https://example.com/images/pitbull_2.jpg",
+      "https://example.com/images/pitbull_3.jpg"
+    ]
+  },
+  {
+    "id": 3,
+    "species": "dog",
+    "breed": "rottweiler",
+    "vaccine": "vaccinated",
+    "health_video": "https://example.com/health/rottweiler.mp4",
+    "training_tips": "Rottweiler cần huấn luyện xã hội hóa từ sớm.",
+    "grooming_video": "https://example.com/grooming/rottweiler.mp4",
+    "mainImage": "https://example.com/images/rottweiler_main.jpg",
+    "images": [
+      "https://example.com/images/rottweiler_1.jpg",
+      "https://example.com/images/rottweiler_2.jpg",
+      "https://example.com/images/rottweiler_3.jpg"
+    ]
+  },
+  {
+    "id": 4,
+    "species": "dog",
+    "breed": "golden retriever",
+    "vaccine": "vaccinated",
+    "health_video": "https://example.com/health/golden_retriever.mp4",
+    "training_tips": "Golden retrievers học nhanh với sự khuyến khích tích cực.",
+    "grooming_video": "https://example.com/grooming/golden_retriever.mp4",
+    "mainImage": "https://example.com/images/golden_retriever_main.jpg",
+    "images": [
+      "https://example.com/images/golden_retriever_1.jpg",
+      "https://example.com/images/golden_retriever_2.jpg",
+      "https://example.com/images/golden_retriever_3.jpg"
+    ]
+  },
+  {
+    "id": 5,
+    "species": "dog",
+    "breed": "poodle",
+    "vaccine": "vaccinated",
+    "health_video": "https://example.com/health/poodle.mp4",
+    "training_tips": "Poodle thông minh, dễ huấn luyện bằng trò chơi.",
+    "grooming_video": "https://example.com/grooming/poodle.mp4",
+    "mainImage": "https://example.com/images/poodle_main.jpg",
+    "images": [
+      "https://example.com/images/poodle_1.jpg",
+      "https://example.com/images/poodle_2.jpg",
+      "https://example.com/images/poodle_3.jpg"
+    ]
+  },
+  {
+    "id": 6,
+    "species": "dog",
+    "breed": "chihuahua",
+    "vaccine": "vaccinated",
+    "health_video": "https://example.com/health/chihuahua.mp4",
+    "training_tips": "Chihuahua nhỏ nhưng cần huấn luyện kỷ luật từ sớm.",
+    "grooming_video": "https://example.com/grooming/chihuahua.mp4",
+    "mainImage": "https://example.com/images/chihuahua_main.jpg",
+    "images": [
+      "https://example.com/images/chihuahua_1.jpg",
+      "https://example.com/images/chihuahua_2.jpg",
+      "https://example.com/images/chihuahua_3.jpg"
+    ]
+  },
+  {
+    "id": 7,
+    "species": "dog",
+    "breed": "dalmatian",
+    "vaccine": "vaccinated",
+    "health_video": "https://example.com/health/dalmatian.mp4",
+    "training_tips": "Dalmatian thích chạy nhảy, cần nhiều bài tập thể lực.",
+    "grooming_video": "https://example.com/grooming/dalmatian.mp4",
+    "mainImage": "https://example.com/images/dalmatian_main.jpg",
+    "images": [
+      "https://example.com/images/dalmatian_1.jpg",
+      "https://example.com/images/dalmatian_2.jpg",
+      "https://example.com/images/dalmatian_3.jpg"
+    ]
+  },
+  {
+    "id": 8,
+    "species": "dog",
+    "breed": "samoyed",
+    "vaccine": "vaccinated",
+    "health_video": "https://example.com/health/samoyed.mp4",
+    "training_tips": "Samoyed cần chải lông thường xuyên và xã hội hóa tốt.",
+    "grooming_video": "https://example.com/grooming/samoyed.mp4",
+    "mainImage": "https://example.com/images/samoyed_main.jpg",
+    "images": [
+      "https://example.com/images/samoyed_1.jpg",
+      "https://example.com/images/samoyed_2.jpg",
+      "https://example.com/images/samoyed_3.jpg"
+    ]
+  },
+  {
+    "id": 9,
+    "species": "dog",
+    "breed": "corgi",
+    "vaccine": "vaccinated",
+    "health_video": "https://example.com/health/corgi.mp4",
+    "training_tips": "Corgi lanh lợi, cần rèn luyện thể lực và trò chơi vận động.",
+    "grooming_video": "https://example.com/grooming/corgi.mp4",
+    "mainImage": "https://example.com/images/corgi_main.jpg",
+    "images": [
+      "https://example.com/images/corgi_1.jpg",
+      "https://example.com/images/corgi_2.jpg",
+      "https://example.com/images/corgi_3.jpg"
+    ]
+  },
+  {
+    "id": 10,
+    "species": "cat",
+    "breed": "british shorthair",
+    "vaccine": "vaccinated",
+    "health_video": "https://example.com/health/british_shorthair.mp4",
+    "training_tips": "Khuyến khích chơi với đồ chơi để giữ dáng và giảm stress.",
+    "grooming_video": "https://example.com/grooming/british_shorthair.mp4",
+    "mainImage": "https://example.com/images/british_shorthair_main.jpg",
+    "images": [
+      "https://example.com/images/british_shorthair_1.jpg",
+      "https://example.com/images/british_shorthair_2.jpg",
+      "https://example.com/images/british_shorthair_3.jpg"
+    ]
+  },
+  {
+    "id": 11,
+    "species": "cat",
+    "breed": "bengal",
+    "vaccine": "vaccinated",
+    "health_video": "https://example.com/health/bengal.mp4",
+    "training_tips": "Bengal năng động, cần nhiều hoạt động leo trèo.",
+    "grooming_video": "https://example.com/grooming/bengal.mp4",
+    "mainImage": "https://example.com/images/bengal_main.jpg",
+    "images": [
+      "https://example.com/images/bengal_1.jpg",
+      "https://example.com/images/bengal_2.jpg",
+      "https://example.com/images/bengal_3.jpg"
+    ]
+  },
+  {
+    "id": 12,
+    "species": "cat",
+    "breed": "siberian",
+    "vaccine": "vaccinated",
+    "health_video": "https://example.com/health/siberian.mp4",
+    "training_tips": "Siberian thân thiện, dễ huấn luyện bằng các trò chơi đơn giản.",
+    "grooming_video": "https://example.com/grooming/siberian.mp4",
+    "mainImage": "https://example.com/images/siberian_main.jpg",
+    "images": [
+      "https://example.com/images/siberian_1.jpg",
+      "https://example.com/images/siberian_2.jpg",
+      "https://example.com/images/siberian_3.jpg"
+    ]
+  },
+  {
+    "id": 13,
+    "species": "cat",
+    "breed": "birman",
+    "vaccine": "vaccinated",
+    "health_video": "https://example.com/health/birman.mp4",
+    "training_tips": "Birman cần được chơi cùng người để phát triển tốt.",
+    "grooming_video": "https://example.com/grooming/birman.mp4",
+    "mainImage": "https://example.com/images/birman_main.jpg",
+    "images": [
+      "https://example.com/images/birman_1.jpg",
+      "https://example.com/images/birman_2.jpg",
+      "https://example.com/images/birman_3.jpg"
+    ]
+  },
+  {
+    "id": 14,
+    "species": "cat",
+    "breed": "manx",
+    "vaccine": "vaccinated",
+    "health_video": "https://example.com/health/manx.mp4",
+    "training_tips": "Manx thường thân thiện, nên chơi đùa nhiều để tránh stress.",
+    "grooming_video": "https://example.com/grooming/manx.mp4",
+    "mainImage": "https://example.com/images/manx_main.jpg",
+    "images": [
+      "https://example.com/images/manx_1.jpg",
+      "https://example.com/images/manx_2.jpg",
+      "https://example.com/images/manx_3.jpg"
+    ]
+  },
+  {
+    "id": 15,
+    "species": "cat",
+    "breed": "himalayan",
+    "vaccine": "vaccinated",
+    "health_video": "https://example.com/health/himalayan.mp4",
+    "training_tips": "Himalayan cần chải lông thường xuyên để tránh rối.",
+    "grooming_video": "https://example.com/grooming/himalayan.mp4",
+    "mainImage": "https://example.com/images/himalayan_main.jpg",
+    "images": [
+      "https://example.com/images/himalayan_1.jpg",
+      "https://example.com/images/himalayan_2.jpg",
+      "https://example.com/images/himalayan_3.jpg"
+    ]
+  },
+  {
+    "id": 16,
+    "species": "cat",
+    "breed": "munchkin",
+    "vaccine": "vaccinated",
+    "health_video": "https://example.com/health/munchkin.mp4",
+    "training_tips": "Munchkin đáng yêu, dễ thích nghi môi trường trong nhà.",
+    "grooming_video": "https://example.com/grooming/munchkin.mp4",
+    "mainImage": "https://example.com/images/munchkin_main.jpg",
+    "images": [
+      "https://example.com/images/munchkin_1.jpg",
+      "https://example.com/images/munchkin_2.jpg",
+      "https://example.com/images/munchkin_3.jpg"
+    ]
+  },
+  {
+    "id": 17,
+    "species": "cat",
+    "breed": "asian cat",
+    "vaccine": "vaccinated",
+    "health_video": "https://example.com/health/asian_cat.mp4",
+    "training_tips": "Asian cat thông minh, thích hợp huấn luyện bằng clicker.",
+    "grooming_video": "https://example.com/grooming/asian_cat.mp4",
+    "mainImage": "https://example.com/images/asian_cat_main.jpg",
+    "images": [
+      "https://example.com/images/asian_cat_1.jpg",
+      "https://example.com/images/asian_cat_2.jpg",
+      "https://example.com/images/asian_cat_3.jpg"
+    ]
+  },
+  {
+    "id": 18,
+    "species": "cat",
+    "breed": "british longhair",
+    "vaccine": "vaccinated",
+    "health_video": "https://example.com/health/british_longhair.mp4",
+    "training_tips": "British longhair cần chải lông định kỳ để giữ bộ lông khỏe.",
+    "grooming_video": "https://example.com/grooming/british_longhair.mp4",
+    "mainImage": "https://example.com/images/british_longhair_main.jpg",
+    "images": [
+      "https://example.com/images/british_longhair_1.jpg",
+      "https://example.com/images/british_longhair_2.jpg",
+      "https://example.com/images/british_longhair_3.jpg"
+    ]
+  },
+  {
+    "id": 19,
+    "species": "cat",
+    "breed": "thai cat",
+    "vaccine": "vaccinated",
+    "health_video": "https://example.com/health/thai_cat.mp4",
+    "training_tips": "Thai cat năng động, thích hợp chơi cùng chủ nhân hằng ngày.",
+    "grooming_video": "https://example.com/grooming/thai_cat.mp4",
+    "mainImage": "https://example.com/images/thai_cat_main.jpg",
+    "images": [
+      "https://example.com/images/thai_cat_1.jpg",
+      "https://example.com/images/thai_cat_2.jpg",
+      "https://example.com/images/thai_cat_3.jpg"
+    ]
+  },
+  {
+  "id": 20,
+  "species": "dog",
+  "breed": "maltese",
+  "vaccine": "vaccinated",
+  "health_video": "https://example.com/health/maltese.mp4",
+  "training_tips": "Maltese nhỏ nhắn, thích hợp huấn luyện nhẹ nhàng và thường xuyên chơi với chủ.",
+  "grooming_video": "https://example.com/grooming/maltese.mp4",
+  "mainImage": "https://example.com/images/maltese_main.jpg",
+  "images": [
+    "https://example.com/images/maltese_1.jpg",
+    "https://example.com/images/maltese_2.jpg",
+    "https://example.com/images/maltese_3.jpg"
+  ]
+}
+]

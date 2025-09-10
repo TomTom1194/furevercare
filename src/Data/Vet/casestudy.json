@@ -1,0 +1,92 @@
+[
+  {
+    "id": 1,
+    "title": "Emergency Surgery for a Golden Retriever",
+    "content1": "Max, a 5-year-old golden retriever, was brought to the clinic with severe abdominal pain.",
+    "content2": "An ultrasound revealed an intestinal blockage that required immediate surgery.",
+    "content3": "The surgery was successful, and Max recovered fully after two weeks of rest and care.",
+    "name": "Dr. Emily Carter",
+    "date": "2025-08-10"
+  },
+  {
+    "id": 2,
+    "title": "Severe Skin Allergy in a Bengal Cat",
+    "content1": "Luna, a 3-year-old Bengal cat, arrived with hair loss and constant scratching.",
+    "content2": "Tests confirmed a severe allergy caused by food sensitivity.",
+    "content3": "After adjusting her diet and prescribing medication, Luna’s skin healed within a month.",
+    "name": "Dr. Sarah Johnson",
+    "date": "2025-07-18"
+  },
+  {
+    "id": 3,
+    "title": "Dental Extraction in a Chihuahua",
+    "content1": "Bella, a 7-year-old Chihuahua, had difficulty eating due to decayed teeth.",
+    "content2": "The dental team performed extractions and a thorough cleaning.",
+    "content3": "Bella recovered quickly and returned to eating normally without pain.",
+    "name": "Dr. Michael Nguyen",
+    "date": "2025-06-22"
+  },
+  {
+    "id": 4,
+    "title": "Car Accident Emergency – Pitbull",
+    "content1": "Rocky, a pitbull, was rushed in after being hit by a car.",
+    "content2": "He suffered multiple fractures and internal bleeding.",
+    "content3": "After intensive care and surgery, Rocky survived and is undergoing rehabilitation.",
+    "name": "Dr. Daniel Lee",
+    "date": "2025-08-05"
+  },
+  {
+    "id": 5,
+    "title": "Nutritional Deficiency in a Siberian Cat",
+    "content1": "Milo, a young Siberian cat, showed signs of weakness and poor coat quality.",
+    "content2": "Blood tests revealed a deficiency in essential vitamins and minerals.",
+    "content3": "A new diet plan with supplements improved Milo’s health significantly.",
+    "name": "Dr. James Wilson",
+    "date": "2025-05-28"
+  },
+  {
+    "id": 6,
+    "title": "Poodle with Chronic Ear Infection",
+    "content1": "Coco, a 4-year-old Poodle, suffered from recurrent ear infections.",
+    "content2": "Swabs and lab tests confirmed bacterial overgrowth.",
+    "content3": "After targeted treatment and ear hygiene education, Coco’s condition stabilized.",
+    "name": "Dr. Olivia Martinez",
+    "date": "2025-07-01"
+  },
+  {
+    "id": 7,
+    "title": "Rescue Case: Malnourished Dalmatian",
+    "content1": "Spotty, a rescued Dalmatian, arrived extremely underweight.",
+    "content2": "The medical team provided a careful refeeding plan and constant monitoring.",
+    "content3": "Within three months, Spotty regained a healthy weight and energy.",
+    "name": "Dr. Hannah Kim",
+    "date": "2025-04-15"
+  },
+  {
+    "id": 8,
+    "title": "Rottweiler with Hip Dysplasia",
+    "content1": "Bruno, a 6-year-old Rottweiler, had difficulty walking and standing.",
+    "content2": "X-rays confirmed advanced hip dysplasia requiring surgical intervention.",
+    "content3": "Post-surgery, Bruno regained mobility and continues physiotherapy.",
+    "name": "Dr. William Anderson",
+    "date": "2025-06-10"
+  },
+  {
+    "id": 9,
+    "title": "Emergency Poisoning in a Siamese Cat",
+    "content1": "Nala, a Siamese cat, ingested toxic houseplants and was rushed in with vomiting.",
+    "content2": "Immediate detox treatment was started with IV fluids and activated charcoal.",
+    "content3": "Nala fully recovered after 48 hours of intensive monitoring.",
+    "name": "Dr. Sophia Tran",
+    "date": "2025-09-01"
+  },
+  {
+    "id": 10,
+    "title": "Golden Retriever with Obesity",
+    "content1": "Charlie, an 8-year-old golden retriever, was diagnosed with obesity-related joint pain.",
+    "content2": "A structured diet and exercise plan was introduced along with regular checkups.",
+    "content3": "Within six months, Charlie lost weight and improved his quality of life.",
+    "name": "Dr. Robert Brown",
+    "date": "2025-08-20"
+  }
+]

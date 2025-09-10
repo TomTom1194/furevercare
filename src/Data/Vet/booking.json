@@ -1,0 +1,142 @@
+[
+  {
+    "id": 1,
+    "day": "2025-09-15",
+    "time": "08:00",
+    "status": "booked",
+    "owner": "John Smith"
+  },
+  {
+    "id": 2,
+    "day": "2025-09-15",
+    "time": "09:00",
+    "status": "available",
+    "owner": null
+  },
+  {
+    "id": 3,
+    "day": "2025-09-15",
+    "time": "10:00",
+    "status": "booked",
+    "owner": "Emily Johnson"
+  },
+  {
+    "id": 4,
+    "day": "2025-09-15",
+    "time": "11:00",
+    "status": "available",
+    "owner": null
+  },
+  {
+    "id": 5,
+    "day": "2025-09-15",
+    "time": "12:00",
+    "status": "booked",
+    "owner": "Michael Brown"
+  },
+  {
+    "id": 6,
+    "day": "2025-09-15",
+    "time": "13:00",
+    "status": "available",
+    "owner": null
+  },
+  {
+    "id": 7,
+    "day": "2025-09-15",
+    "time": "14:00",
+    "status": "booked",
+    "owner": "Sophia Lee"
+  },
+  {
+    "id": 8,
+    "day": "2025-09-15",
+    "time": "15:00",
+    "status": "available",
+    "owner": null
+  },
+  {
+    "id": 9,
+    "day": "2025-09-15",
+    "time": "16:00",
+    "status": "booked",
+    "owner": "Daniel Kim"
+  },
+  {
+    "id": 10,
+    "day": "2025-09-15",
+    "time": "17:00",
+    "status": "available",
+    "owner": null
+  },
+  {
+    "id": 11,
+    "day": "2025-09-16",
+    "time": "08:00",
+    "status": "booked",
+    "owner": "Olivia Wilson"
+  },
+  {
+    "id": 12,
+    "day": "2025-09-16",
+    "time": "09:00",
+    "status": "available",
+    "owner": null
+  },
+  {
+    "id": 13,
+    "day": "2025-09-16",
+    "time": "10:00",
+    "status": "booked",
+    "owner": "David Martinez"
+  },
+  {
+    "id": 14,
+    "day": "2025-09-16",
+    "time": "11:00",
+    "status": "available",
+    "owner": null
+  },
+  {
+    "id": 15,
+    "day": "2025-09-16",
+    "time": "12:00",
+    "status": "booked",
+    "owner": "Emma Thompson"
+  },
+  {
+    "id": 16,
+    "day": "2025-09-16",
+    "time": "13:00",
+    "status": "available",
+    "owner": null
+  },
+  {
+    "id": 17,
+    "day": "2025-09-16",
+    "time": "14:00",
+    "status": "booked",
+    "owner": "James Anderson"
+  },
+  {
+    "id": 18,
+    "day": "2025-09-16",
+    "time": "15:00",
+    "status": "available",
+    "owner": null
+  },
+  {
+    "id": 19,
+    "day": "2025-09-16",
+    "time": "16:00",
+    "status": "booked",
+    "owner": "Isabella Garcia"
+  },
+  {
+    "id": 20,
+    "day": "2025-09-16",
+    "time": "17:00",
+    "status": "available",
+    "owner": null
+  }
+]

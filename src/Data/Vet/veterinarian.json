@@ -1,0 +1,92 @@
+[
+  {
+    "id": 1,
+    "name": "Dr. Emily Carter",
+    "specialization": "animal welfare",
+    "email": "emily.carter@petshelter.com",
+    "phone": "+1-202-555-0110",
+    "image": "https://example.com/images/doctors/emily_carter.jpg",
+    "working_time": "Mon - Fri, 9:00 AM - 5:00 PM"
+  },
+  {
+    "id": 2,
+    "name": "Dr. Michael Nguyen",
+    "specialization": "dentistry",
+    "email": "michael.nguyen@petshelter.com",
+    "phone": "+1-202-555-0111",
+    "image": "https://example.com/images/doctors/michael_nguyen.jpg",
+    "working_time": "Tue - Sat, 10:00 AM - 6:00 PM"
+  },
+  {
+    "id": 3,
+    "name": "Dr. Sarah Johnson",
+    "specialization": "dermatology",
+    "email": "sarah.johnson@petshelter.com",
+    "phone": "+1-202-555-0112",
+    "image": "https://example.com/images/doctors/sarah_johnson.jpg",
+    "working_time": "Mon - Fri, 8:30 AM - 4:30 PM"
+  },
+  {
+    "id": 4,
+    "name": "Dr. Daniel Lee",
+    "specialization": "emergency and critical care",
+    "email": "daniel.lee@petshelter.com",
+    "phone": "+1-202-555-0113",
+    "image": "https://example.com/images/doctors/daniel_lee.jpg",
+    "working_time": "Mon - Sun, 24/7 on call"
+  },
+  {
+    "id": 5,
+    "name": "Dr. Olivia Martinez",
+    "specialization": "internal medicine",
+    "email": "olivia.martinez@petshelter.com",
+    "phone": "+1-202-555-0114",
+    "image": "https://example.com/images/doctors/olivia_martinez.jpg",
+    "working_time": "Wed - Sun, 9:00 AM - 5:00 PM"
+  },
+  {
+    "id": 6,
+    "name": "Dr. James Wilson",
+    "specialization": "nutrition",
+    "email": "james.wilson@petshelter.com",
+    "phone": "+1-202-555-0115",
+    "image": "https://example.com/images/doctors/james_wilson.jpg",
+    "working_time": "Mon - Fri, 10:00 AM - 6:00 PM"
+  },
+  {
+    "id": 7,
+    "name": "Dr. Hannah Kim",
+    "specialization": "animal welfare",
+    "email": "hannah.kim@petshelter.com",
+    "phone": "+1-202-555-0116",
+    "image": "https://example.com/images/doctors/hannah_kim.jpg",
+    "working_time": "Mon - Thu, 9:00 AM - 5:00 PM"
+  },
+  {
+    "id": 8,
+    "name": "Dr. Robert Brown",
+    "specialization": "dentistry",
+    "email": "robert.brown@petshelter.com",
+    "phone": "+1-202-555-0117",
+    "image": "https://example.com/images/doctors/robert_brown.jpg",
+    "working_time": "Tue - Sat, 11:00 AM - 7:00 PM"
+  },
+  {
+    "id": 9,
+    "name": "Dr. Sophia Tran",
+    "specialization": "dermatology",
+    "email": "sophia.tran@petshelter.com",
+    "phone": "+1-202-555-0118",
+    "image": "https://example.com/images/doctors/sophia_tran.jpg",
+    "working_time": "Mon - Fri, 8:00 AM - 4:00 PM"
+  },
+  {
+    "id": 10,
+    "name": "Dr. William Anderson",
+    "specialization": "emergency and critical care",
+    "email": "william.anderson@petshelter.com",
+    "phone": "+1-202-555-0119",
+    "image": "https://example.com/images/doctors/william_anderson.jpg",
+    "working_time": "Mon - Sun, 24/7 on call"
+  }
+]
