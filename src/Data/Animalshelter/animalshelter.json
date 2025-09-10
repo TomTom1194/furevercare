@@ -278,5 +278,33 @@
       "https://example.com/images/thaicat_tiger_2.jpg",
       "https://example.com/images/thaicat_tiger_3.jpg"
     ]
+  },
+  {
+    "id": 21,
+    "name": "Pug",
+    "species": "hamster",
+    "breed": null,
+    "age": 5,
+    "description": "Tiger is an elegant Thai cat, intelligent and affectionate with people.",
+    "mainImage": "https://example.com/images/thaicat_tiger_main.jpg",
+    "images": [
+      "https://example.com/images/thaicat_tiger_1.jpg",
+      "https://example.com/images/thaicat_tiger_2.jpg",
+      "https://example.com/images/thaicat_tiger_3.jpg"
+    ]
+  },
+  {
+    "id": 22,
+    "name": "Habbit",
+    "species": "rabbit",
+    "breed": null,
+    "age": 5,
+    "description": "Tiger is an elegant Thai cat, intelligent and affectionate with people.",
+    "mainImage": "https://example.com/images/thaicat_tiger_main.jpg",
+    "images": [
+      "https://example.com/images/thaicat_tiger_1.jpg",
+      "https://example.com/images/thaicat_tiger_2.jpg",
+      "https://example.com/images/thaicat_tiger_3.jpg"
+    ]
   }
 ]

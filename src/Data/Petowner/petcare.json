@@ -298,5 +298,35 @@
     "https://example.com/images/maltese_2.jpg",
     "https://example.com/images/maltese_3.jpg"
   ]
+},
+  {
+  "id": 21,
+  "species": "hamster",
+  "breed": null,
+  "vaccine": "vaccinated",
+  "health_video": "https://example.com/health/hamster.mp4",
+  "training_tips": "hamster nhỏ nhắn, thích hợp huấn luyện nhẹ nhàng và thường xuyên chơi với chủ.",
+  "grooming_video": "https://example.com/grooming/hamster.mp4",
+  "mainImage": "https://example.com/images/hamster_main.jpg",
+  "images": [
+    "https://example.com/images/hamster_1.jpg",
+    "https://example.com/images/hamster_2.jpg",
+    "https://example.com/images/hamster_3.jpg"
+  ]
+},
+  {
+  "id": 22,
+  "species": "rabbit",
+  "breed": null,
+  "vaccine": "vaccinated",
+  "health_video": "https://example.com/health/rabbit.mp4",
+  "training_tips": "rabbit nhỏ nhắn, thích hợp huấn luyện nhẹ nhàng và thường xuyên chơi với chủ.",
+  "grooming_video": "https://example.com/grooming/rabbit.mp4",
+  "mainImage": "https://example.com/images/rabbit_main.jpg",
+  "images": [
+    "https://example.com/images/rabbit_1.jpg",
+    "https://example.com/images/rabbit_2.jpg",
+    "https://example.com/images/rabbit_3.jpg"
+  ]
 }
 ]
