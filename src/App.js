@@ -4,7 +4,7 @@ import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import Home from "./components/Home/Home";
 import PetOwner from "./Pages/PetOwner/PetOwner";
 import Shelter from "./Pages/Shelter/Shelter";
-import Veterinarian from "./Pages/Veterinarian/Veterinarian";
+import Veterinarian from "./Pages/Veterinarian/HomeVeterinarian";
 
 import VetProfile from "./Pages/Veterinarian/VetProfile";
 

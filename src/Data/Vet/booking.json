@@ -1,9 +1,24 @@
 [
-  { "id": 1, "day": "monday", "time": 8, "status": "available", "owner": null },
-  { "id": 2, "day": "monday", "time": 9, "status": "available", "owner": null },
+  {
+    "id": 1,
+    "day": "monday",
+    "date": "2025-10-01",
+    "time": 8,
+    "status": "available",
+    "owner": null
+  },
+  {
+    "id": 2,
+    "day": "monday",
+    "date": "2025-10-01",
+    "time": 9,
+    "status": "available",
+    "owner": null
+  },
   {
     "id": 3,
     "day": "monday",
+    "date": "2025-10-01",
     "time": 10,
     "status": "booked",
     "owner": "User3"
@@ -11,6 +26,7 @@
   {
     "id": 4,
     "day": "monday",
+    "date": "2025-10-01",
     "time": 11,
     "status": "available",
     "owner": null
@@ -18,6 +34,7 @@
   {
     "id": 5,
     "day": "monday",
+    "date": "2025-10-01",
     "time": 12,
     "status": "available",
     "owner": null
@@ -25,6 +42,7 @@
   {
     "id": 6,
     "day": "monday",
+    "date": "2025-10-01",
     "time": 13,
     "status": "booked",
     "owner": "User6"
@@ -32,6 +50,7 @@
   {
     "id": 7,
     "day": "monday",
+    "date": "2025-10-01",
     "time": 14,
     "status": "available",
     "owner": null
@@ -39,6 +58,7 @@
   {
     "id": 8,
     "day": "monday",
+    "date": "2025-10-01",
     "time": 15,
     "status": "available",
     "owner": null
@@ -46,6 +66,7 @@
   {
     "id": 9,
     "day": "monday",
+    "date": "2025-10-01",
     "time": 16,
     "status": "booked",
     "owner": "User9"
@@ -53,6 +74,7 @@
   {
     "id": 10,
     "day": "monday",
+    "date": "2025-10-01",
     "time": 17,
     "status": "available",
     "owner": null
@@ -61,6 +83,7 @@
   {
     "id": 11,
     "day": "tuesday",
+    "date": "2025-10-02",
     "time": 8,
     "status": "available",
     "owner": null
@@ -68,6 +91,7 @@
   {
     "id": 12,
     "day": "tuesday",
+    "date": "2025-10-02",
     "time": 9,
     "status": "booked",
     "owner": "User12"
@@ -75,6 +99,7 @@
   {
     "id": 13,
     "day": "tuesday",
+    "date": "2025-10-02",
     "time": 10,
     "status": "available",
     "owner": null
@@ -82,6 +107,7 @@
   {
     "id": 14,
     "day": "tuesday",
+    "date": "2025-10-02",
     "time": 11,
     "status": "available",
     "owner": null
@@ -89,6 +115,7 @@
   {
     "id": 15,
     "day": "tuesday",
+    "date": "2025-10-02",
     "time": 12,
     "status": "booked",
     "owner": "User15"
@@ -96,6 +123,7 @@
   {
     "id": 16,
     "day": "tuesday",
+    "date": "2025-10-02",
     "time": 13,
     "status": "available",
     "owner": null
@@ -103,6 +131,7 @@
   {
     "id": 17,
     "day": "tuesday",
+    "date": "2025-10-02",
     "time": 14,
     "status": "available",
     "owner": null
@@ -110,6 +139,7 @@
   {
     "id": 18,
     "day": "tuesday",
+    "date": "2025-10-02",
     "time": 15,
     "status": "booked",
     "owner": "User18"
@@ -117,6 +147,7 @@
   {
     "id": 19,
     "day": "tuesday",
+    "date": "2025-10-02",
     "time": 16,
     "status": "available",
     "owner": null
@@ -124,6 +155,7 @@
   {
     "id": 20,
     "day": "tuesday",
+    "date": "2025-10-02",
     "time": 17,
     "status": "available",
     "owner": null
@@ -132,6 +164,7 @@
   {
     "id": 21,
     "day": "wednesday",
+    "date": "2025-10-03",
     "time": 8,
     "status": "booked",
     "owner": "User21"
@@ -139,6 +172,7 @@
   {
     "id": 22,
     "day": "wednesday",
+    "date": "2025-10-03",
     "time": 9,
     "status": "available",
     "owner": null
@@ -146,6 +180,7 @@
   {
     "id": 23,
     "day": "wednesday",
+    "date": "2025-10-03",
     "time": 10,
     "status": "available",
     "owner": null
@@ -153,6 +188,7 @@
   {
     "id": 24,
     "day": "wednesday",
+    "date": "2025-10-03",
     "time": 11,
     "status": "booked",
     "owner": "User24"
@@ -160,6 +196,7 @@
   {
     "id": 25,
     "day": "wednesday",
+    "date": "2025-10-03",
     "time": 12,
     "status": "available",
     "owner": null
@@ -167,6 +204,7 @@
   {
     "id": 26,
     "day": "wednesday",
+    "date": "2025-10-03",
     "time": 13,
     "status": "available",
     "owner": null
@@ -174,6 +212,7 @@
   {
     "id": 27,
     "day": "wednesday",
+    "date": "2025-10-03",
     "time": 14,
     "status": "booked",
     "owner": "User27"
@@ -181,6 +220,7 @@
   {
     "id": 28,
     "day": "wednesday",
+    "date": "2025-10-03",
     "time": 15,
     "status": "available",
     "owner": null
@@ -188,6 +228,7 @@
   {
     "id": 29,
     "day": "wednesday",
+    "date": "2025-10-03",
     "time": 16,
     "status": "available",
     "owner": null
@@ -195,6 +236,7 @@
   {
     "id": 30,
     "day": "wednesday",
+    "date": "2025-10-03",
     "time": 17,
     "status": "booked",
     "owner": "User30"
@@ -203,6 +245,7 @@
   {
     "id": 31,
     "day": "thursday",
+    "date": "2025-10-04",
     "time": 8,
     "status": "available",
     "owner": null
@@ -210,6 +253,7 @@
   {
     "id": 32,
     "day": "thursday",
+    "date": "2025-10-04",
     "time": 9,
     "status": "available",
     "owner": null
@@ -217,6 +261,7 @@
   {
     "id": 33,
     "day": "thursday",
+    "date": "2025-10-04",
     "time": 10,
     "status": "booked",
     "owner": "User33"
@@ -224,6 +269,7 @@
   {
     "id": 34,
     "day": "thursday",
+    "date": "2025-10-04",
     "time": 11,
     "status": "available",
     "owner": null
@@ -231,6 +277,7 @@
   {
     "id": 35,
     "day": "thursday",
+    "date": "2025-10-04",
     "time": 12,
     "status": "available",
     "owner": null
@@ -238,6 +285,7 @@
   {
     "id": 36,
     "day": "thursday",
+    "date": "2025-10-04",
     "time": 13,
     "status": "booked",
     "owner": "User36"
@@ -245,6 +293,7 @@
   {
     "id": 37,
     "day": "thursday",
+    "date": "2025-10-04",
     "time": 14,
     "status": "available",
     "owner": null
@@ -252,6 +301,7 @@
   {
     "id": 38,
     "day": "thursday",
+    "date": "2025-10-04",
     "time": 15,
     "status": "available",
     "owner": null
@@ -259,6 +309,7 @@
   {
     "id": 39,
     "day": "thursday",
+    "date": "2025-10-04",
     "time": 16,
     "status": "booked",
     "owner": "User39"
@@ -266,6 +317,7 @@
   {
     "id": 40,
     "day": "thursday",
+    "date": "2025-10-04",
     "time": 17,
     "status": "available",
     "owner": null
@@ -274,6 +326,7 @@
   {
     "id": 41,
     "day": "friday",
+    "date": "2025-10-05",
     "time": 8,
     "status": "available",
     "owner": null
@@ -281,6 +334,7 @@
   {
     "id": 42,
     "day": "friday",
+    "date": "2025-10-05",
     "time": 9,
     "status": "booked",
     "owner": "User42"
@@ -288,6 +342,7 @@
   {
     "id": 43,
     "day": "friday",
+    "date": "2025-10-05",
     "time": 10,
     "status": "available",
     "owner": null
@@ -295,6 +350,7 @@
   {
     "id": 44,
     "day": "friday",
+    "date": "2025-10-05",
     "time": 11,
     "status": "available",
     "owner": null
@@ -302,6 +358,7 @@
   {
     "id": 45,
     "day": "friday",
+    "date": "2025-10-05",
     "time": 12,
     "status": "booked",
     "owner": "User45"
@@ -309,6 +366,7 @@
   {
     "id": 46,
     "day": "friday",
+    "date": "2025-10-05",
     "time": 13,
     "status": "available",
     "owner": null
@@ -316,6 +374,7 @@
   {
     "id": 47,
     "day": "friday",
+    "date": "2025-10-05",
     "time": 14,
     "status": "available",
     "owner": null
@@ -323,6 +382,7 @@
   {
     "id": 48,
     "day": "friday",
+    "date": "2025-10-05",
     "time": 15,
     "status": "booked",
     "owner": "User48"
@@ -330,6 +390,7 @@
   {
     "id": 49,
     "day": "friday",
+    "date": "2025-10-05",
     "time": 16,
     "status": "available",
     "owner": null
@@ -337,6 +398,7 @@
   {
     "id": 50,
     "day": "friday",
+    "date": "2025-10-05",
     "time": 17,
     "status": "available",
     "owner": null
@@ -345,6 +407,7 @@
   {
     "id": 51,
     "day": "saturday",
+    "date": "2025-10-06",
     "time": 8,
     "status": "booked",
     "owner": "User51"
@@ -352,6 +415,7 @@
   {
     "id": 52,
     "day": "saturday",
+    "date": "2025-10-06",
     "time": 9,
     "status": "available",
     "owner": null
@@ -359,6 +423,7 @@
   {
     "id": 53,
     "day": "saturday",
+    "date": "2025-10-06",
     "time": 10,
     "status": "available",
     "owner": null
@@ -366,6 +431,7 @@
   {
     "id": 54,
     "day": "saturday",
+    "date": "2025-10-06",
     "time": 11,
     "status": "booked",
     "owner": "User54"
@@ -373,6 +439,7 @@
   {
     "id": 55,
     "day": "saturday",
+    "date": "2025-10-06",
     "time": 12,
     "status": "available",
     "owner": null
@@ -380,6 +447,7 @@
   {
     "id": 56,
     "day": "saturday",
+    "date": "2025-10-06",
     "time": 13,
     "status": "available",
     "owner": null
@@ -387,6 +455,7 @@
   {
     "id": 57,
     "day": "saturday",
+    "date": "2025-10-06",
     "time": 14,
     "status": "booked",
     "owner": "User57"
@@ -394,6 +463,7 @@
   {
     "id": 58,
     "day": "saturday",
+    "date": "2025-10-06",
     "time": 15,
     "status": "available",
     "owner": null
@@ -401,6 +471,7 @@
   {
     "id": 59,
     "day": "saturday",
+    "date": "2025-10-06",
     "time": 16,
     "status": "available",
     "owner": null
@@ -408,6 +479,7 @@
   {
     "id": 60,
     "day": "saturday",
+    "date": "2025-10-06",
     "time": 17,
     "status": "booked",
     "owner": "User60"
@@ -416,6 +488,7 @@
   {
     "id": 61,
     "day": "sunday",
+    "date": "2025-10-07",
     "time": 8,
     "status": "available",
     "owner": null
@@ -423,6 +496,7 @@
   {
     "id": 62,
     "day": "sunday",
+    "date": "2025-10-07",
     "time": 9,
     "status": "available",
     "owner": null
@@ -430,6 +504,7 @@
   {
     "id": 63,
     "day": "sunday",
+    "date": "2025-10-07",
     "time": 10,
     "status": "booked",
     "owner": "User63"
@@ -437,6 +512,7 @@
   {
     "id": 64,
     "day": "sunday",
+    "date": "2025-10-07",
     "time": 11,
     "status": "available",
     "owner": null
@@ -444,6 +520,7 @@
   {
     "id": 65,
     "day": "sunday",
+    "date": "2025-10-07",
     "time": 12,
     "status": "available",
     "owner": null
@@ -451,6 +528,7 @@
   {
     "id": 66,
     "day": "sunday",
+    "date": "2025-10-07",
     "time": 13,
     "status": "booked",
     "owner": "User66"
@@ -458,6 +536,7 @@
   {
     "id": 67,
     "day": "sunday",
+    "date": "2025-10-07",
     "time": 14,
     "status": "available",
     "owner": null
@@ -465,6 +544,7 @@
   {
     "id": 68,
     "day": "sunday",
+    "date": "2025-10-07",
     "time": 15,
     "status": "available",
     "owner": null
@@ -472,6 +552,7 @@
   {
     "id": 69,
     "day": "sunday",
+    "date": "2025-10-07",
     "time": 16,
     "status": "booked",
     "owner": "User69"
@@ -479,6 +560,7 @@
   {
     "id": 70,
     "day": "sunday",
+    "date": "2025-10-07",
     "time": 17,
     "status": "available",
     "owner": null
