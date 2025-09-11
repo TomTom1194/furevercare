@@ -1,7 +1,6 @@
 
+
 import { Route, Routes } from "react-router-dom";
-import AppPetOwner from "../src/Pages/PetOwner/AppPetOwner";
-import Calendar from "./Pages/calendar";
 import React from "react";
 import { BrowserRouter as Router } from "react-router-dom";
 
@@ -14,28 +13,30 @@ import Home from "./components/Home/Home";
 
 
 //Petowner
-import HomePetowner from './Pages/PetOwner/home';
-import PetCare from './Pages/PetOwner/petcare';
-import PetProduct from './Pages/PetOwner/petproduct';
-import FeedBack from './Pages/PetOwner/feedback';
-import AboutUs from './Pages/PetOwner/aboutus';
-import ContactUs from './Pages/PetOwner/contactus';
-import EmerPage from './Pages/PetOwner/emerpage';
-import PetDetail from './Pages/PetOwner/petdetail';
-import ProductDetail from './Pages/PetOwner/productdetail';
+import HomePetowner from './pages/PetOwner/home';
+import PetCare from './pages/PetOwner/petcare';
+import PetProduct from './pages/PetOwner/petproduct';
+import FeedBack from './pages/PetOwner/feedback';
+import AboutUs from './pages/PetOwner/aboutus';
+import ContactUs from './pages/PetOwner/contactus';
+import EmerPage from './pages/PetOwner/emerpage';
+import PetDetail from './pages/PetOwner/petdetail';
+import ProductDetail from './pages/PetOwner/productdetail';
 import petcare from "../src/Data/Petowner/petcare.json";
 import petproduct from "../src/Data/Petowner/petproduct.json";
 
 //Shelter
-import Events from "./Pages/Shelter/Events";
-import Gallery from "./Pages/Shelter/Gallery";
-import HomeShelter from "./Pages/Shelter/HomeShelter";
-import ShelterContact from "./Pages/Shelter/ShelterContact";
-import Success from "./Pages/Shelter/Success";
+import Animals from "./Data/Animalshelter/animalshelter.json";
+import AnimalShelter from "./Component/animalshelter/gallery/AnimalShelter";
+import AnimalDetail from "./Component/animalshelter/gallery/AnimalDetail";
+import SuccessStory from "./Component/animalshelter/successstory/SuccessStory";
+import StoryDetail from "./Component/animalshelter/successstory/StoryDetail";
+import Event from "./Component/animalshelter/event/Event";
+import ShelterContact from "./Component/animalshelter/sheltercontact/ShelterContact";
 
 //Vet
-import HomeVet from "./Pages/Veterinarian/HomeVet";
-import VetProfile from "./Pages/Veterinarian/VetProfile";
+import HomeVet from "./pages/Veterinarian/HomeVet";
+import VetProfile from "./pages/Veterinarian/VetProfile";
 
 export default function App() {
   return (
@@ -65,11 +66,18 @@ export default function App() {
 
         {/* Animal Shelter routes */}
         <Route path="/animalshelter" element={<AnimalShelterLayout />}>
-          <Route path="events" element={<Events />} />
-          <Route path="gallery" element={<Gallery />} />
-          <Route path="homeshelter" element={<HomeShelter />} />
-          <Route path="sheltercontact" element={<ShelterContact />} />
-          <Route path="success" element={<Success />} />
+          <Route path="animal" element={<AnimalShelter />}></Route>
+          <Route
+              path="animal/:id"
+              element={<AnimalDetail animal={Animals} />}
+            ></Route>
+            <Route path="story" element={<SuccessStory />}></Route>
+            <Route
+              path="story/:id"
+              element={<StoryDetail />}
+            ></Route>
+            <Route path="event" element={<Event />}></Route>
+            <Route path="sheltercontact" element={<ShelterContact />}></Route>
         </Route>
 
         {/* 404 */}
@@ -78,3 +86,8 @@ export default function App() {
     </Router>
   );
 }
+
+
+
+
+

@@ -32,22 +32,22 @@ function Header() {
       <div className="collapse navbar-collapse" id="navbarNav">
         <ul className="navbar-nav w-100 d-flex justify-content-evenly">
           <li className="nav-item">
-            <Link className="nav-link" to="/animalshelter/animal">
+            <Link className="nav-link" to="/animal">
               Gallery
             </Link>
           </li>
           <li className="nav-item">
-            <Link className="nav-link" to="/animalshelter/story">
+            <Link className="nav-link" to="/story">
               Success Story
             </Link>
           </li>
           <li className="nav-item">
-            <Link className="nav-link" to="/animalshelter/event">
+            <Link className="nav-link" to="/event">
               Event
             </Link>
           </li>
           <li className="nav-item">
-            <Link className="nav-link" to="/animalshelter/sheltercontact">
+            <Link className="nav-link" to="/sheltercontact">
               Shelter Contact
             </Link>
           </li>
