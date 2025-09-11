@@ -27,7 +27,7 @@ const Home = () => {
     if (selectedRole === "petowner") {
       navigate("/petowner/homepetowner", { state: { email: email } });
     } else if (selectedRole === "animalshelter") {
-      navigate("/animalshelter", { state: { email: email } });
+      navigate("/animalshelter/animal", { state: { email: email } });
     } else if (selectedRole === "veterinarian") {
       navigate("/veterinarian", { state: { email: email } });
     }
