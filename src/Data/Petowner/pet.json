@@ -1,0 +1,43 @@
+[
+    {
+        "id": "P1",
+        "name": "Lucy",
+        "spieces": "dog",
+        "breed": "pug",
+        "age": 1,
+        "weight": "5kg",
+        "owner_id": 1,
+        "vaccine_status": "vaccined",
+        "mainImage": "https://cdn.britannica.com/34/233234-050-1649BFA9/Pug-dog.jpg",
+        "images": [
+            "https://upload.wikimedia.org/wikipedia/commons/9/98/Fawn-pug-and-black-pug.jpg",
+            "https://dichvuhuanluyencho.com/wp-content/uploads/2020/08/trung-tam-huan-luyen-cho-pug.jpg",
+            "https://nativepet.com/cdn/shop/articles/Pug-puppy-standing-on-a-bed.jpg?v=1667820606"
+        ],
+        "medicalHistory": [
+            {
+                "date": "2025-01-12",
+                "vet": "Dr. Smith",
+                "reason": "Annual check-up",
+                "diagnosis": "Healthy",
+                "treatment": "N/A"
+            },
+            {
+                "date": "2025-03-05",
+                "vet": "Dr. Alice",
+                "reason": "Vaccination",
+                "diagnosis": "Normal",
+                "treatment": "Rabies vaccine"
+            }
+        ],
+        "appointments": [
+            {
+                "date": "2025-09-20",
+                "time": "15:00",
+                "vet": "Dr. Brown",
+                "status": "upcoming"
+            }
+        ],
+        "notes": "Lucy is playful but sometimes lazy. Needs more exercise."
+    }
+]

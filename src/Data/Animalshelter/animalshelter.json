@@ -2,22 +2,21 @@
   {
     "id": 1,
     "name": "Buddy",
-    "type": "dog",
+    "species": "dog",
     "breed": "pug",
     "age": 2,
-    "location": "District 12, Ho Chi Minh City",
-    "description": "Buddy is a cheerful and affectionate pug who adores cuddles and enjoys short playful walks. He gets along well with people of all ages, including children, and loves being part of family activities. With his calm temperament and small size, Buddy is perfectly suited for apartment living. He’s looking for a loving home where he can share his playful spirit and endless affection.",
+    "description": "Buddy is a playful pug who loves cuddles and short walks. Perfect for apartment living.",
+    "mainImage": "https://example.com/images/pug_buddy_main.jpg",
     "images": [
-      "https://media.adoptapet.com/image/upload/d_PDP-NoPetPhoto_Dog.png/c_auto,g_auto,w_358,ar_142:135,dpr_2/f_auto,q_auto/1246867041",
-      "https://consumer-cms.petfinder.com/sites/default/files/images/content/Pug%201.jpg",
-      "https://media.istockphoto.com/id/1094862462/photo/unhappy-dog-pug-sitting-in-a-cage.jpg?s=612x612&w=0&k=20&c=s7Wo_FHzhJgLCvo1se08-YSNR4vYdvkNPhToWMw8VxA=",
-      "https://thumbs.dreamstime.com/b/funny-pug-puppy-cage-30511717.jpg"
+      "https://example.com/images/pug_buddy_1.jpg",
+      "https://example.com/images/pug_buddy_2.jpg",
+      "https://example.com/images/pug_buddy_3.jpg"
     ]
   },
   {
     "id": 2,
     "name": "Rocky",
-    "type": "dog",
+    "species": "dog",
     "breed": "pitbull",
     "age": 4,
     "description": "Rocky is a loyal pitbull with a gentle heart, well-trained and loves children.",
@@ -31,7 +30,7 @@
   {
     "id": 3,
     "name": "Max",
-    "type": "dog",
+    "species": "dog",
     "breed": "rottweiler",
     "age": 5,
     "description": "Max is a strong rottweiler, protective yet affectionate with family.",
@@ -45,7 +44,7 @@
   {
     "id": 4,
     "name": "Bella",
-    "type": "dog",
+    "species": "dog",
     "breed": "golden retriever",
     "age": 3,
     "description": "Bella is a cheerful golden retriever who enjoys swimming and outdoor games.",
@@ -59,7 +58,7 @@
   {
     "id": 5,
     "name": "Coco",
-    "type": "dog",
+    "species": "dog",
     "breed": "poodle",
     "age": 1,
     "description": "Coco is a smart toy poodle, easy to train and very friendly with other pets.",
@@ -73,7 +72,7 @@
   {
     "id": 6,
     "name": "Milo",
-    "type": "dog",
+    "species": "dog",
     "breed": "chihuahua",
     "age": 2,
     "description": "Milo is a tiny chihuahua with a big personality. Loves to nap on warm laps.",
@@ -87,7 +86,7 @@
   {
     "id": 7,
     "name": "Spot",
-    "type": "dog",
+    "species": "dog",
     "breed": "dalmatian",
     "age": 3,
     "description": "Spot is an energetic dalmatian who enjoys running and playing fetch.",
@@ -101,7 +100,7 @@
   {
     "id": 8,
     "name": "Snow",
-    "type": "dog",
+    "species": "dog",
     "breed": "samoyed",
     "age": 4,
     "description": "Snow is a fluffy samoyed with a friendly smile, perfect for families.",
@@ -115,7 +114,7 @@
   {
     "id": 9,
     "name": "Charlie",
-    "type": "dog",
+    "species": "dog",
     "breed": "corgi",
     "age": 2,
     "description": "Charlie is a playful corgi who loves belly rubs and chasing balls.",
@@ -129,7 +128,7 @@
   {
     "id": 10,
     "name": "Daisy",
-    "type": "dog",
+    "species": "dog",
     "breed": "maltese",
     "age": 3,
     "description": "Daisy is a gentle maltese who enjoys being pampered and brushed.",
@@ -143,7 +142,7 @@
   {
     "id": 11,
     "name": "Luna",
-    "type": "cat",
+    "species": "cat",
     "breed": "british shorthair",
     "age": 2,
     "description": "Luna is a calm and affectionate British Shorthair, ideal for a quiet household.",
@@ -157,7 +156,7 @@
   {
     "id": 12,
     "name": "Simba",
-    "type": "cat",
+    "species": "cat",
     "breed": "bengal",
     "age": 3,
     "description": "Simba is an active bengal cat who loves climbing and exploring.",
@@ -171,7 +170,7 @@
   {
     "id": 13,
     "name": "Misty",
-    "type": "cat",
+    "species": "cat",
     "breed": "siberian",
     "age": 4,
     "description": "Misty is a fluffy Siberian cat with a gentle and affectionate personality.",
@@ -185,7 +184,7 @@
   {
     "id": 14,
     "name": "Cleo",
-    "type": "cat",
+    "species": "cat",
     "breed": "birman",
     "age": 5,
     "description": "Cleo is a gentle Birman cat who loves being held and cuddled.",
@@ -199,7 +198,7 @@
   {
     "id": 15,
     "name": "Oreo",
-    "type": "cat",
+    "species": "cat",
     "breed": "manx",
     "age": 2,
     "description": "Oreo is a curious Manx cat with a playful nature and unique appearance.",
@@ -213,7 +212,7 @@
   {
     "id": 16,
     "name": "Shadow",
-    "type": "cat",
+    "species": "cat",
     "breed": "himalayan",
     "age": 6,
     "description": "Shadow is a Himalayan cat with striking blue eyes and a calm temperament.",
@@ -227,7 +226,7 @@
   {
     "id": 17,
     "name": "Pixie",
-    "type": "cat",
+    "species": "cat",
     "breed": "munchkin",
     "age": 1,
     "description": "Pixie is an adorable munchkin cat with short legs and a playful spirit.",
@@ -241,7 +240,7 @@
   {
     "id": 18,
     "name": "Sushi",
-    "type": "cat",
+    "species": "cat",
     "breed": "asian cat",
     "age": 3,
     "description": "Sushi is a friendly Asian cat with a love for exploring new places.",
@@ -255,7 +254,7 @@
   {
     "id": 19,
     "name": "Fluffy",
-    "type": "cat",
+    "species": "cat",
     "breed": "british longhair",
     "age": 4,
     "description": "Fluffy is a sweet British Longhair who enjoys brushing and quiet evenings.",
@@ -269,7 +268,7 @@
   {
     "id": 20,
     "name": "Tiger",
-    "type": "cat",
+    "species": "cat",
     "breed": "thai cat",
     "age": 5,
     "description": "Tiger is an elegant Thai cat, intelligent and affectionate with people.",
@@ -283,8 +282,8 @@
   {
     "id": 21,
     "name": "Pug",
-    "type": "hamster",
-    "breed": "hamster",
+    "species": "hamster",
+    "breed": null,
     "age": 5,
     "description": "Tiger is an elegant Thai cat, intelligent and affectionate with people.",
     "mainImage": "https://example.com/images/thaicat_tiger_main.jpg",
@@ -297,8 +296,8 @@
   {
     "id": 22,
     "name": "Habbit",
-    "type": "rabbit",
-    "breed": "rabbit",
+    "species": "rabbit",
+    "breed": null,
     "age": 5,
     "description": "Tiger is an elegant Thai cat, intelligent and affectionate with people.",
     "mainImage": "https://example.com/images/thaicat_tiger_main.jpg",

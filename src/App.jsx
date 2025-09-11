@@ -1,7 +1,5 @@
 
-
 import { Route, Routes } from "react-router-dom";
-import React from "react";
 import { BrowserRouter as Router } from "react-router-dom";
 
 import PetOwnerLayout from "./layouts/PetOwnerLayout";
@@ -26,17 +24,19 @@ import petcare from "../src/Data/Petowner/petcare.json";
 import petproduct from "../src/Data/Petowner/petproduct.json";
 
 //Shelter
-import Animals from "./Data/Animalshelter/animalshelter.json";
-import AnimalShelter from "./Component/animalshelter/gallery/AnimalShelter";
-import AnimalDetail from "./Component/animalshelter/gallery/AnimalDetail";
-import SuccessStory from "./Component/animalshelter/successstory/SuccessStory";
-import StoryDetail from "./Component/animalshelter/successstory/StoryDetail";
-import Event from "./Component/animalshelter/event/Event";
-import ShelterContact from "./Component/animalshelter/sheltercontact/ShelterContact";
+import Events from "./pages/Shelter/Events";
+import Gallery from "./pages/Shelter/Gallery";
+import HomeShelter from "./pages/Shelter/HomeShelter";
+import ShelterContact from "./pages/Shelter/ShelterContact";
+import Success from "./pages/Shelter/Success";
 
 //Vet
 import HomeVet from "./pages/Veterinarian/HomeVet";
 import VetProfile from "./pages/Veterinarian/VetProfile";
+import MyProfile from "./Component/pet_owner/myprofile/MyProfile";
+import MyPetDetail from "./Component/pet_owner/myprofile/MyPetDetail";
+
+import "./index.css";
 
 export default function App() {
   return (
@@ -47,37 +47,32 @@ export default function App() {
 
         {/* PetOwner routes */}
         <Route path="/petowner" element={<PetOwnerLayout />}>
-                <Route path="homepetowner" element={<HomePetowner pet={petcare} product={petproduct} />} />
-                <Route path="petcare" element={<PetCare db={petcare} />} />
-                <Route path="petproduct" element={<PetProduct db={petproduct} />} />
-                <Route path="feedback" element={<FeedBack />} />
-                <Route path="aboutus" element={<AboutUs />} />
-                <Route path="contactus" element={<ContactUs />} />
-                <Route path="emergency" element={<EmerPage />} />
-                <Route path="petcare/:breed" element={<PetDetail db={petcare} />} />
-                <Route path="petproduct/:id" element={<ProductDetail db={petproduct} />} />
+          <Route path="homepetowner" element={<HomePetowner pet={petcare} product={petproduct} />} />
+          <Route path="petcare" element={<PetCare db={petcare} />} />
+          <Route path="petproduct" element={<PetProduct db={petproduct} />} />
+          <Route path="feedback" element={<FeedBack />} />
+          <Route path="aboutus" element={<AboutUs />} />
+          <Route path="contactus" element={<ContactUs />} />
+          <Route path="emergency" element={<EmerPage />} />
+          <Route path="myprofile" element={<MyProfile />} />
+          <Route path="petcare/:breed" element={<PetDetail db={petcare} />} />
+          <Route path="petproduct/:id" element={<ProductDetail db={petproduct} />} />
+          <Route path="pet/:id" element={<MyPetDetail />} />
         </Route>
 
         {/* Veterinarian routes */}
         <Route path="/veterinarian" element={<VetLayout />}>
-          <Route index element={<HomeVet />} /> 
+          <Route index element={<HomeVet />} />
           <Route path=":id" element={<VetProfile />} />
         </Route>
 
         {/* Animal Shelter routes */}
         <Route path="/animalshelter" element={<AnimalShelterLayout />}>
-          <Route path="animal" element={<AnimalShelter />}></Route>
-          <Route
-              path="animal/:id"
-              element={<AnimalDetail animal={Animals} />}
-            ></Route>
-            <Route path="story" element={<SuccessStory />}></Route>
-            <Route
-              path="story/:id"
-              element={<StoryDetail />}
-            ></Route>
-            <Route path="event" element={<Event />}></Route>
-            <Route path="sheltercontact" element={<ShelterContact />}></Route>
+          <Route path="events" element={<Events />} />
+          <Route path="gallery" element={<Gallery />} />
+          <Route path="homeshelter" element={<HomeShelter />} />
+          <Route path="sheltercontact" element={<ShelterContact />} />
+          <Route path="success" element={<Success />} />
         </Route>
 
         {/* 404 */}
@@ -86,8 +81,3 @@ export default function App() {
     </Router>
   );
 }
-
-
-
-
-

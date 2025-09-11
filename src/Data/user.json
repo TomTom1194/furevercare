@@ -1,0 +1,23 @@
+[
+    {
+        "id": 1,
+        "name": "John Smith",
+        "role": "user",
+        "email": "john.smith@example.com",
+        "phone": "+1-202-555-0147"
+    },
+    {
+        "id": 2,
+        "name": "Dr. Emily Carter",
+        "role": "vet",
+        "email": "emily.johnson@example.com",
+        "phone": "+1-202-555-0175"
+    },
+    {
+        "id": 3,
+        "name": "Michael Brown",
+        "role": "staff",
+        "email": "michael.brown@example.com",
+        "phone": "+1-202-555-0198"
+    }
+]

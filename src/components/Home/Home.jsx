@@ -1,17 +1,36 @@
 import React, { useState } from "react";
 import { useNavigate } from "react-router-dom";
+import users from "../../Data/user.json";
 import "./Home.css";
 
 const Home = () => {
-  const [name, setName] = useState("");
+  const [email, setEmail] = useState("");
+  const [selectedRole, setSelectedRole] = useState("");
   const navigate = useNavigate();
 
-  const handleNavigate = (path) => {
-    if (!name) {
-      alert("Please enter your name before proceeding!");
+  const handleSubmit = () => {
+    if (!email || !selectedRole) {
+      alert("Please fill in all fields before proceeding!");
       return;
     }
-    navigate(path, { state: { userName: name } });
+
+    // Tìm user trong JSON
+    const existingUser = users.find((u) => u.email === email);
+
+    if (!existingUser) {
+      alert("Email does not exist in our system!");
+      return;
+    }
+
+    localStorage.setItem("currentUser", JSON.stringify(existingUser));
+
+    if (selectedRole === "petowner") {
+      navigate("/petowner/homepetowner", { state: { email: email } });
+    } else if (selectedRole === "animalshelter") {
+      navigate("/animalshelter", { state: { email: email } });
+    } else if (selectedRole === "veterinarian") {
+      navigate("/veterinarian", { state: { email: email } });
+    }
   };
 
   return (
@@ -30,15 +49,15 @@ const Home = () => {
           />
         </div>
 
-        {/* Input */}
+        {/* Input email */}
         <div className="mb-3">
-          <label className="form-label fw-semibold">Enter your name</label>
+          <label className="form-label fw-semibold">Enter your email</label>
           <input
-            type="text"
+            type="email"
             className="form-control"
-            placeholder="Nguyen Van A"
-            value={name}
-            onChange={(e) => setName(e.target.value)}
+            placeholder="example@gmail.com"
+            value={email}
+            onChange={(e) => setEmail(e.target.value)}
           />
         </div>
 
@@ -47,22 +66,28 @@ const Home = () => {
           <label className="form-label fw-semibold">You wanna visit</label>
           <div className="d-grid gap-2">
             <button
-              className="btn btn-light custom-hover"
-              onClick={() => handleNavigate("/petowner/homepetowner")}
+              type="button"
+              className={`btn ${selectedRole === "petowner" ? "btn-dark" : "btn-light"
+                } custom-hover`}
+              onClick={() => setSelectedRole("petowner")}
             >
               Pet Owner
             </button>
 
             <button
-              className="btn btn-light custom-hover"
-              onClick={() => handleNavigate("/animalshelter/animal")}
+              type="button"
+              className={`btn ${selectedRole === "animalshelter" ? "btn-dark" : "btn-light"
+                } custom-hover`}
+              onClick={() => setSelectedRole("animalshelter")}
             >
               Animal Shelter
             </button>
 
             <button
-              className="btn btn-light custom-hover"
-              onClick={() => handleNavigate("/veterinarian")}
+              type="button"
+              className={`btn ${selectedRole === "veterinarian" ? "btn-dark" : "btn-light"
+                } custom-hover`}
+              onClick={() => setSelectedRole("veterinarian")}
             >
               Veterinarian
             </button>
@@ -74,6 +99,7 @@ const Home = () => {
           <button
             className="btn fw-semibold"
             style={{ backgroundColor: "#7f5539", color: "#fff" }}
+            onClick={handleSubmit}
           >
             Submit
           </button>

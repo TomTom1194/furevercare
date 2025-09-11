@@ -15,12 +15,12 @@ function ProductList({ db }) {
               to={`/petowner/petproduct/${product.id}`}
               style={{ textDecoration: "none", color: "inherit" }}
             >
-              <div className="card shadow-sm h-100">
+              <div className="card cardhover h-100">
                 <img
                   src={product.mainImage}
                   className="card-img-top"
                   alt={product.name}
-                  style={{ height: "200px", objectFit: "cover" }}
+                  style={{ height: "200px", objectFit: "contain" }}
                 />
                 <div className="card-body d-flex flex-column">
                   <h5 className="card-title">{product.name}</h5>
@@ -49,7 +49,7 @@ function ProductList({ db }) {
                   </div>
 
                   <h5 className="card-text fw-bold mb-3">${product.price}</h5>
-                  <button className="btn btn-primary mt-auto">Buy Now</button>
+                  <button className="btn btncss mt-auto">Buy Now</button>
                 </div>
               </div>
             </Link>
