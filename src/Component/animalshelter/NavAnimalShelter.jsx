@@ -1,10 +1,11 @@
 import React from "react";
+import { Link } from "react-router-dom";
 
 function Header() {
   return (
     <nav className="navbar navbar-expand-lg navbar-light bg-light px-3">
       {/* Logo */}
-      <a className="navbar-brand" href="#">
+      <Link className="navbar-brand" to="/animal">
         <img
           src="/images/logo.png"
           alt="logo"
@@ -12,7 +13,7 @@ function Header() {
           height="80"
           className="d-inline-block align-top"
         />
-      </a>
+      </Link>
 
       {/* Toggle button (hiện trên mobile) */}
       <button
@@ -31,24 +32,24 @@ function Header() {
       <div className="collapse navbar-collapse" id="navbarNav">
         <ul className="navbar-nav w-100 d-flex justify-content-evenly">
           <li className="nav-item">
-            <a className="nav-link" href="#gallery">
+            <Link className="nav-link" to="/animal">
               Gallery
-            </a>
+            </Link>
           </li>
           <li className="nav-item">
-            <a className="nav-link" href="#success-story">
+            <Link className="nav-link" to="/story">
               Success Story
-            </a>
+            </Link>
           </li>
           <li className="nav-item">
-            <a className="nav-link" href="#event">
+            <Link className="nav-link" to="/event">
               Event
-            </a>
+            </Link>
           </li>
           <li className="nav-item">
-            <a className="nav-link" href="#contact">
+            <Link className="nav-link" to="/sheltercontact">
               Shelter Contact
-            </a>
+            </Link>
           </li>
         </ul>
       </div>

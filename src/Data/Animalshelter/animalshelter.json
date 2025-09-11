@@ -5,12 +5,13 @@
     "species": "dog",
     "breed": "pug",
     "age": 2,
-    "description": "Buddy is a playful pug who loves cuddles and short walks. Perfect for apartment living.",
+    "description": "Buddy is a cheerful and affectionate pug who adores cuddles and enjoys short playful walks. He gets along well with people of all ages, including children, and loves being part of family activities. With his calm temperament and small size, Buddy is perfectly suited for apartment living. He’s looking for a loving home where he can share his playful spirit and endless affection.",
     "mainImage": "https://example.com/images/pug_buddy_main.jpg",
     "images": [
-      "https://example.com/images/pug_buddy_1.jpg",
-      "https://example.com/images/pug_buddy_2.jpg",
-      "https://example.com/images/pug_buddy_3.jpg"
+      "https://media.adoptapet.com/image/upload/d_PDP-NoPetPhoto_Dog.png/c_auto,g_auto,w_358,ar_142:135,dpr_2/f_auto,q_auto/1246867041",
+      "https://consumer-cms.petfinder.com/sites/default/files/images/content/Pug%201.jpg",
+      "https://media.istockphoto.com/id/1094862462/photo/unhappy-dog-pug-sitting-in-a-cage.jpg?s=612x612&w=0&k=20&c=s7Wo_FHzhJgLCvo1se08-YSNR4vYdvkNPhToWMw8VxA=",
+      "https://thumbs.dreamstime.com/b/funny-pug-puppy-cage-30511717.jpg"
     ]
   },
   {
