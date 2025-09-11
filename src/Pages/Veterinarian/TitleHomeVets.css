@@ -1,11 +1,11 @@
 /* Import Google Fonts: Noto Sans */
 @import url("https://fonts.googleapis.com/css2?family=Noto+Sans:wght@400;600;700&display=swap");
 
-/* Header title */
+/* ===== HEADER TITLE ===== */
 .vet-title {
-  font-family: "Noto Sans", sans-serif; /* đổi sang Noto Sans */
+  font-family: "Noto Sans", sans-serif;
   font-size: 3rem;
-  font-weight: 600; /* semi-bold */
+  font-weight: 600;
   color: #7f5539;
   text-transform: uppercase;
   letter-spacing: 6px;
@@ -14,7 +14,7 @@
   text-shadow: 1px 1px 4px rgba(0, 0, 0, 0.3), 0 0 8px rgba(126, 85, 57, 0.6),
     0 0 15px rgba(192, 152, 83, 0.5);
 
-  /* Animation sang trọng */
+  /* Animation luxury */
   animation: fadeInLuxury 1.2s ease-in-out;
   transition: all 0.3s ease;
 }
@@ -37,26 +37,26 @@
   }
 }
 
-/* Section title */
+/* ===== SECTION TITLE ===== */
 .section-title {
   font-family: "Noto Sans", sans-serif;
   font-size: 1.8rem;
-  font-weight: 600; /* semi-bold */
+  font-weight: 600;
   color: #7f5539;
   text-transform: uppercase;
   letter-spacing: 2px;
-  box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.15);
   background: #fff;
+  box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.15);
 }
 
-/* Luxury style card */
+/* ===== CARD ===== */
 .vet-card {
-  transition: transform 0.3s ease, box-shadow 0.3s ease, border 0.3s ease;
   border-radius: 12px;
   overflow: hidden;
-  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
   background: #fffdf9;
-  border: 1px solid transparent; /* tránh nhảy layout */
+  border: 1px solid transparent;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease, box-shadow 0.3s ease, border 0.3s ease;
 }
 
 .vet-card:hover {
@@ -64,71 +64,91 @@
   box-shadow: 0 10px 30px rgba(0, 0, 0, 0.25);
 
   /* hiệu ứng viền luxury */
-  border-top: 1px solid #000; /* mảnh */
-  border-left: 1px solid #000; /* mảnh */
-  border-right: 3px solid #000; /* đậm */
-  border-bottom: 3px solid #000; /* đậm */
+  border-top: 1px solid #000;
+  border-left: 1px solid #000;
+  border-right: 3px solid #000;
+  border-bottom: 3px solid #000;
 }
 
-/* Image inside card */
+/* Card image */
 .vet-card-img {
-  height: 200px; /* giảm chiều cao hiển thị */
+  height: 200px;
   width: 100%;
-  object-fit: cover; /* cắt ảnh thay vì co giãn */
-  object-position: top; /* chỉ lấy phần phía trên của ảnh */
+  object-fit: cover;
+  object-position: top;
 }
 
 /* Card title */
 .vet-card-title {
   font-family: "Noto Sans", sans-serif;
   font-size: 1.2rem;
-  font-weight: 600; /* semi-bold */
+  font-weight: 600;
   color: #7f5539;
   margin-bottom: 10px;
 }
 
-/* Card text chỉnh style specialization */
-.vet-card .card-text strong,
-.vet-card .card-text-specialization {
+/* Specialization */
+.vet-specialization {
   font-family: "Noto Sans", sans-serif;
-  font-weight: 600; /* in đậm */
-  text-transform: uppercase; /* viết hoa */
+  font-weight: 600;
+  text-transform: uppercase;
+  color: #333;
+  margin-bottom: 8px;
+}
+
+/* Card info (Working hours, Email, Phone) */
+.vet-info {
+  font-family: "Noto Sans", sans-serif;
+  font-size: 0.95rem;
+  color: #444;
+  text-align: left;
+  margin-bottom: 6px;
+}
+
+.vet-card .card-text strong {
+  font-weight: 600;
+  text-transform: uppercase;
   color: #333;
 }
 
-/* Hover trên desktop */
-@media (min-width: 768px) {
-  .vet-card:hover {
-    transform: translateY(-6px);
-    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.25);
-    border-top: 1px solid #000;
-    border-left: 1px solid #000;
-    border-right: 3px solid #000;
-    border-bottom: 3px solid #000;
+/* ===== RESPONSIVE ===== */
+
+/* Tablet */
+@media (max-width: 768px) {
+  .vet-title {
+    font-size: 2rem;
+    letter-spacing: 3px;
+  }
+
+  .section-title {
+    font-size: 1.4rem;
+  }
+
+  .vet-card-img {
+    height: 180px;
   }
 }
 
-/* Mobile: giảm chiều cao ảnh để vừa màn hình nhỏ */
-@media (max-width: 576px) {
-  .vet-card-img {
-    height: 180px;
+/* Small mobile */
+@media (max-width: 480px) {
+  .vet-title {
+    font-size: 1.6rem;
+    letter-spacing: 2px;
+  }
+
+  .section-title {
+    font-size: 1.2rem;
   }
 
   .vet-card-title {
     font-size: 1rem;
   }
-}
-.vet-specialization {
-  font-family: "Noto Sans", sans-serif;
-  font-weight: 600; /* semi-bold */
-  text-transform: uppercase; /* viết hoa toàn bộ */
-  color: #333;
-  margin-bottom: 8px;
-}
-.vet-info {
-  text-align: left;
-  font-family: "Noto Sans", sans-serif;
-  font-size: 0.95rem;
-  color: #444;
-  margin-bottom: 6px;
+
+  .vet-info {
+    font-size: 0.85rem;
+  }
+
+  .vet-card-img {
+    height: 160px;
+  }
 }

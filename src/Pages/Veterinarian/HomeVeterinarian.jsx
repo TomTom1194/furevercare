@@ -4,6 +4,7 @@ import vets from "../../Data/Vet/veterinarian.json";
 import AOS from "aos";
 import "aos/dist/aos.css";
 import "./TitleHomeVets.css";
+import HomeFooter from "../../components/Footer/HomeFooter";
 
 // Dữ liệu slide cho carousel
 const slides = [
@@ -181,6 +182,7 @@ const HomeVeterinarian = () => {
           )}
         </div>
       </div>
+      <HomeFooter />
     </div>
   );
 };
