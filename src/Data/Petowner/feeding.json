@@ -2,37 +2,141 @@
   {
     "species": "dog",
     "feeding_table": [
-      { "age": "1-2", "weight": "5-15 kg", "feed_perday": "200-400 g" },
-      { "age": "3-5", "weight": "10-25 kg", "feed_perday": "350-600 g" },
-      { "age": "6-8", "weight": "15-30 kg", "feed_perday": "400-700 g" },
-      { "age": "9-10", "weight": "20-35 kg", "feed_perday": "450-750 g" }
+      {
+        "age": "1-2",
+        "weight": "5-15 kg",
+        "feed_perday": "200-400 g"
+      },
+      {
+        "age": "3-5",
+        "weight": "10-25 kg",
+        "feed_perday": "350-600 g"
+      },
+      {
+        "age": "6-8",
+        "weight": "15-30 kg",
+        "feed_perday": "400-700 g"
+      },
+      {
+        "age": "9-10",
+        "weight": "20-35 kg",
+        "feed_perday": "450-750 g"
+      }
     ]
   },
   {
     "species": "cat",
     "feeding_table": [
-      { "age": "1-2", "weight": "2-4 kg", "feed_perday": "50-80 g" },
-      { "age": "3-5", "weight": "3-5 kg", "feed_perday": "60-100 g" },
-      { "age": "6-8", "weight": "4-6 kg", "feed_perday": "70-120 g" },
-      { "age": "9-10", "weight": "4-7 kg", "feed_perday": "70-130 g" }
+      {
+        "age": "1-2",
+        "weight": "2-4 kg",
+        "feed_perday": "50-80 g"
+      },
+      {
+        "age": "3-5",
+        "weight": "3-5 kg",
+        "feed_perday": "60-100 g"
+      },
+      {
+        "age": "6-8",
+        "weight": "4-6 kg",
+        "feed_perday": "70-120 g"
+      },
+      {
+        "age": "9-10",
+        "weight": "4-7 kg",
+        "feed_perday": "70-130 g"
+      }
     ]
   },
   {
     "species": "hamster",
     "feeding_table": [
-      { "age": "1-2", "weight": "0.05-0.1 kg", "feed_perday": "5-7 g" },
-      { "age": "3-5", "weight": "0.1-0.15 kg", "feed_perday": "7-10 g" },
-      { "age": "6-8", "weight": "0.12-0.18 kg", "feed_perday": "8-12 g" },
-      { "age": "9-10", "weight": "0.15-0.2 kg", "feed_perday": "10-15 g" }
+      {
+        "age": "1-2",
+        "weight": "0.05-0.1 kg",
+        "feed_perday": "5-7 g"
+      },
+      {
+        "age": "3-5",
+        "weight": "0.1-0.15 kg",
+        "feed_perday": "7-10 g"
+      },
+      {
+        "age": "6-8",
+        "weight": "0.12-0.18 kg",
+        "feed_perday": "8-12 g"
+      },
+      {
+        "age": "9-10",
+        "weight": "0.15-0.2 kg",
+        "feed_perday": "10-15 g"
+      },
+      {
+        "age": "1-2",
+        "weight": "0.05-0.1 kg",
+        "feed_perday": "5-7 g"
+      },
+      {
+        "age": "3-5",
+        "weight": "0.1-0.15 kg",
+        "feed_perday": "7-10 g"
+      },
+      {
+        "age": "6-8",
+        "weight": "0.12-0.18 kg",
+        "feed_perday": "8-12 g"
+      },
+      {
+        "age": "9-10",
+        "weight": "0.15-0.2 kg",
+        "feed_perday": "10-15 g"
+      }
     ]
   },
   {
     "species": "rabbit",
     "feeding_table": [
-      { "age": "1-2", "weight": "1-2 kg", "feed_perday": "50-80 g" },
-      { "age": "3-5", "weight": "2-3 kg", "feed_perday": "80-120 g" },
-      { "age": "6-8", "weight": "2.5-4 kg", "feed_perday": "100-150 g" },
-      { "age": "9-10", "weight": "3-5 kg", "feed_perday": "120-180 g" }
+      {
+        "age": "1-2",
+        "weight": "1-2 kg",
+        "feed_perday": "50-80 g"
+      },
+      {
+        "age": "3-5",
+        "weight": "2-3 kg",
+        "feed_perday": "80-120 g"
+      },
+      {
+        "age": "6-8",
+        "weight": "2.5-4 kg",
+        "feed_perday": "100-150 g"
+      },
+      {
+        "age": "9-10",
+        "weight": "3-5 kg",
+        "feed_perday": "120-180 g"
+      },
+      {
+        "age": "1-2",
+        "weight": "1-2 kg",
+        "feed_perday": "50-80 g"
+      },
+      {
+        "age": "3-5",
+        "weight": "2-3 kg",
+        "feed_perday": "80-120 g"
+      },
+      {
+        "age": "6-8",
+        "weight": "2.5-4 kg",
+        "feed_perday": "100-150 g"
+      },
+      {
+        "age": "9-10",
+        "weight": "3-5 kg",
+        "feed_perday": "120-180 g"
+      }
     ]
   }
 ]
