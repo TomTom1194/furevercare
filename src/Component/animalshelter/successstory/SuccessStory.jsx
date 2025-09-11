@@ -23,7 +23,7 @@ export default function SuccessStory() {
         <div className="col-md-12">
           <div
             className="card shadow-sm card-hover h-150"
-            onClick={() => navigate(`/story/${mainStory.id}`)}
+            onClick={() => navigate(`/animalshelter/story/${mainStory.id}`)}
             style={{ cursor: "pointer" }}
           >
             {/* Desktop: chia 2 cột */}
@@ -79,7 +79,7 @@ export default function SuccessStory() {
             <div
               className="card shadow-sm card-hover h-100"
               style={{ cursor: "pointer" }}
-              onClick={() => navigate(`/story/${story.id}`)}
+              onClick={() => navigate(`/animalshelter/story/${story.id}`)}
             >
               <img
                 src={story.image2}
