@@ -5,7 +5,7 @@
     "specialization": "animal welfare",
     "email": "emily.carter@petshelter.com",
     "phone": "+1-202-555-0110",
-    "image": "https://example.com/images/doctors/emily_carter.jpg",
+    "image": "https://images.unsplash.com/photo-1559839734-2b71ea197ec2?q=80&w=1170&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
     "working_time": "Mon - Fri, 9:00 AM - 5:00 PM"
   },
   {
@@ -14,7 +14,7 @@
     "specialization": "dentistry",
     "email": "michael.nguyen@petshelter.com",
     "phone": "+1-202-555-0111",
-    "image": "https://example.com/images/doctors/michael_nguyen.jpg",
+    "image": "https://images.pexels.com/photos/15962799/pexels-photo-15962799.jpeg",
     "working_time": "Tue - Sat, 10:00 AM - 6:00 PM"
   },
   {
@@ -23,7 +23,7 @@
     "specialization": "dermatology",
     "email": "sarah.johnson@petshelter.com",
     "phone": "+1-202-555-0112",
-    "image": "https://example.com/images/doctors/sarah_johnson.jpg",
+    "image": "https://images.pexels.com/photos/12889997/pexels-photo-12889997.jpeg",
     "working_time": "Mon - Fri, 8:30 AM - 4:30 PM"
   },
   {
@@ -32,7 +32,7 @@
     "specialization": "emergency and critical care",
     "email": "daniel.lee@petshelter.com",
     "phone": "+1-202-555-0113",
-    "image": "https://example.com/images/doctors/daniel_lee.jpg",
+    "image": "https://images.pexels.com/photos/7966284/pexels-photo-7966284.jpeg",
     "working_time": "Mon - Sun, 24/7 on call"
   },
   {
@@ -41,7 +41,7 @@
     "specialization": "internal medicine",
     "email": "olivia.martinez@petshelter.com",
     "phone": "+1-202-555-0114",
-    "image": "https://example.com/images/doctors/olivia_martinez.jpg",
+    "image": "https://images.pexels.com/photos/32115911/pexels-photo-32115911.jpeg",
     "working_time": "Wed - Sun, 9:00 AM - 5:00 PM"
   },
   {
@@ -50,7 +50,7 @@
     "specialization": "nutrition",
     "email": "james.wilson@petshelter.com",
     "phone": "+1-202-555-0115",
-    "image": "https://example.com/images/doctors/james_wilson.jpg",
+    "image": "https://images.pexels.com/photos/32254655/pexels-photo-32254655.jpeg",
     "working_time": "Mon - Fri, 10:00 AM - 6:00 PM"
   },
   {
@@ -59,7 +59,7 @@
     "specialization": "animal welfare",
     "email": "hannah.kim@petshelter.com",
     "phone": "+1-202-555-0116",
-    "image": "https://example.com/images/doctors/hannah_kim.jpg",
+    "image": "https://images.pexels.com/photos/32254667/pexels-photo-32254667.jpeg",
     "working_time": "Mon - Thu, 9:00 AM - 5:00 PM"
   },
   {
@@ -68,7 +68,7 @@
     "specialization": "dentistry",
     "email": "robert.brown@petshelter.com",
     "phone": "+1-202-555-0117",
-    "image": "https://example.com/images/doctors/robert_brown.jpg",
+    "image": "https://images.pexels.com/photos/20894637/pexels-photo-20894637.jpeg",
     "working_time": "Tue - Sat, 11:00 AM - 7:00 PM"
   },
   {
@@ -77,7 +77,7 @@
     "specialization": "dermatology",
     "email": "sophia.tran@petshelter.com",
     "phone": "+1-202-555-0118",
-    "image": "https://example.com/images/doctors/sophia_tran.jpg",
+    "image": "https://images.pexels.com/photos/32115955/pexels-photo-32115955.jpeg",
     "working_time": "Mon - Fri, 8:00 AM - 4:00 PM"
   },
   {
@@ -86,7 +86,7 @@
     "specialization": "emergency and critical care",
     "email": "william.anderson@petshelter.com",
     "phone": "+1-202-555-0119",
-    "image": "https://example.com/images/doctors/william_anderson.jpg",
+    "image": "https://images.pexels.com/photos/5888143/pexels-photo-5888143.jpeg",
     "working_time": "Mon - Sun, 24/7 on call"
   }
 ]
