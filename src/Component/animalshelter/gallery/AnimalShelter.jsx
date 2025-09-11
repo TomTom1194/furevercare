@@ -24,10 +24,10 @@ export default function AnimalShelter() {
 
   // Function Filter
   const [filters, setFilters] = useState({
-    name: "",
-    age: "",
+    type: "",
     breed: "",
-    description: "",
+    age: "",
+    location: "",
   });
 
   const handleFilterChange = (e) => {
@@ -41,12 +41,12 @@ export default function AnimalShelter() {
   const filteredAnimals = useMemo(() => {
     return Animals.filter((animal) => {
       return (
-        animal.name.toLowerCase().includes(filters.name.toLowerCase()) &&
-        (filters.age === "" || animal.age === Number(filters.age)) &&
+        animal.type.toLowerCase().includes(filters.type.toLowerCase()) &&
         animal.breed.toLowerCase().includes(filters.breed.toLowerCase()) &&
-        animal.description
+        (filters.age === "" || animal.age === Number(filters.age)) &&
+        animal.description // đổi lại thành location sau
           .toLowerCase()
-          .includes(filters.description.toLowerCase())
+          .includes(filters.location.toLowerCase())
       );
     });
   }, [filters]);
@@ -126,20 +126,10 @@ export default function AnimalShelter() {
           <div className="col-md-3">
             <input
               type="text"
-              name="name"
-              placeholder="Filter by Name"
+              name="type"
+              placeholder="Filter by Type"
               className="form-control"
-              value={filters.name}
-              onChange={handleFilterChange}
-            />
-          </div>
-          <div className="col-md-2">
-            <input
-              type="number"
-              name="age"
-              placeholder="Age"
-              className="form-control"
-              value={filters.age}
+              value={filters.type}
               onChange={handleFilterChange}
             />
           </div>
@@ -153,13 +143,23 @@ export default function AnimalShelter() {
               onChange={handleFilterChange}
             />
           </div>
+          <div className="col-md-2">
+            <input
+              type="number"
+              name="age"
+              placeholder="Age"
+              className="form-control"
+              value={filters.age}
+              onChange={handleFilterChange}
+            />
+          </div>
           <div className="col-md-4">
             <input
               type="text"
-              name="description"
-              placeholder="Search in Description"
+              name="location"
+              placeholder="Filter by Location"
               className="form-control"
-              value={filters.description}
+              value={filters.location}
               onChange={handleFilterChange}
             />
           </div>
