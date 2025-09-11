@@ -1,11 +1,11 @@
-import BookingModal from "../Component/BookingModal";
+import BookingModal from "../../src/Pages/Veterinarian/BookingModal";
 
 function Calendar() {
-    return (
-        <div className="calendar">
-            <BookingModal />
-        </div>
-    );
+  return (
+    <div className="calendar">
+      <BookingModal />
+    </div>
+  );
 }
 
 export default Calendar;
