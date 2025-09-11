@@ -4,12 +4,25 @@ import { Link } from "react-router-dom";
 function HomeFooter() {
   const [time, setTime] = useState(new Date());
   const [location, setLocation] = useState("Loading...");
+  const [visits, setVisits] = useState(0);
 
   useEffect(() => {
+    // Update time mỗi giây
     const timer = setInterval(() => {
       setTime(new Date());
     }, 1000);
 
+    // Lấy và tăng visit counter
+    let visitCount = localStorage.getItem("visitCount");
+    if (visitCount) {
+      visitCount = parseInt(visitCount) + 1;
+    } else {
+      visitCount = 1;
+    }
+    localStorage.setItem("visitCount", visitCount);
+    setVisits(visitCount);
+
+    // Geolocation
     if (navigator.geolocation) {
       navigator.geolocation.getCurrentPosition(
         async (position) => {
@@ -174,7 +187,7 @@ function HomeFooter() {
         </div>
       </footer>
 
-      {/* Floating datetime + location box */}
+      {/* Floating datetime + location + visit counter */}
       <div
         style={{
           position: "fixed",
@@ -198,6 +211,8 @@ function HomeFooter() {
         <span className="fw-bold">{time.toLocaleDateString()}</span>
         <span>|</span>
         <span style={{ color: "#7f5539", fontWeight: "500" }}>{location}</span>
+        <span>|</span>
+        <span>Visits: {visits}</span>
       </div>
     </>
   );
