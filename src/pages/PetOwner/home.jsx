@@ -2,7 +2,7 @@ import Carousel from "../../Component/pet_owner/home/Carousel";
 import HomeCare from "../../Component/pet_owner/home/HomeCare";
 import HomeProduct from "../../Component/pet_owner/home/HomeProduct";
 
-function Home({ pet, product }) {
+function HomePetowner({ pet, product }) {
     return (
         <div className="home">
             <Carousel />
@@ -12,4 +12,4 @@ function Home({ pet, product }) {
     );
 }
 
-export default Home;
+export default HomePetowner;

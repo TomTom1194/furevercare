@@ -3,7 +3,7 @@ import { Route, Routes } from "react-router-dom";
 import AppPetOwner from "../src/Pages/PetOwner/AppPetOwner";
 import Calendar from "./Pages/calendar";
 import React from "react";
-import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+import { BrowserRouter as Router } from "react-router-dom";
 
 import PetOwnerLayout from "./layouts/PetOwnerLayout";
 import AnimalShelterLayout from "./layouts/AnimalShelterLayout";
@@ -14,13 +14,17 @@ import Home from "./components/Home/Home";
 
 
 //Petowner
-import About from "./Pages/PetOwner/About";
-import Contact from "./Pages/PetOwner/Contact";
-import Emergency from "./Pages/PetOwner/Emergency";
-import Feedback from "./Pages/PetOwner/Feedback";
-import PetCare from "./Pages/PetOwner/Petcare";
-import Petproduct from "./Pages/PetOwner/Petproduct";
-import HomePetowner from "./Pages/PetOwner/HomePetowner";
+import HomePetowner from './Pages/PetOwner/home';
+import PetCare from './Pages/PetOwner/petcare';
+import PetProduct from './Pages/PetOwner/petproduct';
+import FeedBack from './Pages/PetOwner/feedback';
+import AboutUs from './Pages/PetOwner/aboutus';
+import ContactUs from './Pages/PetOwner/contactus';
+import EmerPage from './Pages/PetOwner/emerpage';
+import PetDetail from './Pages/PetOwner/petdetail';
+import ProductDetail from './Pages/PetOwner/productdetail';
+import petcare from "../src/Data/Petowner/petcare.json";
+import petproduct from "../src/Data/Petowner/petproduct.json";
 
 //Shelter
 import Events from "./Pages/Shelter/Events";
@@ -42,13 +46,15 @@ export default function App() {
 
         {/* PetOwner routes */}
         <Route path="/petowner" element={<PetOwnerLayout />}>
-          <Route path="about" element={<About />} />
-          <Route path="contact" element={<Contact />} />
-          <Route path="emergency" element={<Emergency />} />
-          <Route path="feedback" element={<Feedback />} />
-          <Route path="petcare" element={<PetCare />} />
-          <Route path="petproduct" element={<Petproduct />} />
-          <Route path="homepetowner" element={<HomePetowner />} />
+                <Route path="homepetowner" element={<HomePetowner pet={petcare} product={petproduct} />} />
+                <Route path="petcare" element={<PetCare db={petcare} />} />
+                <Route path="petproduct" element={<PetProduct db={petproduct} />} />
+                <Route path="feedback" element={<FeedBack />} />
+                <Route path="aboutus" element={<AboutUs />} />
+                <Route path="contactus" element={<ContactUs />} />
+                <Route path="emergency" element={<EmerPage />} />
+                <Route path="petcare/:breed" element={<PetDetail db={petcare} />} />
+                <Route path="petproduct/:id" element={<ProductDetail db={petproduct} />} />
         </Route>
 
         {/* Veterinarian routes */}

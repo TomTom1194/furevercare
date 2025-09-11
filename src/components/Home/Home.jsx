@@ -48,7 +48,7 @@ const Home = () => {
           <div className="d-grid gap-2">
             <button
               className="btn btn-light custom-hover"
-              onClick={() => handleNavigate("/petowner")}
+              onClick={() => handleNavigate("/petowner/homepetowner")}
             >
               Pet Owner
             </button>
