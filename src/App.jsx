@@ -1,61 +1,69 @@
 import React from "react";
-import { BrowserRouter as Router, Routes, Route, useNavigate } from "react-router-dom";
-import PetOwner from "./Pages/Petowner";
+import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 
-function Veterinarian() {
-  return <div className="container mt-4"><h1>🩺 Veterinarian Page</h1></div>;
-}
+import PetOwnerLayout from "./layouts/PetOwnerLayout";
+import AnimalShelterLayout from "./layouts/AnimalShelterLayout";
+import VetLayout from "./layouts/VetLayout";
 
-function AnimalShelter() {
-  return <div className="container mt-4"><h1>🐶🐱 Animal Shelter Page</h1></div>;
-}
+//Start
+import Home from "./components/Home/Home";
 
-function Home() {
-  const navigate = useNavigate();
+//Petowner
+import About from "./Pages/PetOwner/About";
+import Contact from "./Pages/PetOwner/Contact";
+import Emergency from "./Pages/PetOwner/Emergency";
+import Feedback from "./Pages/PetOwner/Feedback";
+import PetCare from "./Pages/PetOwner/Petcare";
+import Petproduct from "./Pages/PetOwner/Petproduct";
+import HomePetowner from "./Pages/PetOwner/HomePetowner";
 
-  return (
-    <div className="d-flex flex-column justify-content-center align-items-center vh-100 bg-light">
-      <h1 className="mb-5">Welcome to PetCare System 🐾</h1>
-      <div className="d-grid gap-3 col-6 col-md-4">
-        <button className="btn btn-primary btn-lg" onClick={() => navigate("/petowner")}>
-          Pet Owner
-        </button>
-        <button className="btn btn-success btn-lg" onClick={() => navigate("/veterinarian")}>
-          Veterinarian
-        </button>
-        <button className="btn btn-warning btn-lg" onClick={() => navigate("/animalshelter")}>
-          Animal Shelter
-        </button>
-      </div>
-    </div>
-  );
-}
+//Shelter
+import Events from "./Pages/Shelter/Events";
+import Gallery from "./Pages/Shelter/Gallery";
+import HomeShelter from "./Pages/Shelter/HomeShelter";
+import ShelterContact from "./Pages/Shelter/ShelterContact";
+import Success from "./Pages/Shelter/Success";
 
-
-
+//Vet
+import HomeVet from "./Pages/Veterinarian/HomeVet";
+import VetProfile from "./Pages/Veterinarian/VetProfile";
 
 export default function App() {
   return (
     <Router>
       <Routes>
+        {/*Start*/}
         <Route path="/" element={<Home />} />
 
-        {/* Pet Owner và các route con */}
-        <Route path="/petowner" element={<PetOwner />}>
-          {/* <Route path="about" element={<About />} />
-          <Route path="petcare" element={<PetCare />} />
-          <Route path="feedback" element={<Feedback />} />
+        {/* PetOwner routes */}
+        <Route path="/petowner" element={<PetOwnerLayout />}>
+          <Route path="about" element={<About />} />
           <Route path="contact" element={<Contact />} />
           <Route path="emergency" element={<Emergency />} />
-          <Route path="products" element={<Products />} /> */}
+          <Route path="feedback" element={<Feedback />} />
+          <Route path="petcare" element={<PetCare />} />
+          <Route path="petproduct" element={<Petproduct />} />
+          <Route path="homepetowner" element={<HomePetowner />} />
         </Route>
 
-        {/* Các role khác */}
-        <Route path="/veterinarian" element={<Veterinarian />} />
-        <Route path="/animalshelter" element={<AnimalShelter />} />
+        {/* Veterinarian routes */}
+        <Route path="/veterinarian" element={<VetLayout />}>
+          <Route index element={<HomeVet />} /> 
+          <Route path=":id" element={<VetProfile />} />
+        </Route>
+
+        {/* Animal Shelter routes */}
+        <Route path="/animalshelter" element={<AnimalShelterLayout />}>
+          <Route path="events" element={<Events />} />
+          <Route path="gallery" element={<Gallery />} />
+          <Route path="homeshelter" element={<HomeShelter />} />
+          <Route path="sheltercontact" element={<ShelterContact />} />
+          <Route path="success" element={<Success />} />
+        </Route>
 
         {/* 404 */}
-        <Route path="*" element={<div className="container mt-4"><h1 className="text-danger">404 - Page Not Found</h1></div>} />      </Routes>
+        <Route path="*" element={<div className="container mt-4"><h1>404 - Page Not Found</h1></div>} />
+      </Routes>
     </Router>
   );
 }
