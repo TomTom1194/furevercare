@@ -2,7 +2,7 @@ import React from "react";
 import vets from "../../Data/Vet/veterinarian.json";
 import { useNavigate } from "react-router-dom";
 
-const Veterinarian = () => {
+const HomeVet = () => {
   const navigate = useNavigate();
 
   const handleClick = (id) => {
@@ -46,4 +46,4 @@ const Veterinarian = () => {
   );
 };
 
-export default Veterinarian;
+export default HomeVet;

@@ -55,7 +55,7 @@ const Home = () => {
 
             <button
               className="btn btn-light custom-hover"
-              onClick={() => handleNavigate("/shelter")}
+              onClick={() => handleNavigate("/animalshelter")}
             >
               Animal Shelter
             </button>
