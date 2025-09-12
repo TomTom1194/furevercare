@@ -2,6 +2,7 @@ import React, { useState } from "react";
 import { useParams, Link } from "react-router-dom";
 import vets from "../../Data/Vet/veterinarian.json";
 import BookingModal from "./BookingModal";
+import DetailVets from "./DetailVets";
 
 const VetProfile = () => {
   const { id } = useParams();
@@ -123,6 +124,7 @@ const VetProfile = () => {
       <div className="mt-5">
         <BookingModal vet={vet} />
       </div>
+      <DetailVets />
     </div>
   );
 };
