@@ -16,7 +16,7 @@ function InforTeam() {
         {
             id: 2,
             name: "Pham Gia Bao",
-            role: "Backend Developer",
+            role: "Frontend Developer",
             email: "giabao@example.com",
             slogan: "Building the logic behind the magic ✨",
             avatar: "https://placehold.co/600x400"
@@ -32,17 +32,17 @@ function InforTeam() {
         {
             id: 4,
             name: "Hong Ngoc",
-            role: "UI/UX Designer",
+            role: "Data Analyst",
             email: "hongngoc@example.com",
-            slogan: "Crafting delightful user experiences 🌿",
+            slogan: "Keeping data clean and structured 🌿",
             avatar: "https://placehold.co/600x400"
         },
         {
             id: 5,
             name: "Quoc Anh",
-            role: "Database Engineer",
+            role: "Frontend Developer",
             email: "quocanh@example.com",
-            slogan: "Keeping data clean and structured 📂",
+            slogan: "Turning ideas into interactive experiences 📂",
             avatar: "https://placehold.co/600x400"
         },
         {

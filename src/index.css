@@ -78,5 +78,13 @@ a {
 
 /* css card hover */
 .cardhover:hover {
-    box-shadow: 3px 3px 10px black !important;
+    box-shadow: 4px 4px 0px black !important;
+}
+
+.text-brown {
+    color: #7f5539;
+}
+
+.bg-brown {
+    background-color: #7f5539;
 }

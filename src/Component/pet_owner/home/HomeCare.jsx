@@ -42,7 +42,7 @@ function HomeCare({ db }) {
                                     src={pet.mainImage}
                                     className="card-img-top"
                                     alt={pet.breed}
-                                    style={{ height: "200px", objectFit: "cover" }}
+                                    style={{ height: "200px", objectFit: "contain" }}
                                 />
                                 <div className="card-body d-flex flex-column">
                                     <h5 className="card-title">{pet.breed}</h5>

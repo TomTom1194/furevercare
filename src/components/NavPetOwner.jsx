@@ -14,7 +14,7 @@ function NavPetowner() {
         }
     }, [location]);
 
-    // ✅ Helper để check active link
+
     const isActive = (path) => (location.pathname === path ? "active-link" : "");
 
     return (
@@ -78,9 +78,18 @@ function NavPetowner() {
                             </li>
                         </ul>
 
-                        {/* Hiển thị "Hi, user" nếu role là user */}                      {currentUser && currentUser.role === "user" && (
+                        {currentUser && currentUser.role === "user" && (
                             <Link
                                 to="/petowner/myprofile"
+                                className="btn"
+                                style={{ backgroundColor: "#7f5539", color: "white" }}
+                            >
+                                Hi, {currentUser.name}
+                            </Link>
+                        )}
+                        {currentUser && currentUser.role === "vet" && (
+                            <Link
+                                to="/veterinarian/1"
                                 className="btn"
                                 style={{ backgroundColor: "#7f5539", color: "white" }}
                             >

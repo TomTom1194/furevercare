@@ -8,7 +8,7 @@ function FullInfo({ product }) {
                 className="card bg-light border-0 rounded-3"
             >
                 <div className="card-body p-4">
-                    <h3 className="fw-bold text-primary mb-4">
+                    <h3 className="fw-bold text-brown mb-4">
                         Product Information
                     </h3>
 

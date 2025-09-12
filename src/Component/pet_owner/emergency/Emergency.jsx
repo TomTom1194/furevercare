@@ -2,9 +2,33 @@ import React from "react";
 
 function Emergency() {
     const vetContacts = [
-        { name: "Dr. Alice Johnson", phone: "0123 456 789", email: "alicevet@example.com" },
-        { name: "Dr. Bob Smith", phone: "0987 654 321", email: "bobvet@example.com" },
-        { name: "Dr. Charlie Nguyen", phone: "0909 123 456", email: "charlievet@example.com" },
+        {
+            "id": 1,
+            "name": "Dr. Emily Carter",
+            "specialization": "animal welfare",
+            "email": "emily.carter@petshelter.com",
+            "phone": "+1-202-555-0110",
+            "image": "https://images.unsplash.com/photo-1559839734-2b71ea197ec2?q=80&w=1170&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+            "working_time": "Mon - Fri, 9:00 AM - 5:00 PM"
+        },
+        {
+            "id": 2,
+            "name": "Dr. Michael Nguyen",
+            "specialization": "dentistry",
+            "email": "michael.nguyen@petshelter.com",
+            "phone": "+1-202-555-0111",
+            "image": "https://images.pexels.com/photos/15962799/pexels-photo-15962799.jpeg",
+            "working_time": "Tue - Sat, 10:00 AM - 6:00 PM"
+        },
+        {
+            "id": 3,
+            "name": "Dr. Sarah Johnson",
+            "specialization": "dermatology",
+            "email": "sarah.johnson@petshelter.com",
+            "phone": "+1-202-555-0112",
+            "image": "https://images.pexels.com/photos/12889997/pexels-photo-12889997.jpeg",
+            "working_time": "Mon - Fri, 8:30 AM - 4:30 PM"
+        }
     ];
 
     const hotlines = [
@@ -16,7 +40,7 @@ function Emergency() {
     return (
         <div className="emergency container my-5">
             <div className="card shadow-sm mb-4">
-                <div className="card-header bg-primary text-white fw-bold">Veterinary Contacts</div>
+                <div className="card-header bg-brown text-white fw-bold">Veterinary Contacts</div>
                 <div className="card-body">
                     <div className="list-group">
                         {vetContacts.map((vet, index) => (

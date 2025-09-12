@@ -8,7 +8,7 @@ function HomeProduct({ db }) {
             <h2 className="fw-bold my-4">Pet Product</h2>
             <div className="row g-4">
                 {db.slice(0, 8).map((product) => (
-                    <div key={product.id} className="col col-md-4 col-lg-3">
+                    <div key={product.id} className="col-12 col-md-4 col-lg-3">
                         <Link
                             to={`/petowner/petproduct/${product.id}`}
                             style={{ textDecoration: "none", color: "inherit" }}
@@ -18,7 +18,7 @@ function HomeProduct({ db }) {
                                     src={product.mainImage}
                                     className="card-img-top"
                                     alt={product.name}
-                                    style={{ height: "200px", objectFit: "cover" }}
+                                    style={{ height: "200px", objectFit: "contain" }}
                                 />
                                 <div className="card-body d-flex flex-column">
                                     <h5 className="card-title">{product.name}</h5>
@@ -57,7 +57,7 @@ function HomeProduct({ db }) {
 
             {db.length > 8 && (
                 <div className="text-center mt-4">
-                    <Link to="/petowner/petcare">
+                    <Link to="/petowner/petproduct">
                         <button className="btn btncss-outline px-4 py-2">
                             View More Product
                         </button>
