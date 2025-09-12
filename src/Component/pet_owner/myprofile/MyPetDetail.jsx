@@ -89,23 +89,28 @@ function MyPetDetail() {
                 <div className="col-md-6">
                     <div className="card shadow-sm mb-4">
                         <div className="card-body">
-                            <h4>{pet.name}</h4>
+                            <h3 className="text-brown">{pet.name}</h3>
                             <p>
                                 <strong>Species:</strong> {pet.spieces}
                             </p>
+                            <hr />
                             <p>
                                 <strong>Breed:</strong> {pet.breed}
                             </p>
+                            <hr />
                             <p>
                                 <strong>Age:</strong> {pet.age} years
                             </p>
+                            <hr />
                             <p>
                                 <strong>Weight:</strong> {pet.weight}
                             </p>
+                            <hr />
                             <p>
                                 <strong>Vaccine Status:</strong>{" "}
                                 {pet.vaccine_status}
                             </p>
+                            <hr />
                             <p>
                                 <strong>Notes:</strong> {pet.notes}
                             </p>
@@ -115,44 +120,53 @@ function MyPetDetail() {
             </div>
 
             {/* Medical History */}
-            <div className="mt-4">
-                <h3>Medical History</h3>
+            <div className="mt-5">
+                <h3 className="mb-3">Medical History</h3>
                 {pet.medicalHistory && pet.medicalHistory.length > 0 ? (
-                    <ul className="list-group">
+                    <div className="row">
                         {pet.medicalHistory.map((mh, idx) => (
-                            <li key={idx} className="list-group-item">
-                                <strong>Date:</strong> {mh.date} <br />
-                                <strong>Vet:</strong> {mh.vet} <br />
-                                <strong>Reason:</strong> {mh.reason} <br />
-                                <strong>Diagnosis:</strong> {mh.diagnosis} <br />
-                                <strong>Treatment:</strong> {mh.treatment}
-                            </li>
+                            <div key={idx} className="col-md-6 mb-3">
+                                <div className="card shadow-sm h-100">
+                                    <div className="card-body">
+                                        <h5 className="card-title text-primary">Date: {mh.date}</h5>
+                                        <p className="card-text"><strong>Vet:</strong> {mh.vet}</p>
+                                        <p className="card-text"><strong>Reason:</strong> {mh.reason}</p>
+                                        <p className="card-text"><strong>Diagnosis:</strong> {mh.diagnosis}</p>
+                                        <p className="card-text"><strong>Treatment:</strong> {mh.treatment}</p>
+                                    </div>
+                                </div>
+                            </div>
                         ))}
-                    </ul>
+                    </div>
                 ) : (
-                    <p>No medical history available.</p>
+                    <p className="text-muted">No medical history available.</p>
                 )}
             </div>
 
             {/* Appointments */}
-            <div className="mt-4">
-                <h3>Upcoming Appointments</h3>
+            <div className="mt-5">
+                <h3 className="mb-3">Upcoming Appointments</h3>
                 {pet.appointments && pet.appointments.length > 0 ? (
-                    <ul className="list-group">
+                    <div className="row">
                         {pet.appointments.map((appt, idx) => (
-                            <li key={idx} className="list-group-item">
-                                <strong>Date:</strong> {appt.date} <br />
-                                <strong>Time:</strong> {appt.time} <br />
-                                <strong>Vet:</strong> {appt.vet} <br />
-                                <strong>Status:</strong> {appt.status} <br />
-                                <strong>Treatment:</strong> {appt.treatmentgit}
-                            </li>
+                            <div key={idx} className="col-md-6 mb-3">
+                                <div className="card border-success shadow-sm h-100">
+                                    <div className="card-body">
+                                        <h5 className="card-title text-success">Date: {appt.date}</h5>
+                                        <p className="card-text"><strong>Time:</strong> {appt.time}</p>
+                                        <p className="card-text"><strong>Vet:</strong> {appt.vet}</p>
+                                        <p className="card-text"><strong>Status:</strong> {appt.status}</p>
+                                        <p className="card-text"><strong>Treatment:</strong> {appt.treatment}</p>
+                                    </div>
+                                </div>
+                            </div>
                         ))}
-                    </ul>
+                    </div>
                 ) : (
-                    <p>No upcoming appointments.</p>
+                    <p className="text-muted">No upcoming appointments.</p>
                 )}
             </div>
+
         </div>
     );
 }

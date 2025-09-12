@@ -1,4 +1,4 @@
-import { Route, Routes } from "react-router-dom";
+import { Navigate, Route, Routes } from "react-router-dom";
 import { BrowserRouter as Router } from "react-router-dom";
 import ScrollToTop from "./components/ScrollToTop";
 
@@ -37,6 +37,8 @@ import MyProfile from "./Component/pet_owner/myprofile/MyProfile";
 import MyPetDetail from "./Component/pet_owner/myprofile/MyPetDetail";
 
 import "./index.css";
+import SignUp from "./components/SignUp/SignUp";
+import HomeVeterinarian from "./pages/Veterinarian/HomeVeterinarian";
 
 export default function App() {
   return (
@@ -45,11 +47,12 @@ export default function App() {
       <Routes>
         {/*Start*/}
         <Route path="/" element={<Home />} />
-
+        <Route path="/signup" element={<SignUp />} />
         {/* PetOwner routes */}
         <Route path="/petowner" element={<PetOwnerLayout />}>
+          <Route path="" element={<Navigate to="home" replace />} />
           <Route
-            path="homepetowner"
+            path="home"
             element={<HomePetowner pet={petcare} product={petproduct} />}
           />
           <Route path="petcare" element={<PetCare db={petcare} />} />
@@ -69,7 +72,7 @@ export default function App() {
 
         {/* Veterinarian routes */}
         <Route path="/veterinarian" element={<VetLayout />}>
-          <Route index element={<HomeVet />} />
+          <Route index element={<HomeVeterinarian />} />
           <Route path=":id" element={<VetProfile />} />
         </Route>
 

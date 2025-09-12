@@ -1,7 +1,3 @@
-body {
-  padding-top: 80px;
-}
-
 .slogan {
   min-height: calc(1.5em * 2);
   line-height: 1.5em;
@@ -110,6 +106,11 @@ a {
 .btncss-outline:hover {
   background-color: #7f5539 !important;
   color: white !important;
+}
+
+.text-brown {
+  color: #7f5539;
+  ;
 }
 
 .swiper-button-prev,

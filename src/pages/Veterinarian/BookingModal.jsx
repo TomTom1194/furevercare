@@ -1,146 +1,382 @@
 import React, { useState, useEffect } from "react";
 import booking from "../../Data/Vet/booking.json";
+import { useLocation } from "react-router-dom";
 
-function BookingModal({ handleClose }) {
+function BookingModal() {
   const [selectedSlot, setSelectedSlot] = useState(null);
   const [appointments, setAppointments] = useState([]);
+  const [month, setMonth] = useState(9);
+  const [year, setYear] = useState(2025);
+  const [showForm, setShowForm] = useState(false);
+  const [showDetail, setShowDetail] = useState(false); // modal cho vet
+  const [recentlyBook, setRecentlyBook] = useState(null);
+  const [formData, setFormData] = useState({
+    pet_id: "",
+    owner: "",
+    email: "",
+    phone: "",
+    reason: "Cleaning",
+  });
+  const [currentUser, setCurrentUser] = useState(null);
+  const location = useLocation();
 
+  useEffect(() => {
+    const storedUser = localStorage.getItem("currentUser");
+    if (storedUser) {
+      setCurrentUser(JSON.parse(storedUser));
+    }
+  }, [location]);
   const hours = Array.from({ length: 10 }, (_, i) => i + 8); // 8-17
-  const todayDate = new Date();
-  const todayDay = todayDate.getDate();
-  const todayStr = todayDate.toISOString().split("T")[0]; // YYYY-MM-DD
-  const days = Array.from({ length: 30 }, (_, i) => i + 1); // 1-30
+  const today = new Date();
+  const todayStr = today.toISOString().split("T")[0];
+
+  const getDaysInMonth = (month, year) => new Date(year, month, 0).getDate();
+  const days = Array.from({ length: getDaysInMonth(month, year) }, (_, i) => i + 1);
 
   useEffect(() => {
     setAppointments(booking);
   }, []);
 
-  const handleSelect = (day, hour) => {
-    if (day < todayDay) return; // không chọn ngày đã trôi qua
-
-    const isBooked = appointments.some((a) => {
-      const aDate = new Date(a.date);
-      return aDate.getDate() === day && a.time === hour;
-    });
-    if (isBooked) return;
-
-    if (selectedSlot?.day === day && selectedSlot?.hour === hour) {
-      setSelectedSlot(null);
-    } else {
-      setSelectedSlot({ day, hour });
-    }
+  const isSlotInPast = (day, hour) => {
+    const slotDate = new Date(year, month - 1, day, hour);
+    return slotDate < new Date();
   };
 
-  const isSlotBooked = (day, hour) => {
-    return appointments.some((a) => {
+  const isSlotBooked = (day, hour) =>
+    appointments.some((a) => {
       const aDate = new Date(a.date);
-      return aDate.getDate() === day && a.time === hour;
-    });
-  };
-
-  const isSlotBookedToday = (day, hour) => {
-    return appointments.some((a) => {
       return (
-        a.create_date.startsWith(todayStr) &&
-        new Date(a.date).getDate() === day &&
+        aDate.getFullYear() === year &&
+        aDate.getMonth() + 1 === month &&
+        aDate.getDate() === day &&
         a.time === hour
       );
     });
+
+  const getAppointmentDetail = (day, hour) =>
+    appointments.find((a) => {
+      const aDate = new Date(a.date);
+      return (
+        aDate.getFullYear() === year &&
+        aDate.getMonth() + 1 === month &&
+        aDate.getDate() === day &&
+        a.time === hour
+      );
+    });
+
+  const handleSelect = (day, hour) => {
+    const booked = isSlotBooked(day, hour);
+    const past = isSlotInPast(day, hour);
+
+    if (currentUser?.role === "user") {
+      if (past || booked) return;
+      setSelectedSlot({ day, hour, month });
+      setShowForm(true);
+    } else if (currentUser?.role === "vet") {
+      if (booked) {
+        setSelectedSlot({ day, hour, month });
+        setShowDetail(true);
+      }
+    }
+  };
+
+  const handleChange = (e) => {
+    const { name, value } = e.target;
+    setFormData((prev) => ({ ...prev, [name]: value }));
+  };
+
+  const handleSubmit = (e) => {
+    e.preventDefault();
+    const newAppointment = {
+      id: appointments.length + 1,
+      pet_id: formData.pet_id,
+      owner: formData.owner,
+      email: formData.email,
+      phone: formData.phone,
+      reason: formData.reason,
+      date: `${year}-${month.toString().padStart(2, "0")}-${selectedSlot.day
+        .toString()
+        .padStart(2, "0")}`,
+      time: selectedSlot.hour,
+      create_date: todayStr,
+    };
+    setAppointments((prev) => [...prev, newAppointment]);
+    setRecentlyBook({ day: selectedSlot.day, hour: selectedSlot.hour, month });
+    setShowForm(false);
+    setSelectedSlot(null);
+    setFormData({ pet_id: "", owner: "", email: "", phone: "", reason: "Cleaning" });
+    alert("Booking Successful!");
   };
 
   return (
-    <div
-      className="modal fade show d-block"
-      style={{ backgroundColor: "rgba(0,0,0,0.5)" }}
-    >
-      <div className="modal-dialog modal-xl modal-dialog-centered">
-        <div className="modal-content">
-          {/* Header với nút đóng */}
-          <div className="modal-header">
-            <h2 className="mb-0" style={{ color: "#7f5539" }}>
-              Lịch hẹn bác sĩ thú y
-            </h2>
-            <button
-              type="button"
-              className="btn-close"
-              onClick={handleClose}
-              aria-label="Close"
-            ></button>
-          </div>
+    <div className="container mt-4">
+      <h2 className="mb-3">Vet Appointments</h2>
 
-          {/* Body */}
-          <div className="modal-body">
-            <p>September 2025</p>
-            <div
-              className="table-responsive"
-              style={{ maxHeight: "500px", overflowY: "auto" }}
-            >
-              <table className="table table-bordered table-hover text-center">
-                <thead className="table-light sticky-top">
-                  <tr>
-                    <th scope="col">Ngày / Giờ</th>
-                    {hours.map((hour) => (
-                      <th key={hour} scope="col">
-                        {hour}:00
-                      </th>
-                    ))}
-                  </tr>
-                </thead>
-                <tbody>
-                  {days.map((day) => (
-                    <tr key={day}>
-                      <th scope="row">Ngày {day}</th>
-                      {hours.map((hour) => {
-                        const isPast = day < todayDay;
-                        const isSelected =
-                          selectedSlot?.day === day &&
-                          selectedSlot?.hour === hour;
-                        const isBooked = isSlotBooked(day, hour);
-                        const isTodayBooked = isSlotBookedToday(day, hour);
+      {/* Month & Legend */}
+      <div className="d-flex flex-column flex-md-row justify-content-between align-items-center mb-3">
+        <div className="d-flex align-items-center mb-2 mb-md-0">
+          <button
+            className={`btn btn-secondary ${month === 1 ? "disabled" : ""}`}
+            onClick={() => month > 1 && setMonth(month - 1)}
+          >
+            &#8592;
+          </button>
+          <span className="mx-2">
+            {new Date(year, month - 1).toLocaleString("default", {
+              month: "long",
+              year: "numeric",
+            })}
+          </span>
+          <button
+            className={`btn btn-secondary ${month === 12 ? "disabled" : ""}`}
+            onClick={() => month < 12 && setMonth(month + 1)}
+          >
+            &#8594;
+          </button>
+        </div>
 
-                        return (
-                          <td
-                            key={hour}
-                            onClick={() => handleSelect(day, hour)}
-                            style={{
-                              cursor:
-                                isPast || isBooked ? "not-allowed" : "pointer",
-                              backgroundColor: isBooked
-                                ? isTodayBooked
-                                  ? "#FFD700" // vàng
-                                  : "red"
-                                : isSelected
-                                ? "#28a745" // xanh khi chọn
-                                : isPast
-                                ? "#aaaaaa"
-                                : "",
-                              color:
-                                isPast || isBooked || isTodayBooked
-                                  ? "white"
-                                  : isSelected
-                                  ? "white"
-                                  : "black",
-                              transition: "0.2s",
-                            }}
-                          >
-                            {isSelected ? "Đã chọn" : ""}
-                          </td>
-                        );
-                      })}
-                    </tr>
-                  ))}
-                </tbody>
-              </table>
+        <div className="d-flex gap-2 flex-wrap px-md-3">
+          {[
+            { color: "red", text: "Booked" },
+            { color: "#FFD700", text: "Booked Today" },
+            { color: "#aaaaaaff", text: "Unavailable" },
+            { color: "white", text: "Available", border: true },
+            { color: "#28a745", text: "Selected" },
+            { color: "#7402ffff", text: "Recently Booked" },
+          ].map((item, i) => (
+            <div className="d-flex align-items-center" key={i}>
+              <div
+                style={{
+                  width: 20,
+                  height: 20,
+                  backgroundColor: item.color,
+                  marginRight: 5,
+                  border: item.border ? "1px solid #ccc" : "none",
+                }}
+              ></div>
+              {item.text}
             </div>
-
-            {selectedSlot && (
-              <div className="alert alert-success mt-3">
-                Slot đã chọn: Ngày {selectedSlot.day}, {selectedSlot.hour}:00
-              </div>
-            )}
-          </div>
+          ))}
         </div>
       </div>
+
+      {/* Table */}
+      <div className="table-responsive" style={{ maxHeight: "70vh", overflowY: "auto", overflowX: "auto" }}>
+        <table className="table table-bordered table-hover text-center">
+          <thead className="table-light sticky-top">
+            <tr>
+              <th style={{ position: "sticky", top: 0, left: 0, background: "#fff", zIndex: 3 }}>
+                Date / Time
+              </th>
+              {hours.map((hour) => (
+                <th key={hour}>{hour}:00</th>
+              ))}
+            </tr>
+          </thead>
+          <tbody>
+            {days.map((day) => (
+              <tr key={day}>
+                <th style={{ position: "sticky", left: 0, background: "#fff", zIndex: 1 }}>
+                  {day}
+                </th>
+                {hours.map((hour) => {
+                  const past = isSlotInPast(day, hour);
+                  const booked = isSlotBooked(day, hour);
+                  const todayBooked = appointments.some(
+                    (a) => a.create_date.startsWith(todayStr) && a.time === hour && new Date(a.date).getDate() === day
+                  );
+                  const selected =
+                    selectedSlot?.day === day &&
+                    selectedSlot?.hour === hour &&
+                    selectedSlot?.month === month;
+                  const recently =
+                    recentlyBook?.day === day &&
+                    recentlyBook?.hour === hour &&
+                    recentlyBook?.month === month;
+
+                  return (
+                    <td
+                      key={hour}
+                      onClick={() => handleSelect(day, hour)}
+                      style={{
+                        cursor: (currentUser?.role === "user" && (past || booked)) || (currentUser?.role === "vet" && !booked) ? "not-allowed" : "pointer",
+                        backgroundColor: recently
+                          ? "#7402ffff"
+                          : booked
+                            ? todayBooked
+                              ? "#FFD700"
+                              : "red"
+                            : selected
+                              ? "#28a745"
+                              : past
+                                ? "#d3d3d3ff"
+                                : "white",
+                        color: past || booked || todayBooked || selected ? "white" : "black",
+                        transition: "0.2s",
+                        minWidth: "50px",
+                        height: "40px",
+                      }}
+                    ></td>
+                  );
+                })}
+              </tr>
+            ))}
+          </tbody>
+        </table>
+      </div>
+
+      {/* User Modal */}
+      {showForm && (
+        <div
+          className="modal show d-block"
+          tabIndex="-1"
+          style={{
+            backgroundColor: "rgba(0,0,0,0.3)",
+            backdropFilter: "blur(3px)",
+          }}
+        >
+          <div className="modal-dialog">
+            <div className="modal-content">
+              <form onSubmit={handleSubmit}>
+                <div className="modal-header">
+                  <h5 className="modal-title">Information Booking</h5>
+                </div>
+                <div className="modal-body">
+                  <div className="mb-3">
+                    <label className="form-label">Pet ID</label>
+                    <input
+                      type="text"
+                      className="form-control"
+                      name="pet_id"
+                      value={formData.pet_id}
+                      onChange={handleChange}
+                      required
+                    />
+                  </div>
+                  <div className="mb-3">
+                    <label className="form-label">Owner</label>
+                    <input
+                      type="text"
+                      className="form-control"
+                      name="owner"
+                      value={formData.owner}
+                      onChange={handleChange}
+                      required
+                    />
+                  </div>
+                  <div className="mb-3">
+                    <label className="form-label">Email</label>
+                    <input
+                      type="email"
+                      className="form-control"
+                      name="email"
+                      value={formData.email}
+                      onChange={handleChange}
+                      required
+                    />
+                  </div>
+                  <div className="mb-3">
+                    <label className="form-label">Phone</label>
+                    <input
+                      type="tel"
+                      className="form-control"
+                      name="phone"
+                      value={formData.phone}
+                      onChange={handleChange}
+                      required
+                    />
+                  </div>
+                  <div className="mb-3">
+                    <label className="form-label">Reason</label>
+                    <select
+                      className="form-select"
+                      name="reason"
+                      value={formData.reason}
+                      onChange={handleChange}
+                    >
+                      <option>Cleaning</option>
+                      <option>Checkup</option>
+                      <option>Vaccination</option>
+                      <option>Surgery</option>
+                      <option>Grooming</option>
+                    </select>
+                  </div>
+                  <p>
+                    Date : <strong>{selectedSlot.hour}:00, {year}-{month}-{selectedSlot.day}</strong>
+                  </p>
+                  <p>
+                    Create Date: <strong>{todayStr}</strong>
+                  </p>
+                </div>
+                <div className="modal-footer">
+                  <button
+                    type="button"
+                    className="btn btn-secondary"
+                    onClick={() => {
+                      setShowForm(false);
+                      setSelectedSlot(null);
+                    }}
+                  >
+                    Cancel
+                  </button>
+                  <button type="submit" className="btn btn-primary">
+                    Submit
+                  </button>
+                </div>
+              </form>
+            </div>
+          </div>
+        </div>
+      )}
+
+      {/* Vet Modal */}
+      {showDetail && selectedSlot && (
+        <div
+          className="modal show d-block"
+          tabIndex="-1"
+          style={{
+            backgroundColor: "rgba(0,0,0,0.3)",
+            backdropFilter: "blur(3px)",
+          }}
+        >
+          <div className="modal-dialog">
+            <div className="modal-content">
+              <div className="modal-header">
+                <h5 className="modal-title">Appointment Detail</h5>
+              </div>
+              <div className="modal-body">
+                {(() => {
+                  const detail = getAppointmentDetail(selectedSlot.day, selectedSlot.hour);
+                  if (!detail) return <p>No detail available</p>;
+                  return (
+                    <>
+                      <p>Pet ID: <strong>{detail.pet_id}</strong></p>
+                      <p>Owner: <strong>{detail.owner}</strong></p>
+                      <p>Email: <strong>{detail.email}</strong></p>
+                      <p>Phone: <strong>{detail.phone}</strong></p>
+                      <p>Reason: <strong>{detail.reason}</strong></p>
+                      <p>Date: <strong>{detail.date} {detail.time}:00</strong></p>
+                      <p>Created: <strong>{detail.create_date}</strong></p>
+                    </>
+                  );
+                })()}
+              </div>
+              <div className="modal-footer">
+                <button
+                  className="btn btn-secondary"
+                  onClick={() => {
+                    setShowDetail(false);
+                    setSelectedSlot(null);
+                  }}
+                >
+                  Close
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+      )}
+
     </div>
   );
 }

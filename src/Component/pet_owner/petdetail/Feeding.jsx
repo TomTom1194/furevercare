@@ -15,7 +15,7 @@ function Feeding({ pet }) {
         <div className="my-4 feeding">
             <div className="row">
                 <div className="col-md-8 mx-auto">
-                    <h2 className="text-center mb-3 text-primary fw-bold">
+                    <h2 className="text-center mb-3 text-brown fw-bold">
                         Feeding Table
                     </h2>
                     <div className="table-responsive">
