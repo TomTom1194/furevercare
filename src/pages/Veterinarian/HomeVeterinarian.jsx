@@ -164,7 +164,8 @@ const HomeVeterinarian = () => {
                       {vet.specialization}
                     </p>
                     <p className="card-text vet-info">
-                      <strong>Working Hours:</strong> {vet.working_time}
+                      <strong>Working Hours:</strong>
+                      <br /> {vet.working_time}
                     </p>
                     <p className="card-text vet-info">
                       <strong>Email:</strong>{" "}

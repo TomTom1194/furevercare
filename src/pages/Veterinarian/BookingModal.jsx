@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from "react";
-import booking from "../../src/Data/Vet/booking.json";
+import booking from "../../Data/Vet/booking.json";
 
-function BookingModal() {
+function BookingModal({ handleClose }) {
   const [selectedSlot, setSelectedSlot] = useState(null);
   const [appointments, setAppointments] = useState([]);
 
@@ -30,7 +30,7 @@ function BookingModal() {
       setSelectedSlot({ day, hour });
     }
   };
-  console.log(todayStr);
+
   const isSlotBooked = (day, hour) => {
     return appointments.some((a) => {
       const aDate = new Date(a.date);
@@ -40,68 +40,107 @@ function BookingModal() {
 
   const isSlotBookedToday = (day, hour) => {
     return appointments.some((a) => {
-      return a.create_date.startsWith(todayStr) && new Date(a.date).getDate() === day && a.time === hour;
+      return (
+        a.create_date.startsWith(todayStr) &&
+        new Date(a.date).getDate() === day &&
+        a.time === hour
+      );
     });
   };
 
   return (
-    <div className="container mt-4">
-      <h2 className="mb-3">Lịch hẹn bác sĩ thú y</h2>
-      <p>September 2025</p>
-      <div className="table-responsive" style={{ maxHeight: "500px", overflowY: "auto" }}>
-        <table className="table table-bordered table-hover text-center">
-          <thead className="table-light sticky-top">
-            <tr>
-              <th scope="col">Ngày / Giờ</th>
-              {hours.map((hour) => (
-                <th key={hour} scope="col">{hour}:00</th>
-              ))}
-            </tr>
-          </thead>
-          <tbody>
-            {days.map((day) => (
-              <tr key={day}>
-                <th scope="row">Ngày {day}</th>
-                {hours.map((hour) => {
-                  const isPast = day < todayDay;
-                  const isSelected = selectedSlot?.day === day && selectedSlot?.hour === hour;
-                  const isBooked = isSlotBooked(day, hour);
-                  const isTodayBooked = isSlotBookedToday(day, hour);
-                  return (
-                    <td
-                      key={hour}
-                      onClick={() => handleSelect(day, hour)}
-                      style={{
-                        cursor: isPast || isBooked ? "not-allowed" : "pointer",
-                        backgroundColor: isBooked
-                          ? (isTodayBooked
-                            ? "#FFD700" : "red") // vàng
-                          : isSelected
-                            ? "#28a745" // xanh khi chọn
-                            : isPast
-                              ? "#aaaaaaff"
-                              : "",
-                        color: isPast || isBooked || isTodayBooked ? "white" : isSelected ? "white" : "black",
-                        transition: "0.2s",
-                      }}
-                    >
-                      {isSelected
-                        ? "Đã chọn"
-                        : ""}
-                    </td>
-                  );
-                })}
-              </tr>
-            ))}
-          </tbody>
-        </table>
-      </div>
+    <div
+      className="modal fade show d-block"
+      style={{ backgroundColor: "rgba(0,0,0,0.5)" }}
+    >
+      <div className="modal-dialog modal-xl modal-dialog-centered">
+        <div className="modal-content">
+          {/* Header với nút đóng */}
+          <div className="modal-header">
+            <h2 className="mb-0" style={{ color: "#7f5539" }}>
+              Lịch hẹn bác sĩ thú y
+            </h2>
+            <button
+              type="button"
+              className="btn-close"
+              onClick={handleClose}
+              aria-label="Close"
+            ></button>
+          </div>
 
-      {selectedSlot && (
-        <div className="alert alert-success mt-3">
-          Slot đã chọn: Ngày {selectedSlot.day}, {selectedSlot.hour}:00
+          {/* Body */}
+          <div className="modal-body">
+            <p>September 2025</p>
+            <div
+              className="table-responsive"
+              style={{ maxHeight: "500px", overflowY: "auto" }}
+            >
+              <table className="table table-bordered table-hover text-center">
+                <thead className="table-light sticky-top">
+                  <tr>
+                    <th scope="col">Ngày / Giờ</th>
+                    {hours.map((hour) => (
+                      <th key={hour} scope="col">
+                        {hour}:00
+                      </th>
+                    ))}
+                  </tr>
+                </thead>
+                <tbody>
+                  {days.map((day) => (
+                    <tr key={day}>
+                      <th scope="row">Ngày {day}</th>
+                      {hours.map((hour) => {
+                        const isPast = day < todayDay;
+                        const isSelected =
+                          selectedSlot?.day === day &&
+                          selectedSlot?.hour === hour;
+                        const isBooked = isSlotBooked(day, hour);
+                        const isTodayBooked = isSlotBookedToday(day, hour);
+
+                        return (
+                          <td
+                            key={hour}
+                            onClick={() => handleSelect(day, hour)}
+                            style={{
+                              cursor:
+                                isPast || isBooked ? "not-allowed" : "pointer",
+                              backgroundColor: isBooked
+                                ? isTodayBooked
+                                  ? "#FFD700" // vàng
+                                  : "red"
+                                : isSelected
+                                ? "#28a745" // xanh khi chọn
+                                : isPast
+                                ? "#aaaaaa"
+                                : "",
+                              color:
+                                isPast || isBooked || isTodayBooked
+                                  ? "white"
+                                  : isSelected
+                                  ? "white"
+                                  : "black",
+                              transition: "0.2s",
+                            }}
+                          >
+                            {isSelected ? "Đã chọn" : ""}
+                          </td>
+                        );
+                      })}
+                    </tr>
+                  ))}
+                </tbody>
+              </table>
+            </div>
+
+            {selectedSlot && (
+              <div className="alert alert-success mt-3">
+                Slot đã chọn: Ngày {selectedSlot.day}, {selectedSlot.hour}:00
+              </div>
+            )}
+          </div>
         </div>
-      )}
+      </div>
     </div>
   );
 }

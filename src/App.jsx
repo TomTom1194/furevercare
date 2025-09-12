@@ -32,7 +32,7 @@ import Event from "./Component/animalshelter/event/Event";
 import ShelterContact from "./Component/animalshelter/sheltercontact/ShelterContact";
 
 //Vet
-import HomeVet from "./pages/Veterinarian/HomeVet";
+import HomeVet from "./pages/Veterinarian/HomeVeterinarian";
 import VetProfile from "./pages/Veterinarian/VetProfile";
 
 export default function App() {

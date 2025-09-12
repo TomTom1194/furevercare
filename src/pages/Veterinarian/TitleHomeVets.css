@@ -92,7 +92,7 @@
 .vet-card .card-text-specialization {
   font-family: "Noto Sans", sans-serif;
   font-weight: 600; /* in đậm */
-  text-transform: uppercase; /* viết hoa */
+
   color: #333;
 }
 
@@ -126,7 +126,7 @@
   margin-bottom: 8px;
 }
 .vet-info {
-  text-align: left;
+  text-align: center;
   font-family: "Noto Sans", sans-serif;
   font-size: 0.95rem;
   color: #444;
