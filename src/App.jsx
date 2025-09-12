@@ -3,6 +3,7 @@
 import { Route, Routes } from "react-router-dom";
 import React from "react";
 import { BrowserRouter as Router } from "react-router-dom";
+import ScrollToTop from "./components/ScrollToTop";
 
 import PetOwnerLayout from "./layouts/PetOwnerLayout";
 import AnimalShelterLayout from "./layouts/AnimalShelterLayout";
@@ -41,6 +42,7 @@ import VetProfile from "./pages/Veterinarian/VetProfile";
 export default function App() {
   return (
     <Router>
+      <ScrollToTop />
       <Routes>
         {/*Start*/}
         <Route path="/" element={<Home />} />
