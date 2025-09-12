@@ -143,7 +143,6 @@ function MyPetDetail() {
                 )}
             </div>
 
-            {/* Appointments */}
             <div className="mt-5">
                 <h3 className="mb-3">Upcoming Appointments</h3>
                 {pet.appointments && pet.appointments.length > 0 ? (
