@@ -72,10 +72,10 @@
 
 /* Image inside card */
 .vet-card-img {
-  height: 200px; /* giảm chiều cao hiển thị */
+  height: 200px;
   width: 100%;
-  object-fit: cover; /* cắt ảnh thay vì co giãn */
-  object-position: top; /* chỉ lấy phần phía trên của ảnh */
+  object-fit: cover; /* lấp đầy khung */
+  object-position: 50% 30%; /* canh giữa, đẩy focus xuống 30% để giữ mặt */
 }
 
 /* Card title */
