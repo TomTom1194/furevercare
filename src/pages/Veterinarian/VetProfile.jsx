@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React from "react";
 import { useParams, Link } from "react-router-dom";
 import vets from "../../Data/Vet/veterinarian.json";
 import BookingModal from "./BookingModal";
@@ -6,12 +6,6 @@ import BookingModal from "./BookingModal";
 const VetProfile = () => {
   const { id } = useParams();
   const vet = vets.find((v) => v.id === parseInt(id));
-
-  // State để hiển thị modal
-  const [showModal, setShowModal] = useState(false);
-
-  const handleBookingNow = () => setShowModal(true);
-  const handleCloseModal = () => setShowModal(false);
 
   if (!vet) {
     return (
@@ -34,7 +28,7 @@ const VetProfile = () => {
 
   return (
     <div className="container mt-4">
-      <div className="card shadow p-4">
+      <div className="p-4">
         <div className="row">
           <div className="col-md-4">
             <img
@@ -72,32 +66,13 @@ const VetProfile = () => {
               >
                 ← Back to List
               </Link>
-
-              {/* Booking Now - nút nền nâu sang trọng */}
-              <button
-                className="btn"
-                style={{
-                  backgroundColor: "#7f5539",
-                  color: "white",
-                  border: "none",
-                }}
-                onClick={handleBookingNow}
-              >
-                Booking Now
-              </button>
             </div>
           </div>
         </div>
       </div>
 
-      {/* Booking Modal */}
-      {showModal && (
-        <BookingModal
-          show={showModal}
-          vet={vet}
-          handleClose={handleCloseModal}
-        />
-      )}
+      {/* Booking Modal hiển thị mặc định */}
+      <BookingModal vet={vet} />
     </div>
   );
 };

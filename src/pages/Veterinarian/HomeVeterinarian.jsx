@@ -167,14 +167,6 @@ const HomeVeterinarian = () => {
                       <strong>Working Hours:</strong>
                       <br /> {vet.working_time}
                     </p>
-                    <p className="card-text vet-info">
-                      <strong>Email:</strong>{" "}
-                      <a href={`mailto:${vet.email}`}>{vet.email}</a>
-                    </p>
-                    <p className="card-text vet-info">
-                      <strong>Phone:</strong>{" "}
-                      <a href={`tel:${vet.phone}`}>{vet.phone}</a>
-                    </p>
                   </div>
                 </div>
               </div>
