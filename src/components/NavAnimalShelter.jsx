@@ -1,57 +1,92 @@
 import React from "react";
-import { Link } from "react-router-dom";
+import { NavLink } from "react-router-dom";
 
 function Header() {
+  const closeNavbar = () => {
+    const navbarCollapse = document.getElementById("navbarLinks");
+    if (navbarCollapse && navbarCollapse.classList.contains("show")) {
+      const bsCollapse = window.bootstrap.Collapse.getInstance(navbarCollapse);
+      bsCollapse.hide();
+    }
+  };
+
   return (
-    <nav className="navbar navbar-expand-lg navbar-light bg-light px-3">
-      {/* Logo */}
-      <Link className="navbar-brand" to="/animal">
-        <img
-          src="/images/logo.png"
-          alt="logo"
-          width="80"
-          height="80"
-          className="d-inline-block align-top"
-        />
-      </Link>
+    <nav className="navbar navbar-expand-lg navbar-light bg-white ps-lg-5 px-3 shadow-sm fixed-top">
+      <div className="container-fluid">
+        {/* Logo */}
+        <NavLink
+          className="navbar-brand"
+          to="/animalshelter/animal"
+          onClick={closeNavbar}
+        >
+          <img
+            src="/images/logo.png"
+            alt="logo"
+            className="img-fluid"
+            style={{ maxWidth: "80px" }}
+          />
+        </NavLink>
 
-      {/* Toggle button (hiện trên mobile) */}
-      <button
-        className="navbar-toggler"
-        type="button"
-        data-bs-toggle="collapse"
-        data-bs-target="#navbarNav"
-        aria-controls="navbarNav"
-        aria-expanded="false"
-        aria-label="Toggle navigation"
-      >
-        <span className="navbar-toggler-icon"></span>
-      </button>
+        {/* Toggle button (hiện trên mobile) */}
+        <button
+          className="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarLinks"
+          aria-controls="navbarLinks"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span className="navbar-toggler-icon"></span>
+        </button>
 
-      {/* Nav items */}
-      <div className="collapse navbar-collapse" id="navbarNav">
-        <ul className="navbar-nav w-100 d-flex justify-content-evenly">
-          <li className="nav-item">
-            <Link className="nav-link" to="/animalshelter/animal">
-              Gallery
-            </Link>
-          </li>
-          <li className="nav-item">
-            <Link className="nav-link" to="/animalshelter/story">
-              Success Story
-            </Link>
-          </li>
-          <li className="nav-item">
-            <Link className="nav-link" to="/animalshelter/event">
-              Event
-            </Link>
-          </li>
-          <li className="nav-item">
-            <Link className="nav-link" to="/animalshelter/sheltercontact">
-              Shelter Contact
-            </Link>
-          </li>
-        </ul>
+        {/* Nav items */}
+        <div
+          className="collapse navbar-collapse justify-content-center order-3"
+          id="navbarLinks"
+        >
+          <ul
+            className="navbar-nav d-flex justify-content-center text-end"
+            style={{ fontWeight: "300", gap: "40px", fontSize: "1rem" }}
+          >
+            <li className="nav-item">
+              <NavLink
+                className="nav-link text-dark"
+                to="/animalshelter/animal"
+                onClick={closeNavbar}
+              >
+                Gallery
+              </NavLink>
+            </li>
+            <li className="nav-item">
+              <NavLink
+                className="nav-link text-dark"
+                to="/animalshelter/story"
+                onClick={closeNavbar}
+              >
+                Success Story
+              </NavLink>
+            </li>
+            <li className="nav-item">
+              <NavLink
+                className="nav-link text-dark"
+                to="/animalshelter/event"
+                onClick={closeNavbar}
+              >
+                Event
+              </NavLink>
+            </li>
+            <li className="nav-item">
+              <NavLink
+                className="nav-link text-dark"
+                to="/animalshelter/sheltercontact"
+                onClick={closeNavbar}
+              >
+                Shelter Contact
+              </NavLink>
+            </li>
+          </ul>
+        </div>
       </div>
     </nav>
   );

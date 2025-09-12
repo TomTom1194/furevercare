@@ -89,8 +89,7 @@ const HomeVeterinarian = () => {
               />
               <div className="carousel-caption custom-caption-bottom">
                 <div
-                  style={{
-                    backgroundColor: "rgba(0, 0, 0, 0.5)", // nền đen trong suốt
+                  style={{backgroundColor: "rgba(0, 0, 0, 0.5)", // nền đen trong suốt
                     padding: "15px 25px",
                     borderRadius: "10px",
                     display: "inline-block",
