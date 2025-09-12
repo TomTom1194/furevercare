@@ -145,7 +145,7 @@ function BookingModal() {
             &#8592;
           </button>
           <span className="mx-2">
-            {new Date(year, month - 1).toLocaleString("default", {
+            {new Date(year, month - 1).toLocaleString("en-US", {
               month: "long",
               year: "numeric",
             })}

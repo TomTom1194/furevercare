@@ -67,13 +67,12 @@ function HomeFooter() {
                   src="/images/logo.png"
                   alt="FurEver Care Logo"
                   style={{
-                    height: "40px",
-                    width: "40px",
+                    height: "100px",
+                    width: "100px",
                     objectFit: "contain",
                   }}
                   className="me-2"
                 />
-                <h2 className="fw-bold mb-0">FurEver Care</h2>
               </div>
               <p className="mb-2 small">
                 Dedicated to the health and happiness of your beloved pets.
