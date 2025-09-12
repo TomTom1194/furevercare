@@ -13,7 +13,7 @@ function HomeProduct({ db }) {
                             to={`/petowner/petproduct/${product.id}`}
                             style={{ textDecoration: "none", color: "inherit" }}
                         >
-                            <div className="card cardhover h-100">
+                            <div className="card shadow-sm h-100">
                                 <img
                                     src={product.mainImage}
                                     className="card-img-top"
@@ -47,7 +47,7 @@ function HomeProduct({ db }) {
                                     </div>
 
                                     <h5 className="card-text fw-bold mb-3">${product.price}</h5>
-                                    <button className="btn btncss mt-auto">Buy Now</button>
+                                    <button className="btn btn-primary mt-auto">Buy Now</button>
                                 </div>
                             </div>
                         </Link>
@@ -58,7 +58,7 @@ function HomeProduct({ db }) {
             {db.length > 8 && (
                 <div className="text-center mt-4">
                     <Link to="/petowner/petcare">
-                        <button className="btn btncss-outline px-4 py-2">
+                        <button className="btn btn-outline-primary px-4 py-2">
                             View More Product
                         </button>
                     </Link>

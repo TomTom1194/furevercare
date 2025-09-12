@@ -8,7 +8,7 @@ function InforContact() {
                 <div className="col-lg-5">
                     <div className="card shadow-sm border-0 h-100">
                         <div className="card-body">
-                            <h4 className="card-title fw-bold  mb-4" style={{ color: "#7f5539" }}>Team Contact Information</h4>
+                            <h4 className="card-title fw-bold text-success mb-4">Team Contact Information</h4>
                             <p className="card-text mb-3">
                                 <i className="bi bi-envelope-fill text-danger me-2"></i>
                                 <strong>Email:</strong> contact@furevercare.com

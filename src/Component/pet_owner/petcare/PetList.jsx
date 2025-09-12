@@ -12,12 +12,12 @@ function PetList({ db }) {
         {db.map((pet) => (
           <div key={pet.id} className="col-sm-6 col-md-4">
             <Link to={`/petowner/petcare/${pet.breed}`}>
-              <div className="card cardhover h-100">
+              <div className="card shadow-sm h-100">
                 <img
                   src={pet.mainImage}
                   className="card-img-top"
                   alt={pet.breed}
-                  style={{ height: "200px", objectFit: "contain" }}
+                  style={{ height: "200px", objectFit: "cover" }}
                 />
                 <div className="card-body d-flex flex-column">
                   <h5 className="card-title">{pet.breed}</h5>
@@ -34,7 +34,7 @@ function PetList({ db }) {
                   >
                     {pet.training_tips}
                   </p>
-                  <button className="btn btncss mt-auto">View Details</button>
+                  <button className="btn btn-primary mt-auto">View Details</button>
                 </div>
               </div>
             </Link>

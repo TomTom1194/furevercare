@@ -1,7 +1,6 @@
 import Carousel from "../../Component/pet_owner/home/Carousel";
 import HomeCare from "../../Component/pet_owner/home/HomeCare";
 import HomeProduct from "../../Component/pet_owner/home/HomeProduct";
-import "../../index.css"
 
 function HomePetowner({ pet, product }) {
     return (
