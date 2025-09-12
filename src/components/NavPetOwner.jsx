@@ -30,7 +30,12 @@ function NavPetowner() {
                     >
                         <ul className="navbar-nav me-auto mb-2 mb-lg-0 ">
                             <li className="nav-item">
-                                <Link className="nav-link" to="/petowner/homepetowner">
+                                <Link to="/petowner/home">
+                                    <img src="/images/logo.png" alt="Logo" style={{ width: "70px" }} />
+                                </Link>
+                            </li>
+                            <li className="nav-item">
+                                <Link className={`nav-link ${isActive("/petowner/home")}`} to="/petowner/home">
                                     Home
                                 </Link>
                             </li>
@@ -60,11 +65,40 @@ function NavPetowner() {
                                 </Link>
                             </li>
                             <li className="nav-item">
-                                <Link className="nav-link" to="/petowner/emergency">
-                                    Emergency and Vet Help
+                                <Link className={`nav-link ${isActive("/petowner/emergency")}`} to="/petowner/emergency">
+                                    Emergency
+                                </Link>
+                            </li>
+                            <li className="nav-item">
+                                <Link className={`nav-link`} to="/veterinarian">
+                                    Veterinarian
+                                </Link>
+                            </li>
+                            <li className="nav-item">
+                                <Link className={`nav-link`} to="/animalshelter/animal">
+                                    Animal Shelter
                                 </Link>
                             </li>
                         </ul>
+
+                        {currentUser && currentUser.role === "user" && (
+                            <Link
+                                to="/petowner/myprofile"
+                                className="btn"
+                                style={{ backgroundColor: "#7f5539", color: "white" }}
+                            >
+                                Hi, {currentUser.name}
+                            </Link>
+                        )}
+                        {currentUser && currentUser.role === "vet" && (
+                            <Link
+                                to="/veterinarian/myprofile"
+                                className="btn"
+                                style={{ backgroundColor: "#7f5539", color: "white" }}
+                            >
+                                Hi, {currentUser.name}
+                            </Link>
+                        )}
                     </div>
                 </div>
             </nav>

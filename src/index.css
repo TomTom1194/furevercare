@@ -48,6 +48,123 @@ a {
   color: white;
 }
 
+.nav-link {
+  position: relative;
+}
+
+.nav-link::after {
+  content: '';
+  position: absolute;
+  width: 0%;
+  height: 2px;
+  bottom: 0;
+  left: 0;
+  background-color: black;
+  transition: width 0.3s ease;
+}
+
+.nav-link:hover::after,
+.nav-link.active::after {
+  width: 100%;
+}
+
+.custom-card-hover {
+  transition: all 0.3s ease;
+}
+
+.custom-card-hover:hover {
+  box-shadow: 2px 2px 0 4px black !important;
+  transform: translateY(-4px);
+  /* thêm hiệu ứng nhấc nhẹ card */
+}
+
+.btn-outline-secondary {
+  background-color: #fff;
+  transition: background-color 0.3s, color 0.3s;
+}
+
+.btn-outline-secondary:hover {
+  background-color: black;
+  color: white;
+}
+
+.btncss {
+  background-color: #7f5539 !important;
+  color: white !important;
+}
+
+.btncss:hover {
+  background-color: black !important;
+  color: white !important;
+}
+
+.btncss-outline {
+  background-color: white !important;
+  color: #7f5539 !important;
+  border-color: #7f5539;
+}
+
+.btncss-outline:hover {
+  background-color: #7f5539 !important;
+  color: white !important;
+}
+
+.text-brown {
+  color: #7f5539;
+  ;
+}
+
+.swiper-button-prev,
+.swiper-button-next {
+  width: 40px;
+  height: 40px;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  background-color: transparent;
+  border-radius: 50%;
+
+}
+
+.swiper-button-prev::after,
+.swiper-button-next::after {
+  font-size: 18px;
+  color: #7f5539;
+
+}
+
+/* css for nav petonwer */
+.navbar .nav-link {
+  position: relative;
+  color: #333;
+  transition: all 0.3s ease;
+}
+
+.navbar .nav-link:hover::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: -2px;
+  width: 100%;
+  height: 2px;
+  background-color: #7f5539;
+}
+
+.navbar .nav-link.active-link::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: -2px;
+  width: 100%;
+  height: 2px;
+  background-color: #7f5539;
+}
+
+/* css card hover */
+.cardhover:hover {
+  box-shadow: 4px 4px 0px black !important;
 .text-truncate-3 {
   display: -webkit-box !important;
   -webkit-line-clamp: 3;
@@ -56,4 +173,5 @@ a {
   text-overflow: ellipsis;
   line-height: 1.4;
   max-height: calc(1.4em * 3);
+}
 }

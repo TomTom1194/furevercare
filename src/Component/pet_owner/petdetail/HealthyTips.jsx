@@ -2,7 +2,7 @@ function HealthyTips({ pet }) {
     return (
         <div className="healthytips">
             <div className="my-4 ">
-                <h2 className="text-center mb-3 text-primary fw-bold">
+                <h2 className="text-center mb-3 text-brown fw-bold">
                     Healthy Care Tips
                 </h2>
                 <div className="d-flex justify-content-center">

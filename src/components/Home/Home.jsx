@@ -1,5 +1,6 @@
 import React, { useState } from "react";
-import { useNavigate } from "react-router-dom";
+import { Link, useNavigate } from "react-router-dom";
+import user from "../../Data/user.json";
 import "./Home.css";
 
 const Home = () => {
@@ -11,7 +12,24 @@ const Home = () => {
       alert("Please enter your name before proceeding!");
       return;
     }
-    navigate(path, { state: { userName: name } });
+
+    // Tìm user trong JSON
+    const existingUser = user.find((u) => u.email === email);
+
+    if (!existingUser) {
+      alert("Email does not exist in our system!");
+      return;
+    }
+
+    localStorage.setItem("currentUser", JSON.stringify(existingUser));
+
+    if (selectedRole === "petowner") {
+      navigate("/petowner/home", { state: { email: email } });
+    } else if (selectedRole === "animalshelter") {
+      navigate("/animalshelter/animal", { state: { email: email } });
+    } else if (selectedRole === "veterinarian") {
+      navigate("/veterinarian", { state: { email: email } });
+    }
   };
 
   return (
@@ -68,7 +86,6 @@ const Home = () => {
             </button>
           </div>
         </div>
-
         {/* Submit */}
         <div className="d-grid">
           <button
@@ -78,6 +95,7 @@ const Home = () => {
             Submit
           </button>
         </div>
+        <small className="text-center my-3">Don't have account? <Link to="signup" className="text-brown">Sign Up</Link></small>
       </div>
     </div>
   );

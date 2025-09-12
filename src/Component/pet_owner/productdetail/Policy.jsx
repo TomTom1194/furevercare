@@ -30,7 +30,7 @@ function Policy() {
                 <hr className="my-2" />
                 <p className="mb-0 d-flex align-items-center">
                     <i className="bi bi-telephone text-danger me-2 fs-3"></i>
-                    Hotline: <span className="fw-bold text-primary">0123 456 789</span>
+                    Hotline: <span className="fw-bold text-brown">0123 456 789</span>
                 </p>
             </div>
         </div>

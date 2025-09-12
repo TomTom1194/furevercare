@@ -94,6 +94,7 @@ const VetProfile = () => {
               <span>{vet.phone}</span>
             </div>
             <hr className="my-2" />
+
             <div className="d-flex mb-3">
               <strong className="me-2" style={{ width: "120px" }}>
                 Working Time:
