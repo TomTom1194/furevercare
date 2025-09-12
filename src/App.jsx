@@ -11,9 +11,9 @@ import Home from "./components/Home/Home";
 
 //Petowner
 import HomePetowner from "./pages/PetOwner/home";
-import PetCare from "./pages/PetOwner/petcare";
-import PetProduct from "./pages/PetOwner/petproduct";
-import FeedBack from "./pages/PetOwner/feedback";
+import PetCare from "./pages/PetOwner/Petcare";
+import PetProduct from "./pages/PetOwner/Petproduct";
+import FeedBack from "./pages/PetOwner/Feedback";
 import AboutUs from "./pages/PetOwner/aboutus";
 import ContactUs from "./pages/PetOwner/contactus";
 import EmerPage from "./pages/PetOwner/emerpage";
@@ -28,6 +28,7 @@ import Gallery from "./pages/Shelter/Gallery";
 import HomeShelter from "./pages/Shelter/HomeShelter";
 import ShelterContact from "./pages/Shelter/ShelterContact";
 import Success from "./pages/Shelter/Success";
+import AnimalShelter from "./Component/animalshelter/gallery/AnimalShelter";
 
 //Vet
 import HomeVet from "./pages/Veterinarian/HomeVeterinarian";
