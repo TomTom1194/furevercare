@@ -145,7 +145,7 @@ function MyPetDetail() {
                                 <strong>Time:</strong> {appt.time} <br />
                                 <strong>Vet:</strong> {appt.vet} <br />
                                 <strong>Status:</strong> {appt.status} <br />
-                                <strong>Treatment:</strong> {appt.treatment}
+                                <strong>Treatment:</strong> {appt.treatmentgit}
                             </li>
                         ))}
                     </ul>
