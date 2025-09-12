@@ -58,11 +58,13 @@ export default function App() {
           <Route path="aboutus" element={<AboutUs />} />
           <Route path="contactus" element={<ContactUs />} />
           <Route path="emergency" element={<EmerPage />} />
+          <Route path="myprofile" element={<MyProfile />} />
           <Route path="petcare/:breed" element={<PetDetail db={petcare} />} />
           <Route
             path="petproduct/:id"
             element={<ProductDetail db={petproduct} />}
           />
+          <Route path="pet/:id" element={<MyPetDetail />} />
         </Route>
 
         {/* Veterinarian routes */}

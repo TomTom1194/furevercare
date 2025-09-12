@@ -35,7 +35,8 @@
                 "date": "2025-09-20",
                 "time": "15:00",
                 "vet": "Dr. Brown",
-                "status": "upcoming"
+                "status": "upcoming",
+                "treatment": "Grooming"
             }
         ],
         "notes": "Lucy is playful but sometimes lazy. Needs more exercise."

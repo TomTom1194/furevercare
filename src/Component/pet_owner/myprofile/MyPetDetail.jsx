@@ -144,7 +144,8 @@ function MyPetDetail() {
                                 <strong>Date:</strong> {appt.date} <br />
                                 <strong>Time:</strong> {appt.time} <br />
                                 <strong>Vet:</strong> {appt.vet} <br />
-                                <strong>Status:</strong> {appt.status}
+                                <strong>Status:</strong> {appt.status} <br />
+                                <strong>Treatment:</strong> {appt.treatment}
                             </li>
                         ))}
                     </ul>
