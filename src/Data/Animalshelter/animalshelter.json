@@ -20,11 +20,11 @@
     "breed": "pitbull",
     "age": 4,
     "description": "Rocky is a loyal pitbull with a gentle heart, well-trained and loves children.",
-    "mainImage": "https://example.com/images/pitbull_rocky_main.jpg",
+    "mainImage": "https://www.rover.com/blog/wp-content/uploads/Pit-bull-names.jpg",
     "images": [
-      "https://example.com/images/pitbull_rocky_1.jpg",
-      "https://example.com/images/pitbull_rocky_2.jpg",
-      "https://example.com/images/pitbull_rocky_3.jpg"
+      "https://worldanimalfoundation.org/wp-content/uploads/2022/12/Exercise-review-2.jpg",
+      "https://dbw3zep4prcju.cloudfront.net/animal/a02d90e6-2fe0-4c4d-a072-cebb1576f4f9/image/72140c6f-f94a-4cc6-a418-d30a910dd6af.jpg?versionId=Cjtju5F3kYlyJvjcdXcSsfuR28_w.B__&bust=1713277096",
+      "https://puppytoob.com/wp-content/uploads/2023/02/Rocky-1.webp"
     ]
   },
   {
@@ -34,11 +34,11 @@
     "breed": "rottweiler",
     "age": 5,
     "description": "Max is a strong rottweiler, protective yet affectionate with family.",
-    "mainImage": "https://example.com/images/rottweiler_max_main.jpg",
+    "mainImage": "https://cdn.britannica.com/69/234469-050-B883797B/Rottweiler-dog.jpg",
     "images": [
-      "https://example.com/images/rottweiler_max_1.jpg",
-      "https://example.com/images/rottweiler_max_2.jpg",
-      "https://example.com/images/rottweiler_max_3.jpg"
+      "https://cdn.royalcanin-weshare-online.io/RVaO8noBBKJuub5qUrpq/v3/bp-lot-2-rottweiler-couleur-portrait",
+      "https://pethouse.com.vn/wp-content/uploads/2023/08/cho-roti.webp",
+      "https://channuoithuy.com.vn/wp-content/uploads/2024/08/cho-rottweiler-gia-1200x900.jpg"
     ]
   },
   {
@@ -48,11 +48,11 @@
     "breed": "golden retriever",
     "age": 3,
     "description": "Bella is a cheerful golden retriever who enjoys swimming and outdoor games.",
-    "mainImage": "https://example.com/images/golden_bella_main.jpg",
+    "mainImage": "https://www.dailypaws.com/thmb/DQfQglzyKWlVSlsDwKPprF2iMSg=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/golden-retriever-177213599-2000-a30830f4d2b24635a5d01b3c5c64b9ef.jpg",
     "images": [
-      "https://example.com/images/golden_bella_1.jpg",
-      "https://example.com/images/golden_bella_2.jpg",
-      "https://example.com/images/golden_bella_3.jpg"
+      "https://cdn.royalcanin-weshare-online.io/V1Yv7XoBBKJuub5qCLlq/v1/bp-lot-2-golden-retriever-couleur-outdoor",
+      "https://toquoc.mediacdn.vn/280518851207290880/2021/11/4/avatar1636026952068-16360269530042005000667.jpg",
+      "https://cdn.britannica.com/65/102265-050-EC17E3B0/retriever-puppies.jpg"
     ]
   },
   {
@@ -62,11 +62,11 @@
     "breed": "poodle",
     "age": 1,
     "description": "Coco is a smart toy poodle, easy to train and very friendly with other pets.",
-    "mainImage": "https://example.com/images/poodle_coco_main.jpg",
+    "mainImage": "https://www.dailypaws.com/thmb/LsdP3tWyKD45UmxbejhKhvdlzOc=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/toy-poodle-puppy-in-hands-1288649610-2000-3659ce78ca1b4c06b43c447d45179edb.jpg",
     "images": [
-      "https://example.com/images/poodle_coco_1.jpg",
-      "https://example.com/images/poodle_coco_2.jpg",
-      "https://example.com/images/poodle_coco_3.jpg"
+      "https://i.cdn.newsbytesapp.com/images/l8920240125102707.jpeg",
+      "https://www.dailypaws.com/thmb/Viw7YmgSb-1XayDz-vBl2EhHh8U=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/puppy-at-home-alone-chaos-1286259464-2000-7d4c4948c6f949e1abf3949a49d97746.jpg",
+      "https://furstheory.com/wp-content/uploads/2022/11/steven-van-elk-1OnbCf7AOdY-unsplash_1.jpg"
     ]
   },
   {
@@ -76,11 +76,11 @@
     "breed": "chihuahua",
     "age": 2,
     "description": "Milo is a tiny chihuahua with a big personality. Loves to nap on warm laps.",
-    "mainImage": "https://example.com/images/chihuahua_milo_main.jpg",
+    "mainImage": "https://cdn.britannica.com/44/233244-050-A65D4571/Chihuahua-dog.jpg",
     "images": [
-      "https://example.com/images/chihuahua_milo_1.jpg",
-      "https://example.com/images/chihuahua_milo_2.jpg",
-      "https://example.com/images/chihuahua_milo_3.jpg"
+      "https://consumer-cms.petfinder.com/sites/default/files/images/content/Chihuahua%20%204.jpg",
+      "https://www.dailypaws.com/thmb/x6NeOXEc5FALmukV3NhuNzD1_ak=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/chihuahua-800489110-2000-dcbba2b3d8484ea38b35a6d9df9535ad.jpg",
+      "https://blog.petloverscentre.com/wp-content/uploads/2023/11/Chihuahua-Singapore-featured-image-e1700546013184.png"
     ]
   },
   {
@@ -90,11 +90,11 @@
     "breed": "dalmatian",
     "age": 3,
     "description": "Spot is an energetic dalmatian who enjoys running and playing fetch.",
-    "mainImage": "https://example.com/images/dalmatian_spot_main.jpg",
+    "mainImage": "https://cdn.britannica.com/47/236047-050-F06BFC5E/Dalmatian-dog.jpg",
     "images": [
-      "https://example.com/images/dalmatian_spot_1.jpg",
-      "https://example.com/images/dalmatian_spot_2.jpg",
-      "https://example.com/images/dalmatian_spot_3.jpg"
+      "https://www.dailypaws.com/thmb/ROtowIyJK5RqCBbU84qjRH4aGaw=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/dalmatian-2-beach-908008204-2000-1ace82eddc9e43a798aa1fa841600e6b.jpg",
+      "https://dogwellnet.com/uploads/monthly_2022_07/555127158_3dalmatians.PNG.edc4b3de8c0494786849641e11af39cc.PNG",
+      "https://petscare-assets-prod.s3.amazonaws.com/media/original_images/dalmatian-puppy-playing-red-ball-lawn-18345.webp"
     ]
   },
   {
@@ -104,11 +104,11 @@
     "breed": "samoyed",
     "age": 4,
     "description": "Snow is a fluffy samoyed with a friendly smile, perfect for families.",
-    "mainImage": "https://example.com/images/samoyed_snow_main.jpg",
+    "mainImage": "https://cdn.britannica.com/85/235885-050-C8CC6D8B/Samoyed-dog-standing-snow.jpg",
     "images": [
-      "https://example.com/images/samoyed_snow_1.jpg",
-      "https://example.com/images/samoyed_snow_2.jpg",
-      "https://example.com/images/samoyed_snow_3.jpg"
+      "https://cdn.wamiz.fr/cdn-cgi/image/format=auto,quality=80,width=1200,height=675,fit=cover/animal/breed/dog/adult/66e947cf51338694761304.jpg",
+      "https://consumer-cms.petfinder.com/sites/default/files/images/content/Samoyed%204.jpg",
+      "https://pet-health-content-media.chewy.com/wp-content/uploads/2024/09/11171244/202106Samoyed-FeaturedImage.jpg"
     ]
   },
   {
@@ -118,11 +118,11 @@
     "breed": "corgi",
     "age": 2,
     "description": "Charlie is a playful corgi who loves belly rubs and chasing balls.",
-    "mainImage": "https://example.com/images/corgi_charlie_main.jpg",
+    "mainImage": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fb/Welchcorgipembroke.JPG/1200px-Welchcorgipembroke.JPG",
     "images": [
-      "https://example.com/images/corgi_charlie_1.jpg",
-      "https://example.com/images/corgi_charlie_2.jpg",
-      "https://example.com/images/corgi_charlie_3.jpg"
+      "https://peticon.edu.vn/wp-content/uploads/2023/07/corgi-pem.webp",
+      "https://fagopet.vn/uploads/images/621ef0ae9487f634f844173d/cho-corki-long-ngan__1_.webp",
+      "https://pethelpful.com/.image/c_fill,g_xy_center,x_444,y_384/NDowMDAwMDAwMDAwMTA5OTM4/a-corgi-puppy-running.jpg"
     ]
   },
   {
@@ -132,11 +132,11 @@
     "breed": "maltese",
     "age": 3,
     "description": "Daisy is a gentle maltese who enjoys being pampered and brushed.",
-    "mainImage": "https://example.com/images/maltese_daisy_main.jpg",
+    "mainImage": "https://framerusercontent.com/images/BshlkyWmUNfQunw6ABacCRGM.jpg?width=1920&height=1282",
     "images": [
-      "https://example.com/images/maltese_daisy_1.jpg",
-      "https://example.com/images/maltese_daisy_2.jpg",
-      "https://example.com/images/maltese_daisy_3.jpg"
+      "https://www.servicedogtrainingschool.org/storage/app/uploads/public/648/083/cd2/648083cd2941c287420707.jpg",
+      "https://www.hypropremium.com.au/wp-content/uploads/2024/02/maltese-feeding-guide.webp",
+      "https://www.houndsy.com/cdn/shop/articles/what_is_the_average_weight_of_a_maltese_dog.webp?v=1753791571"
     ]
   },
   {
@@ -146,11 +146,11 @@
     "breed": "british shorthair",
     "age": 2,
     "description": "Luna is a calm and affectionate British Shorthair, ideal for a quiet household.",
-    "mainImage": "https://example.com/images/british_luna_main.jpg",
+    "mainImage": "https://closerpets.com/cdn/shop/articles/boris-debusscher-8hj_0KqePuk-unsplash.webp?v=1688541002",
     "images": [
-      "https://example.com/images/british_luna_1.jpg",
-      "https://example.com/images/british_luna_2.jpg",
-      "https://example.com/images/british_luna_3.jpg"
+      "https://scampsandchamps.co.uk/wp-content/uploads/2025/02/pexels-lichtblick800-29750372.jpg",
+      "https://cattime.com/wp-content/uploads/sites/14/2011/12/GettyImages-1361394182-e1699287824483.jpg",
+      "https://a-z-animals.com/media/2023/11/shutterstock-91195580-huge-licensed-scaled.jpg"
     ]
   },
   {
@@ -160,11 +160,11 @@
     "breed": "bengal",
     "age": 3,
     "description": "Simba is an active bengal cat who loves climbing and exploring.",
-    "mainImage": "https://example.com/images/bengal_simba_main.jpg",
+    "mainImage": "https://cdn.royalcanin-weshare-online.io/B1Zc8XoBBKJuub5qYbph/v3/bp-lot-2-bengal-couleur-human",
     "images": [
-      "https://example.com/images/bengal_simba_1.jpg",
-      "https://example.com/images/bengal_simba_2.jpg",
-      "https://example.com/images/bengal_simba_3.jpg"
+      "https://cdn.hswstatic.com/gif/shutterstock-2184723009-bengal-hero.jpg",
+      "https://cdn.mos.cms.futurecdn.net/v2/t:0,l:0,cw:1920,ch:1080,q:80,w:1920/Uwu9iN5UXkusxNwr2Dixuh.jpg",
+      "https://cfa.org/wp-content/uploads/2024/03/BengalPortrait.jpg"
     ]
   },
   {
@@ -174,11 +174,11 @@
     "breed": "siberian",
     "age": 4,
     "description": "Misty is a fluffy Siberian cat with a gentle and affectionate personality.",
-    "mainImage": "https://example.com/images/siberian_misty_main.jpg",
+    "mainImage": "https://www.treehugger.com/thmb/Z1KLsN0hs-KLhHM5riFadGXDirk=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/5-6e50cfaa6ab3451fbd72a391aad519a0.jpg",
     "images": [
-      "https://example.com/images/siberian_misty_1.jpg",
-      "https://example.com/images/siberian_misty_2.jpg",
-      "https://example.com/images/siberian_misty_3.jpg"
+      "https://images.squarespace-cdn.com/content/v1/62bf4e0a4460b11f3b234fce/62d0cc0c-986d-46c0-b093-60ca37729688/DSC03667.jpg",
+      "https://cat-world.com/wp-content/uploads/2017/06/silver-siberian.jpg",
+      "https://img.lb.wbmdstatic.com/vim/live/webmd/consumer_assets/site_images/article_thumbnails/reference_guide/what_to_know_siberian_cat_ref_guide/1800x1200_what_to_know_siberian_cat_ref_guide.jpg"
     ]
   },
   {
@@ -188,11 +188,11 @@
     "breed": "birman",
     "age": 5,
     "description": "Cleo is a gentle Birman cat who loves being held and cuddled.",
-    "mainImage": "https://example.com/images/birman_cleo_main.jpg",
+    "mainImage": "https://www.thesprucepets.com/thmb/D5s03LINbIYpZuiG6uvBpKrAKXk=/3500x0/filters:no_upscale():strip_icc()/GettyImages-623368786-f66c97ad6d2d494287b448415f4340a8.jpg",
     "images": [
-      "https://example.com/images/birman_cleo_1.jpg",
-      "https://example.com/images/birman_cleo_2.jpg",
-      "https://example.com/images/birman_cleo_3.jpg"
+      "https://a.storyblok.com/f/176726/1087x721/7fd20614e6/birman-cat-food.jpeg/m/1600x0",
+      "https://cdn.mos.cms.futurecdn.net/v2/t:0,l:0,cw:1920,ch:1080,q:80,w:1920/aimF4fyhkQ6h4ibm3L9jQS.jpg",
+      "https://www.petful.com/wp-content/uploads/2012/07/birman1.jpg"
     ]
   },
   {
@@ -202,11 +202,11 @@
     "breed": "manx",
     "age": 2,
     "description": "Oreo is a curious Manx cat with a playful nature and unique appearance.",
-    "mainImage": "https://example.com/images/manx_oreo_main.jpg",
+    "mainImage": "https://www.dailypaws.com/thmb/apeCV9uw056K5avKY66RaLsuMFc=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/manx-cat-grass-720114087-2000-f531fa6543e04675bd1be6c0ae123479.jpg",
     "images": [
-      "https://example.com/images/manx_oreo_1.jpg",
-      "https://example.com/images/manx_oreo_2.jpg",
-      "https://example.com/images/manx_oreo_3.jpg"
+      "https://web5.lifelearn.com/wp-content/uploads/2014/10/Manx.jpg",
+      "https://s.yimg.com/ny/api/res/1.2/DLEHepMFQypJjDzQrDGaPw--/YXBwaWQ9aGlnaGxhbmRlcjt3PTEyNDI7aD04Mjg7Y2Y9d2VicA--/https://media.zenfs.com/en/the_spruce_pets_articles_780/0fe493d18c614b89ef6b5d7f336b0f93",
+      "https://www.animalsaroundtheglobe.com/wp-content/uploads/2023/03/andreas-brun-f1SLpsPGODo-unsplash-1200x798.jpg.webp"
     ]
   },
   {
@@ -216,11 +216,11 @@
     "breed": "himalayan",
     "age": 6,
     "description": "Shadow is a Himalayan cat with striking blue eyes and a calm temperament.",
-    "mainImage": "https://example.com/images/himalayan_shadow_main.jpg",
+    "mainImage": "https://consumer-cms.petfinder.com/sites/default/files/images/content/Himalayan%20Cat%202.jpg",
     "images": [
-      "https://example.com/images/himalayan_shadow_1.jpg",
-      "https://example.com/images/himalayan_shadow_2.jpg",
-      "https://example.com/images/himalayan_shadow_3.jpg"
+      "https://www.rover.com/blog/wp-content/uploads/2020/10/Himalayan.jpg",
+      "https://cdn.wamiz.fr/cdn-cgi/image/format=auto,quality=80,width=1200,height=675,fit=cover/animal/breed/cat/adult/676d215204ad9717820944.jpg",
+      "https://framerusercontent.com/images/Ra4PtZcgRx5GVR2BABJBROqFJYA.jpg?width=4122&height=2748"
     ]
   },
   {
@@ -230,11 +230,11 @@
     "breed": "munchkin",
     "age": 1,
     "description": "Pixie is an adorable munchkin cat with short legs and a playful spirit.",
-    "mainImage": "https://example.com/images/munchkin_pixie_main.jpg",
+    "mainImage": "https://www.petrebels.com/en/wp-content/uploads/sites/3/2023/03/d-ng-ph-c-h-i-tri-u-4K4LuGXZnMs-unsplash-scaled.jpg",
     "images": [
-      "https://example.com/images/munchkin_pixie_1.jpg",
-      "https://example.com/images/munchkin_pixie_2.jpg",
-      "https://example.com/images/munchkin_pixie_3.jpg"
+      "https://www.petrebels.com/en/wp-content/uploads/sites/3/2023/03/bobbi-wu-yJ1fX6PAXtU-unsplash-scaled.jpg",
+      "https://consumer-cms.petfinder.com/sites/default/files/images/content/Munchkin%20Cat%203.jpg",
+      "https://www.munchkincatguide.com/wp-content/uploads/2018/12/munchkincatslider2.jpg"
     ]
   },
   {
@@ -244,11 +244,11 @@
     "breed": "asian cat",
     "age": 3,
     "description": "Sushi is a friendly Asian cat with a love for exploring new places.",
-    "mainImage": "https://example.com/images/asian_sushi_main.jpg",
+    "mainImage": "https://consumer-cms.petfinder.com/sites/default/files/images/content/Asian%20Cat%203.jpg",
     "images": [
-      "https://example.com/images/asian_sushi_1.jpg",
-      "https://example.com/images/asian_sushi_2.jpg",
-      "https://example.com/images/asian_sushi_3.jpg"
+      "https://consumer-cms.petfinder.com/sites/default/files/images/content/Asian%20Cat%204.jpg",
+      "https://www.mascotarios.org/wp-content/uploads/2021/10/Gato-asiatico.jpg",
+      "https://consumer-cms.petfinder.com/sites/default/files/images/content/Asian%20Cat%201.jpg"
     ]
   },
   {
@@ -258,11 +258,11 @@
     "breed": "british longhair",
     "age": 4,
     "description": "Fluffy is a sweet British Longhair who enjoys brushing and quiet evenings.",
-    "mainImage": "https://example.com/images/britishlonghair_fluffy_main.jpg",
+    "mainImage": "https://www.dailypaws.com/thmb/4cx_5J9AE9rLjgevJ_qNDYDQttc=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/british-longhaired-kitten-107842351-2000-d3b39dfd9db241b09b32ff041a0f0b77.jpg",
     "images": [
-      "https://example.com/images/britishlonghair_fluffy_1.jpg",
-      "https://example.com/images/britishlonghair_fluffy_2.jpg",
-      "https://example.com/images/britishlonghair_fluffy_3.jpg"
+      "https://www.dailypaws.com/thmb/-c6CPXmLmb_uUAW-6pXVu9iapzI=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/british-longhair-sitting-on-deck-678870071-2000-42bab29834c94b408cb974ee950f1f57.jpg",
+      "https://eu-central-1.graphassets.com/AnwjgMYRvQfWK3bRPjoq3z/output=format:webp/0jK9PybzS76rYc1grsVm",
+      "https://images.squarespace-cdn.com/content/v1/648c724c414d354e6d623173/1729341081904-1KO444ZIT44SQD26R44Q/DSC05644-Edit.jpeg"
     ]
   },
   {
@@ -272,11 +272,11 @@
     "breed": "thai cat",
     "age": 5,
     "description": "Tiger is an elegant Thai cat, intelligent and affectionate with people.",
-    "mainImage": "https://example.com/images/thaicat_tiger_main.jpg",
+    "mainImage": "https://brit-petfood.com/file/nodes/product/065%20(2).jpg",
     "images": [
-      "https://example.com/images/thaicat_tiger_1.jpg",
-      "https://example.com/images/thaicat_tiger_2.jpg",
-      "https://example.com/images/thaicat_tiger_3.jpg"
+      "https://basepaws.com/_next/image?url=https%3A%2F%2Fimages.ctfassets.net%2Fqj2yxv39d6ig%2F1giHPkTlgoRr4yMVi7aDaX%2Fbe316786734d84b9f610341cc85ebc76%2F29.jpg&w=3840&q=75",
+      "https://cdn.royalcanin-weshare-online.io/xCKqzGUBaxEApS7LNwVo/v2/bc383bl-bc55bl-thai-adult-standing",
+      "https://framerusercontent.com/images/aPaIZexKRIX4piRCn7OqoakAB0.jpg?width=1920&height=1280"
     ]
   },
   {
@@ -286,11 +286,11 @@
     "breed": null,
     "age": 5,
     "description": "Tiger is an elegant Thai cat, intelligent and affectionate with people.",
-    "mainImage": "https://example.com/images/thaicat_tiger_main.jpg",
+    "mainImage": "https://alicepetmart.com/wp-content/uploads/2022/12/cach-chon-Hamster-co-ban.jpg",
     "images": [
-      "https://example.com/images/thaicat_tiger_1.jpg",
-      "https://example.com/images/thaicat_tiger_2.jpg",
-      "https://example.com/images/thaicat_tiger_3.jpg"
+      "https://images.ctfassets.net/rt5zmd3ipxai/2ZrVD8uiz534M8MEfeCvUZ/301deb04b7a47b8477aed0210225eb2e/ServiceCards-Hamster.png?fit=fill&fm=webp&h=482&w=1070&q=72,%20https://images.ctfassets.net/rt5zmd3ipxai/2ZrVD8uiz534M8MEfeCvUZ/301deb04b7a47b8477aed0210225eb2e/ServiceCards-Hamster.png?fit=fill&fm=webp&h=964&w=2140&q=72",
+      "https://blog.omlet.us/wp-content/uploads/sites/6/2024/08/Hamster-drinking-from-the-Omlet-drinker-in-the-hamster-habitat.jpg",
+      "https://mew.vn/wp-content/uploads/2021/12/phan-biet-gioi-tinh-chuot-hamster-1.jpg"
     ]
   },
   {
@@ -300,11 +300,11 @@
     "breed": null,
     "age": 5,
     "description": "Tiger is an elegant Thai cat, intelligent and affectionate with people.",
-    "mainImage": "https://example.com/images/thaicat_tiger_main.jpg",
+    "mainImage": "https://pet-health-content-media.chewy.com/wp-content/uploads/2025/04/25190642/202504Hub-Small-Pet-Rabbit-SM-scaled-1.jpg",
     "images": [
-      "https://example.com/images/thaicat_tiger_1.jpg",
-      "https://example.com/images/thaicat_tiger_2.jpg",
-      "https://example.com/images/thaicat_tiger_3.jpg"
+      "https://www.thesprucepets.com/thmb/iDUukmHiOhz2Xoo4xMWrW2PpGUU=/3300x0/filters:no_upscale():strip_icc()/white-hotot-rabbit-eating-grass-509265984-5c0da06546e0fb0001366ac0.jpg",
+      "https://www.humaneworld.org/sites/default/files/2019/03/rabbit-475261_0.jpg",
+      "https://oshiprint.in/image/cache/catalog/poster/new/mqp889-1100x733.jpeg.webp"
     ]
   }
 ]

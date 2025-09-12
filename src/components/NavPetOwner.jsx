@@ -14,7 +14,6 @@ function NavPetowner() {
         }
     }, [location]);
 
-    // ✅ Helper để check active link
     const isActive = (path) => (location.pathname === path ? "active-link" : "");
 
     return (
