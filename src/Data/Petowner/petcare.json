@@ -4,14 +4,14 @@
     "species": "dog",
     "breed": "pug",
     "vaccine": "vaccinated",
-    "health_video": "https://www.youtube.com/embed/MGPbO3WnxqY?si=gS_y0HBkF90_FT9S",
+    "health_video": "https://www.youtube.com/watch?v=8Kkrmubsgf8",
     "training_tips": "Huấn luyện pug cần kiên nhẫn, thưởng bằng đồ ăn nhỏ.",
-    "grooming_video": "https://www.youtube.com/embed/0XjB2u2luds?si=3D-6D8lJ4iOMchPa",
-    "mainImage": "https://placehold.co/600x400",
+    "grooming_video": "https://www.youtube.com/embed/8NwEisecN7c?si=7OgMbr_QJv-6mq02",
+    "mainImage": "https://cdn.britannica.com/34/233234-050-1649BFA9/Pug-dog.jpg",
     "images": [
-      "https://placehold.co/600x400",
-      "https://placehold.co/600x400",
-      "https://placehold.co/600x400"
+      "https://upload.wikimedia.org/wikipedia/commons/9/98/Fawn-pug-and-black-pug.jpg",
+      "https://dichvuhuanluyencho.com/wp-content/uploads/2020/08/trung-tam-huan-luyen-cho-pug.jpg",
+      "https://nativepet.com/cdn/shop/articles/Pug-puppy-standing-on-a-bed.jpg?v=1667820606"
     ]
   },
   {
@@ -19,14 +19,14 @@
     "species": "dog",
     "breed": "pitbull",
     "vaccine": "vaccinated",
-    "health_video": "https://example.com/health/pitbull.mp4",
+    "health_video": "https://www.youtube.com/watch?v=Wgc1U7JtKzA",
     "training_tips": "Pitbull cần huấn luyện kỷ luật và vận động thường xuyên.",
-    "grooming_video": "https://example.com/grooming/pitbull.mp4",
-    "mainImage": "https://placehold.co/600x400",
+    "grooming_video": "https://www.youtube.com/watch?v=HzghblPMeh0",
+    "mainImage": "https://cdn.pixabay.com/photo/2023/06/29/12/05/american-pit-bull-8096264_1280.jpg",
     "images": [
-      "https://example.com/images/pitbull_1.jpg",
-      "https://example.com/images/pitbull_2.jpg",
-      "https://example.com/images/pitbull_3.jpg"
+      "https://i.ex-cdn.com/vovgiaothong.vn/files/content/2023/05/26/1-pitbull-la-giong-cho-nguy-hiem-bac-nhat-the-gioi-trong-khi-nhieu-quoc-gia-da-cam-nuoi-hoac-co-yeu-cau-nghiem-ngat-thi-quy-dinh-nuoi-cho-du-o-viet-nam-van-la-vung-trong-anh-minh-hoa-2002.jpg",
+      "https://redsvn.net/wp-content/uploads/2021/05/pitbull-emotional-support-animal-attack222s.jpg",
+      "https://cdn.img.kevesko.vn/img/07e5/05/15/10537575_0:100:1920:1180_1920x0_80_0_0_721e436a24f01ba6eb80ceb9c048d2d9.jpg"
     ]
   },
   {
@@ -34,14 +34,14 @@
     "species": "dog",
     "breed": "rottweiler",
     "vaccine": "vaccinated",
-    "health_video": "https://example.com/health/rottweiler.mp4",
+    "health_video": "https://www.youtube.com/watch?v=-wX7bFzQhHg",
     "training_tips": "Rottweiler cần huấn luyện xã hội hóa từ sớm.",
-    "grooming_video": "https://example.com/grooming/rottweiler.mp4",
-    "mainImage": "https://placehold.co/600x400",
+    "grooming_video": "https://www.youtube.com/watch?v=GBZnnOe_n5g",
+    "mainImage": "https://cdn.britannica.com/69/234469-050-B883797B/Rottweiler-dog.jpg",
     "images": [
-      "https://example.com/images/rottweiler_1.jpg",
-      "https://example.com/images/rottweiler_2.jpg",
-      "https://example.com/images/rottweiler_3.jpg"
+      "https://consumer-cms.petfinder.com/sites/default/files/images/content/Rottweiler%202.jpg",
+      "https://cdn.royalcanin-weshare-online.io/RVaO8noBBKJuub5qUrpq/v3/bp-lot-2-rottweiler-couleur-portrait",
+      "https://pethouse.com.vn/wp-content/uploads/2025/05/cho-rottweiler-mau-den-vang-ma-RW3126.jpg"
     ]
   },
   {
@@ -49,14 +49,14 @@
     "species": "dog",
     "breed": "golden retriever",
     "vaccine": "vaccinated",
-    "health_video": "https://example.com/health/golden_retriever.mp4",
+    "health_video": "https://www.youtube.com/watch?v=5ssz2CI_PQM",
     "training_tips": "Golden retrievers học nhanh với sự khuyến khích tích cực.",
-    "grooming_video": "https://example.com/grooming/golden_retriever.mp4",
-    "mainImage": "https://placehold.co/600x400",
+    "grooming_video": "https://www.youtube.com/watch?v=aaDzc_ROZXY",
+    "mainImage": "https://heronscrossing.vet/wp-content/uploads/Golden-Retriever.jpg",
     "images": [
-      "https://example.com/images/golden_retriever_1.jpg",
-      "https://example.com/images/golden_retriever_2.jpg",
-      "https://example.com/images/golden_retriever_3.jpg"
+      "https://sieupet.com/sites/default/files/pictures/images/gia-cho-retriever.jpg",
+      "https://pet-health-content-media.chewy.com/wp-content/uploads/2025/03/21155251/Breed-Hero-Golden-Retriever.jpg",
+      "https://huanluyenchothanhtai.com/wp-content/uploads/2019/07/gia-cho-retriever-01.jpg"
     ]
   },
   {
@@ -64,14 +64,14 @@
     "species": "dog",
     "breed": "poodle",
     "vaccine": "vaccinated",
-    "health_video": "https://example.com/health/poodle.mp4",
+    "health_video": "https://www.youtube.com/watch?v=6V-Z8wt2VcU",
     "training_tips": "Poodle thông minh, dễ huấn luyện bằng trò chơi.",
-    "grooming_video": "https://example.com/grooming/poodle.mp4",
-    "mainImage": "https://placehold.co/600x400",
+    "grooming_video": "https://www.youtube.com/watch?v=Nrikh32MVTw",
+    "mainImage": "https://petnow.com.vn/wp-content/uploads/2023/07/PD30555-poodle-tiny-mau-nau-nhat-6.jpg",
     "images": [
-      "https://example.com/images/poodle_1.jpg",
-      "https://example.com/images/poodle_2.jpg",
-      "https://example.com/images/poodle_3.jpg"
+      "https://petnow.com.vn/wp-content/uploads/2023/07/PD30554-poodle-tiny-mau-vang-mo-3.jpg",
+      "https://laputafarm.com/wp-content/uploads/2025/09/37.jpg",
+      "https://trungtamthienkhuyen.com/wp-content/uploads/2020/10/moi-truong-song-cua-poodle.jpg"
     ]
   },
   {
@@ -79,14 +79,14 @@
     "species": "dog",
     "breed": "chihuahua",
     "vaccine": "vaccinated",
-    "health_video": "https://example.com/health/chihuahua.mp4",
+    "health_video": "https://www.youtube.com/watch?v=KG4UnzrJ-GU",
     "training_tips": "Chihuahua nhỏ nhưng cần huấn luyện kỷ luật từ sớm.",
-    "grooming_video": "https://example.com/grooming/chihuahua.mp4",
-    "mainImage": "https://placehold.co/600x400",
+    "grooming_video": "https://www.youtube.com/watch?v=nzNMYbbnZQ4",
+    "mainImage": "https://huanluyencho119.vn/storage/iy/6m/iy6mnip6b9c6fqla4w094ihtmki7_meo-cham-soc-cho-chihuahua-tu-chuyen-gia.png",
     "images": [
-      "https://example.com/images/chihuahua_1.jpg",
-      "https://example.com/images/chihuahua_2.jpg",
-      "https://example.com/images/chihuahua_3.jpg"
+      "https://cdn.pixabay.com/photo/2014/09/05/18/45/chihuahua-436528_1280.jpg",
+      "https://play-lh.googleusercontent.com/proxy/XQfNi0NUu3SSFI4l-Jv6fq7pcsohOMuzks-YRZmF7D56o-XSvaT-ipZ34qz9iKdjOPLhY20Ppjcp0fDbV2FzVbpPAJAJwwf1bUb5l-SSfY2R6YDh8GHX1aA=s1920-w1920-h1080",
+      "https://wildearth.com/cdn/shop/articles/teacup-Chihuahua_7e9e3bec-792a-4c9b-ae7f-3378f212e72e.jpg?v=1743768794"
     ]
   },
   {
@@ -94,14 +94,14 @@
     "species": "dog",
     "breed": "dalmatian",
     "vaccine": "vaccinated",
-    "health_video": "https://example.com/health/dalmatian.mp4",
+    "health_video": "https://www.youtube.com/watch?v=UuiatlWoeOo",
     "training_tips": "Dalmatian thích chạy nhảy, cần nhiều bài tập thể lực.",
-    "grooming_video": "https://example.com/grooming/dalmatian.mp4",
-    "mainImage": "https://placehold.co/600x400",
+    "grooming_video": "https://www.youtube.com/watch?v=N5YnYYSxjYI",
+    "mainImage": "https://pethelpful.com/.image/w_3840,q_auto:good,c_limit/MjAxMTY5NTU4ODY4OTkzNTU4/dalmatian-guide.jpg",
     "images": [
-      "https://example.com/images/dalmatian_1.jpg",
-      "https://example.com/images/dalmatian_2.jpg",
-      "https://example.com/images/dalmatian_3.jpg"
+      "https://wildearth.com/cdn/shop/articles/long-haired-dalmatian-1.png?v=1740728090",
+      "https://pet-health-content-media.chewy.com/wp-content/uploads/2024/09/11171521/202105Dalmatian_FeaturedImage.jpg",
+      "https://a-z-animals.com/media/2022/06/dalmatianpuppies.jpg"
     ]
   },
   {
@@ -109,14 +109,14 @@
     "species": "dog",
     "breed": "samoyed",
     "vaccine": "vaccinated",
-    "health_video": "https://example.com/health/samoyed.mp4",
+    "health_video": "https://www.youtube.com/watch?v=f0wjtlSTTiQ",
     "training_tips": "Samoyed cần chải lông thường xuyên và xã hội hóa tốt.",
-    "grooming_video": "https://example.com/grooming/samoyed.mp4",
-    "mainImage": "https://placehold.co/600x400",
+    "grooming_video": "https://www.youtube.com/watch?v=6mQkb8nweEw",
+    "mainImage": "https://images.wagwalkingweb.com/media/articles/dog/samoyed-hereditary-glomerulopathy/samoyed-hereditary-glomerulopathy.jpg",
     "images": [
-      "https://example.com/images/samoyed_1.jpg",
-      "https://example.com/images/samoyed_2.jpg",
-      "https://example.com/images/samoyed_3.jpg"
+      "https://lh5.googleusercontent.com/kxCYbZefmHYrHoDXrSb5ZiDYQu4hxCLUk2qLVKK4xcPhncaS8n6aWjchztTRSSmPicpHFYZJ3Ea3wfaPVw2PxxdP5Hs-E20X17xkSf0cdxH0TwlGbU746PcOXGosfZ3agZA_mgw8AtatX9Pyhg",
+      "https://sieupet.com/sites/default/files/pictures/images/cho-samoyed-08-1.jpg",
+      "https://www.thesprucepets.com/thmb/7dQBMhAnbp2xa2mNILrnv2jeT1M=/1500x0/filters:no_upscale():strip_icc()/samoyed-dog-breed-profile-4586270-hero-46071e9d7a1b465386688bc98837f00d.jpeg"
     ]
   },
   {
@@ -124,14 +124,14 @@
     "species": "dog",
     "breed": "corgi",
     "vaccine": "vaccinated",
-    "health_video": "https://example.com/health/corgi.mp4",
+    "health_video": "https://www.youtube.com/watch?v=7wqPvxqcUO4",
     "training_tips": "Corgi lanh lợi, cần rèn luyện thể lực và trò chơi vận động.",
-    "grooming_video": "https://example.com/grooming/corgi.mp4",
-    "mainImage": "https://placehold.co/600x400",
+    "grooming_video": "https://www.youtube.com/watch?v=C0MJ2LHqbZ4",
+    "mainImage": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fb/Welchcorgipembroke.JPG/1200px-Welchcorgipembroke.JPG",
     "images": [
-      "https://example.com/images/corgi_1.jpg",
-      "https://example.com/images/corgi_2.jpg",
-      "https://example.com/images/corgi_3.jpg"
+      "https://thucung.farmvina.com/wp-content/uploads/2024/07/12-astounding-facts-about-pembroke-welsh-corgi-1699668764.jpg",
+      "https://fagopet.vn/uploads/images/621ef0ae9487f634f844173d/cho-corki-long-ngan__1_.webp",
+      "https://pethelpful.com/.image/c_fill,g_xy_center,x_444,y_384/NDowMDAwMDAwMDAwMTA5OTM4/a-corgi-puppy-running.jpg"
     ]
   },
   {
@@ -139,14 +139,14 @@
     "species": "cat",
     "breed": "british shorthair",
     "vaccine": "vaccinated",
-    "health_video": "https://example.com/health/british_shorthair.mp4",
+    "health_video": "https://www.youtube.com/watch?v=D4YU80xnDak",
     "training_tips": "Khuyến khích chơi với đồ chơi để giữ dáng và giảm stress.",
-    "grooming_video": "https://example.com/grooming/british_shorthair.mp4",
-    "mainImage": "https://placehold.co/600x400",
+    "grooming_video": "https://www.youtube.com/watch?v=WfDTw3VEVH4",
+    "mainImage": "https://consumer-cms.petfinder.com/sites/default/files/images/content/British%20Shorthair%20Cat%203.jpg",
     "images": [
-      "https://example.com/images/british_shorthair_1.jpg",
-      "https://example.com/images/british_shorthair_2.jpg",
-      "https://example.com/images/british_shorthair_3.jpg"
+      "https://cdn.royalcanin-weshare-online.io/mVbc9noBBKJuub5qA7pQ/v3/bp-lot-2-british-shorthair-color-outdoor",
+      "https://closerpets.com/cdn/shop/articles/boris-debusscher-8hj_0KqePuk-unsplash.webp?v=1688541002",
+      "https://langkawiwildlifepark.com.my/wp-content/uploads/2024/04/British-Shorthair.jpg"
     ]
   },
   {
@@ -154,14 +154,14 @@
     "species": "cat",
     "breed": "bengal",
     "vaccine": "vaccinated",
-    "health_video": "https://example.com/health/bengal.mp4",
+    "health_video": "https://www.youtube.com/watch?v=Fcs5hV2_w6Q",
     "training_tips": "Bengal năng động, cần nhiều hoạt động leo trèo.",
-    "grooming_video": "https://example.com/grooming/bengal.mp4",
-    "mainImage": "https://placehold.co/600x400",
+    "grooming_video": "https://www.youtube.com/watch?v=TCeHKzadjAE",
+    "mainImage": "https://cdn.royalcanin-weshare-online.io/B1Zc8XoBBKJuub5qYbph/v3/bp-lot-2-bengal-couleur-human",
     "images": [
-      "https://example.com/images/bengal_1.jpg",
-      "https://example.com/images/bengal_2.jpg",
-      "https://example.com/images/bengal_3.jpg"
+      "https://monsieurtn.com/wp-content/uploads/2021/08/bengalcatgrooming.jpg",
+      "https://kenh14cdn.com/203336854389633024/2023/1/25/photo-9-167462807367383425453.jpg",
+      "https://images.pexels.com/photos/17685168/pexels-photo-17685168/free-photo-of-photo-of-a-bengal-cat.jpeg"
     ]
   },
   {
@@ -169,14 +169,14 @@
     "species": "cat",
     "breed": "siberian",
     "vaccine": "vaccinated",
-    "health_video": "https://example.com/health/siberian.mp4",
+    "health_video": "https://www.youtube.com/watch?v=2xGhG2XPDYA",
     "training_tips": "Siberian thân thiện, dễ huấn luyện bằng các trò chơi đơn giản.",
-    "grooming_video": "https://example.com/grooming/siberian.mp4",
-    "mainImage": "https://placehold.co/600x400",
+    "grooming_video": "http://youtube.com/watch?v=0KU_AEmMjT8",
+    "mainImage": "https://img.lb.wbmdstatic.com/vim/live/webmd/consumer_assets/site_images/article_thumbnails/reference_guide/what_to_know_siberian_cat_ref_guide/1800x1200_what_to_know_siberian_cat_ref_guide.jpg",
     "images": [
-      "https://example.com/images/siberian_1.jpg",
-      "https://example.com/images/siberian_2.jpg",
-      "https://example.com/images/siberian_3.jpg"
+      "https://cdn.mos.cms.futurecdn.net/TBsRTn7tn8X4264aTQxtGJ.jpg",
+      "https://cattylifes.wordpress.com/wp-content/uploads/2020/10/hereditary-diseases-of-the-siberian-forest-cat-1.jpg",
+      "https://scontent.fsgn5-10.fna.fbcdn.net/v/t39.30808-6/247116695_104477495364538_5528182664040657502_n.jpg?_nc_cat=110&ccb=1-7&_nc_sid=6ee11a&_nc_ohc=rRmddE-TvjUQ7kNvwGMQesh&_nc_oc=AdkeL6dGx8_d0-xLbtlJ3Ai4X4vXTsVjbXXA1suGmFfYcZNYpi_AkAFs5qCv2qxALz-I0tJNhJfRP8PRmYDo9kCQ&_nc_zt=23&_nc_ht=scontent.fsgn5-10.fna&_nc_gid=1hcvpE2JdXvu_sny5fo3zw&oh=00_AfYwoIktcCsV6SWYLsDTBz-DExbYUwTxmBEpxUvIHWZ2CA&oe=68C8885A"
     ]
   },
   {
@@ -184,14 +184,14 @@
     "species": "cat",
     "breed": "birman",
     "vaccine": "vaccinated",
-    "health_video": "https://example.com/health/birman.mp4",
+    "health_video": "https://www.youtube.com/watch?v=Z1iP8CW0zhE",
     "training_tips": "Birman cần được chơi cùng người để phát triển tốt.",
-    "grooming_video": "https://example.com/grooming/birman.mp4",
-    "mainImage": "https://placehold.co/600x400",
+    "grooming_video": "https://www.youtube.com/watch?v=Q3Sp1ICgpI4",
+    "mainImage": "https://www.thesprucepets.com/thmb/D5s03LINbIYpZuiG6uvBpKrAKXk=/3500x0/filters:no_upscale():strip_icc()/GettyImages-623368786-f66c97ad6d2d494287b448415f4340a8.jpg",
     "images": [
-      "https://example.com/images/birman_1.jpg",
-      "https://example.com/images/birman_2.jpg",
-      "https://example.com/images/birman_3.jpg"
+      "https://www.thesprucepets.com/thmb/D5s03LINbIYpZuiG6uvBpKrAKXk=/3500x0/filters:no_upscale():strip_icc()/GettyImages-623368786-f66c97ad6d2d494287b448415f4340a8.jpg",
+      "https://cdn.mos.cms.futurecdn.net/v2/t:0,l:0,cw:1920,ch:1080,q:80,w:1920/aimF4fyhkQ6h4ibm3L9jQS.jpg",
+      "https://thecatsite.com/c/wp-content/uploads/2011/11/birmancat2.jpg"
     ]
   },
   {
@@ -199,14 +199,14 @@
     "species": "cat",
     "breed": "manx",
     "vaccine": "vaccinated",
-    "health_video": "https://example.com/health/manx.mp4",
+    "health_video": "https://www.youtube.com/watch?v=3hIpwNCuiNQ",
     "training_tips": "Manx thường thân thiện, nên chơi đùa nhiều để tránh stress.",
-    "grooming_video": "https://example.com/grooming/manx.mp4",
-    "mainImage": "https://placehold.co/600x400",
+    "grooming_video": "https://www.youtube.com/watch?v=ZSmBHQvLwRs",
+    "mainImage": "https://www.dailypaws.com/thmb/apeCV9uw056K5avKY66RaLsuMFc=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/manx-cat-grass-720114087-2000-f531fa6543e04675bd1be6c0ae123479.jpg",
     "images": [
-      "https://example.com/images/manx_1.jpg",
-      "https://example.com/images/manx_2.jpg",
-      "https://example.com/images/manx_3.jpg"
+      "https://www.reddit.com/media?url=https%3A%2F%2Fpreview.redd.it%2Fbehavioral-problems-in-manx-v0-o27kr1hvnmyb1.jpg%3Fwidth%3D1080%26crop%3Dsmart%26auto%3Dwebp%26s%3D80929cbe74aee3af25bc2ffce076b9b6fd3a0590",
+      "https://www.animalsaroundtheglobe.com/wp-content/uploads/2023/03/andreas-brun-f1SLpsPGODo-unsplash-1200x798.jpg.webp",
+      "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhIWFDSaqhVjIxwKC6dDu7xZqpyITJq65YQIaeesnk2chd_rLyXbt6D9ElRyR4UQ7FyIWR5ze3p5dXIuOe0mOO3BU8npzQLg1vXJNQrf31jsaOvvfr8R0qBiDRlL8ngDRZfGb7z0H087lZP/s1600/Manx+cats+postcard%252C+public+domain.jpg"
     ]
   },
   {
@@ -214,14 +214,14 @@
     "species": "cat",
     "breed": "himalayan",
     "vaccine": "vaccinated",
-    "health_video": "https://example.com/health/himalayan.mp4",
+    "health_video": "https://www.youtube.com/watch?v=Ap1mgopLzxY",
     "training_tips": "Himalayan cần chải lông thường xuyên để tránh rối.",
-    "grooming_video": "https://example.com/grooming/himalayan.mp4",
-    "mainImage": "https://placehold.co/600x400",
+    "grooming_video": "https://www.youtube.com/watch?v=pvJSvSrafWg",
+    "mainImage": "https://moderncat.com/wp-content/uploads/2013/10/Himalayan_AdobeStock_533934217_Ali-Shami-Wirestock-Creators.jpg",
     "images": [
-      "https://example.com/images/himalayan_1.jpg",
-      "https://example.com/images/himalayan_2.jpg",
-      "https://example.com/images/himalayan_3.jpg"
+      "https://www.thesprucepets.com/thmb/roADwKGYgn7IV08W4yJPw3Y8fdY=/1500x0/filters:no_upscale():strip_icc()/himalayan-cat-breed-profile-4691062-02-e22d405fca8b4d8fba67aadadd8c48df.jpg",
+      "https://vogdog.com/wp-content/uploads/2025/06/Himalayan-cat-05-scaled.jpg",
+      "https://www.wagr.ai/cdn/shop/articles/breed-at-a-glance-himalayan-cat-650119.jpg?v=1702046513"
     ]
   },
   {
@@ -229,14 +229,14 @@
     "species": "cat",
     "breed": "munchkin",
     "vaccine": "vaccinated",
-    "health_video": "https://example.com/health/munchkin.mp4",
+    "health_video": "https://www.youtube.com/watch?v=t69d31yK_iM",
     "training_tips": "Munchkin đáng yêu, dễ thích nghi môi trường trong nhà.",
-    "grooming_video": "https://example.com/grooming/munchkin.mp4",
-    "mainImage": "https://placehold.co/600x400",
+    "grooming_video": "https://www.youtube.com/watch?v=N7PA7020mkY",
+    "mainImage": "https://cdn.mos.cms.futurecdn.net/NwvZKtbcskxh9dDpSHKoKf.jpg",
     "images": [
-      "https://example.com/images/munchkin_1.jpg",
-      "https://example.com/images/munchkin_2.jpg",
-      "https://example.com/images/munchkin_3.jpg"
+      "https://images.ctfassets.net/nx3pzsky0bc9/4BvjxdeEZOYtwMAdZvJpif/dd037d68e58d15692c26954c234c703d/Munchkin_Cat_walking.jpeg",
+      "https://cdn.hswstatic.com/gif/shutterstock-639802456-munchkin-hero.jpg",
+      "https://articles.hepper.com/wp-content/uploads/2021/07/adorable-munchkin-cat_MDavidova_Shutterstock.jpg"
     ]
   },
   {
@@ -244,14 +244,14 @@
     "species": "cat",
     "breed": "asian cat",
     "vaccine": "vaccinated",
-    "health_video": "https://example.com/health/asian_cat.mp4",
+    "health_video": "https://www.youtube.com/watch?v=pbgged5qbJA",
     "training_tips": "Asian cat thông minh, thích hợp huấn luyện bằng clicker.",
-    "grooming_video": "https://example.com/grooming/asian_cat.mp4",
-    "mainImage": "https://placehold.co/600x400",
+    "grooming_video": "https://www.youtube.com/watch?v=BcH92UEO9hU",
+    "mainImage": "https://cats.com/wp-content/uploads/2024/07/Asian-cat-breeds-Korat.jpg",
     "images": [
-      "https://example.com/images/asian_cat_1.jpg",
-      "https://example.com/images/asian_cat_2.jpg",
-      "https://example.com/images/asian_cat_3.jpg"
+      "https://www.mascotarios.org/wp-content/uploads/2021/10/Gato-asiatico.jpg",
+      "https://consumer-cms.petfinder.com/sites/default/files/images/content/Asian%20Cat%204.jpg",
+      "https://consumer-cms.petfinder.com/sites/default/files/images/content/Asian%20Cat%203.jpg"
     ]
   },
   {
@@ -259,14 +259,14 @@
     "species": "cat",
     "breed": "british longhair",
     "vaccine": "vaccinated",
-    "health_video": "https://example.com/health/british_longhair.mp4",
+    "health_video": "https://www.youtube.com/watch?v=253r8ZDRbT0",
     "training_tips": "British longhair cần chải lông định kỳ để giữ bộ lông khỏe.",
-    "grooming_video": "https://example.com/grooming/british_longhair.mp4",
-    "mainImage": "https://placehold.co/600x400",
+    "grooming_video": "https://www.youtube.com/watch?v=9J_tz4ttCzQ",
+    "mainImage": "https://www.dailypaws.com/thmb/4cx_5J9AE9rLjgevJ_qNDYDQttc=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/british-longhaired-kitten-107842351-2000-d3b39dfd9db241b09b32ff041a0f0b77.jpg",
     "images": [
-      "https://example.com/images/british_longhair_1.jpg",
-      "https://example.com/images/british_longhair_2.jpg",
-      "https://example.com/images/british_longhair_3.jpg"
+      "https://www.mystart.com/blog/wp-content/uploads/AdobeStock_109985471-e1524852761351.jpeg",
+      "https://www.mystart.com/blog/wp-content/uploads/AdobeStock_119536695-e1524853016161.jpeg",
+      "https://www.mystart.com/blog/wp-content/uploads/AdobeStock_108216658-e1524853516476.jpeg"
     ]
   },
   {
@@ -274,14 +274,14 @@
     "species": "cat",
     "breed": "thai cat",
     "vaccine": "vaccinated",
-    "health_video": "https://example.com/health/thai_cat.mp4",
+    "health_video": "https://www.youtube.com/watch?v=_PBeOTuuBBY",
     "training_tips": "Thai cat năng động, thích hợp chơi cùng chủ nhân hằng ngày.",
-    "grooming_video": "https://example.com/grooming/thai_cat.mp4",
-    "mainImage": "https://placehold.co/600x400",
+    "grooming_video": "https://www.youtube.com/watch?v=QeHbGDTEusc",
+    "mainImage": "https://brit-petfood.com/file/nodes/product/065%20(2).jpg",
     "images": [
-      "https://example.com/images/thai_cat_1.jpg",
-      "https://example.com/images/thai_cat_2.jpg",
-      "https://example.com/images/thai_cat_3.jpg"
+      "https://www.omlet.co.uk/images/cache/1024/682/thai-cat-eating-from-abowl.jpg",
+      "https://www.reddit.com/media?url=https%3A%2F%2Fi.redd.it%2Fgnhay58e3r8c1.jpeg",
+      "https://www.thailandnow.in.th/wp-content/uploads/2023/07/Wichien-maat-1024x682.jpeg"
     ]
   },
   {
@@ -289,44 +289,44 @@
     "species": "dog",
     "breed": "maltese",
     "vaccine": "vaccinated",
-    "health_video": "https://example.com/health/maltese.mp4",
+    "health_video": "https://www.youtube.com/watch?v=cLj0Y6dFu1g",
     "training_tips": "Maltese nhỏ nhắn, thích hợp huấn luyện nhẹ nhàng và thường xuyên chơi với chủ.",
-    "grooming_video": "https://example.com/grooming/maltese.mp4",
-    "mainImage": "https://placehold.co/600x400",
+    "grooming_video": "https://www.youtube.com/watch?v=NY8-Qfk9RVM",
+    "mainImage": "https://cdn.britannica.com/72/234472-050-735B6214/maltese-dog.jpg",
     "images": [
-      "https://example.com/images/maltese_1.jpg",
-      "https://example.com/images/maltese_2.jpg",
-      "https://example.com/images/maltese_3.jpg"
+      "https://www.dogster.com/wp-content/uploads/2024/03/maltese-dog-at-the-park_SasaStock_Shutterstock.jpg",
+      "https://ohmypetgrooming.in/wp-content/uploads/2024/12/Maltese-Dog.webp",
+      "https://www.houndsy.com/cdn/shop/articles/what_is_the_ideal_weight_for_a_maltese_dog.webp?v=1753791584"
     ]
   },
   {
     "id": 21,
     "species": "hamster",
-    "breed": "hamster",
+    "breed": null,
     "vaccine": "vaccinated",
-    "health_video": "https://example.com/health/hamster.mp4",
+    "health_video": "https://www.youtube.com/watch?v=SkFDhzSHg1U",
     "training_tips": "hamster nhỏ nhắn, thích hợp huấn luyện nhẹ nhàng và thường xuyên chơi với chủ.",
-    "grooming_video": "https://example.com/grooming/hamster.mp4",
-    "mainImage": "https://placehold.co/600x400",
+    "grooming_video": "https://www.youtube.com/watch?v=MEi7WlKb4Js",
+    "mainImage": "https://mew.vn/wp-content/uploads/2021/07/gia-chuot-hamster-1.jpg",
     "images": [
-      "https://example.com/images/hamster_1.jpg",
-      "https://example.com/images/hamster_2.jpg",
-      "https://example.com/images/hamster_3.jpg"
+      "https://www.vets4pets.com/siteassets/species/hamster/hamster-in-bed.jpg",
+      "https://cdn.tgdd.vn/Files/2021/04/28/1347075/chi-tiet-cach-nuoi-hamster-cho-nguoi-moi-tap-nuoi-202104282044448879.jpg",
+      "https://mythicaldanes.com/wp-content/uploads/2018/09/chuot-hamster-an-gi-top.jpg"
     ]
   },
   {
     "id": 22,
     "species": "rabbit",
-    "breed": "rabbit",
+    "breed": null,
     "vaccine": "vaccinated",
-    "health_video": "https://example.com/health/rabbit.mp4",
+    "health_video": "https://www.youtube.com/watch?v=JtzeTeoyKfI",
     "training_tips": "rabbit nhỏ nhắn, thích hợp huấn luyện nhẹ nhàng và thường xuyên chơi với chủ.",
-    "grooming_video": "https://example.com/grooming/rabbit.mp4",
-    "mainImage": "https://placehold.co/600x400",
+    "grooming_video": "https://www.youtube.com/watch?v=1YRKCqgIysc",
+    "mainImage": "https://dev.welcomewildlife.com/wp-content/uploads/2015/02/Eastern-Cottontail-e-Grayson-Smith-USWS-Flickr-PD-scaled.jpg",
     "images": [
-      "https://example.com/images/rabbit_1.jpg",
-      "https://example.com/images/rabbit_2.jpg",
-      "https://example.com/images/rabbit_3.jpg"
+      "https://upload.wikimedia.org/wikipedia/commons/4/42/Sylvilagus_aquaticus_365336366.jpg",
+      "https://people.com/thmb/Gm36mIefInH0Mf4SymrPD4eYpLE=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc():focal(999x0:1001x2)/rabbit-3-47a14eeb7c8a4c18856e8277aff97017.jpg",
+      "https://images.ctfassets.net/v2ttxn7xhtad/6smFh3iPSZay4GL8lp2xhC/9dd96ec9c7f7cac6fd75ac2dbccd772d/AdobeStock_461760743.jpeg?w=1560&h=878&fl=progressive&q=50&fm=jpg"
     ]
   }
 ]

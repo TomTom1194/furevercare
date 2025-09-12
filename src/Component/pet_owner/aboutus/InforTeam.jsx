@@ -11,7 +11,7 @@ function InforTeam() {
             role: "Team Leader",
             email: "tientan@example.com",
             slogan: "Leading the way to innovation 🐾",
-            avatar: "https://randomuser.me/api/portraits/men/11.jpg"
+            avatar: "https://placehold.co/600x400"
         },
         {
             id: 2,
@@ -19,7 +19,7 @@ function InforTeam() {
             role: "Backend Developer",
             email: "giabao@example.com",
             slogan: "Building the logic behind the magic ✨",
-            avatar: "https://randomuser.me/api/portraits/men/12.jpg"
+            avatar: "https://placehold.co/600x400"
         },
         {
             id: 3,
@@ -27,7 +27,7 @@ function InforTeam() {
             role: "Frontend Developer",
             email: "thanhbao@example.com",
             slogan: "Designing clean and beautiful interfaces 🎨",
-            avatar: "https://randomuser.me/api/portraits/men/13.jpg"
+            avatar: "https://placehold.co/600x400"
         },
         {
             id: 4,
@@ -35,7 +35,7 @@ function InforTeam() {
             role: "UI/UX Designer",
             email: "hongngoc@example.com",
             slogan: "Crafting delightful user experiences 🌿",
-            avatar: "https://randomuser.me/api/portraits/women/14.jpg"
+            avatar: "https://placehold.co/600x400"
         },
         {
             id: 5,
@@ -43,7 +43,7 @@ function InforTeam() {
             role: "Database Engineer",
             email: "quocanh@example.com",
             slogan: "Keeping data clean and structured 📂",
-            avatar: "https://randomuser.me/api/portraits/men/15.jpg"
+            avatar: "https://placehold.co/600x400"
         },
         {
             id: 6,
@@ -51,7 +51,7 @@ function InforTeam() {
             role: "QA Tester",
             email: "vanhuy@example.com",
             slogan: "Breaking things so they work better 🧪",
-            avatar: "https://randomuser.me/api/portraits/men/16.jpg"
+            avatar: "https://placehold.co/600x400"
         }
     ];
 
@@ -77,7 +77,7 @@ function InforTeam() {
 
                             <div className="card-body">
                                 <h5 className="card-title fw-bold">{member.name}</h5>
-                                <p className="text-primary fw-semibold mb-1">{member.role}</p>
+                                <p className="fw-semibold mb-1" style={{ color: "#7f5539" }}>{member.role}</p>
                                 <p className="text-muted fst-italic mb-3 slogan">"{member.slogan}"</p>
                                 <p className="mb-0">
                                     <i className="bi bi-envelope-fill text-danger me-2"></i>

@@ -1,7 +1,7 @@
 function FormFeedback() {
     return (
         <div className="container col-10 col-md-5 mx-auto my-5 border rounded p-3 ">
-            <h2 className="text-primary mb-3 text-center">Feedback Form</h2>
+            <h2 className="mb-3 text-center" style={{ color: "#7f5539" }}>Feedback Form</h2>
             <form>
                 <div className="mb-3">
                     <label className="form-label">Name</label>
@@ -15,7 +15,7 @@ function FormFeedback() {
                     <label for="feedback" class="form-label">Your feedback</label>
                     <textarea class="form-control" rows="5"></textarea>
                 </div>
-                <button type="submit" className="btn btn-primary w-100">Send Us</button>
+                <button type="submit" className="btn btncss w-100">Send Us</button>
             </form>
         </div>
     );

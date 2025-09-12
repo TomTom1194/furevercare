@@ -14,7 +14,7 @@ function HomeCare({ db }) {
                 <h2 className="fw-bold">Pet Care</h2>
                 <div className="text-center">
                     <Link to="/petowner/petcare">
-                        <button className="btn btn-outline-primary px-4 py-2">
+                        <button className="btn btncss-outline px-4 py-2">
                             More Pets
                         </button>
                     </Link>
@@ -37,7 +37,7 @@ function HomeCare({ db }) {
                 {db.slice(0, 8).map((pet) => (
                     <SwiperSlide key={pet.id}>
                         <Link to={`/petowner/petcare/${pet.breed}`} style={{ textDecoration: "none" }}>
-                            <div className="card shadow-sm h-100">
+                            <div className="card cardhover h-100">
                                 <img
                                     src={pet.mainImage}
                                     className="card-img-top"
@@ -59,7 +59,7 @@ function HomeCare({ db }) {
                                     >
                                         {pet.training_tips}
                                     </p>
-                                    <button className="btn btn-primary mt-auto">View Details</button>
+                                    <button className="btn btncss mt-auto">View Details</button>
                                 </div>
                             </div>
                         </Link>

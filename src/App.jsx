@@ -1,5 +1,4 @@
 import { Route, Routes } from "react-router-dom";
-import React from "react";
 import { BrowserRouter as Router } from "react-router-dom";
 import ScrollToTop from "./components/ScrollToTop";
 
@@ -24,17 +23,19 @@ import petcare from "../src/Data/Petowner/petcare.json";
 import petproduct from "../src/Data/Petowner/petproduct.json";
 
 //Shelter
-import Animals from "./Data/Animalshelter/animalshelter.json";
-import AnimalShelter from "./Component/animalshelter/gallery/AnimalShelter";
-import AnimalDetail from "./Component/animalshelter/gallery/AnimalDetail";
-import SuccessStory from "./Component/animalshelter/successstory/SuccessStory";
-import StoryDetail from "./Component/animalshelter/successstory/StoryDetail";
-import Event from "./Component/animalshelter/event/Event";
-import ShelterContact from "./Component/animalshelter/sheltercontact/ShelterContact";
+import Events from "./pages/Shelter/Events";
+import Gallery from "./pages/Shelter/Gallery";
+import HomeShelter from "./pages/Shelter/HomeShelter";
+import ShelterContact from "./pages/Shelter/ShelterContact";
+import Success from "./pages/Shelter/Success";
 
 //Vet
 import HomeVet from "./pages/Veterinarian/HomeVeterinarian";
 import VetProfile from "./pages/Veterinarian/VetProfile";
+import MyProfile from "./Component/pet_owner/myprofile/MyProfile";
+import MyPetDetail from "./Component/pet_owner/myprofile/MyPetDetail";
+
+import "./index.css";
 
 export default function App() {
   return (

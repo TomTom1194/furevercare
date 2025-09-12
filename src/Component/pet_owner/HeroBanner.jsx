@@ -1,6 +1,6 @@
 
 
-function HeroBanner({ url, header, slogan }) {
+function HeroBanner({ url, header, slogan, blur = false }) {
     return (
         <section className="position-relative">
             <img
@@ -9,11 +9,11 @@ function HeroBanner({ url, header, slogan }) {
                 alt="Hero Banner"
                 style={{ height: "500px", objectFit: "cover" }}
             />
-
-            <div
+            {blur && (<div
                 className="position-absolute top-0 start-0 w-100 h-100"
                 style={{ backgroundColor: "rgba(0, 0, 0, 0.4)" }}
             ></div>
+            )}
 
             <div className="position-absolute top-50 start-50 translate-middle text-center text-white px-3">
                 <h2 className="display-6 fw-bold">{header}</h2>

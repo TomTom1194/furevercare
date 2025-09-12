@@ -25,7 +25,7 @@ function ProductInfo({ product }) {
                         Warranty: <strong>18 months</strong>
                     </p>
 
-                    <button className="btn btn-primary w-50 py-2 fw-bold ">
+                    <button className="btn btncss w-50 py-2 fw-bold ">
                         Buy Now
                     </button>
                 </div>
