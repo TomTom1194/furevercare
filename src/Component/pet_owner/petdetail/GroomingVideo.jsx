@@ -4,7 +4,7 @@ function GroomingVideo({ pet }) {
 
     return (
         <div className="my-4 grooming">
-            <h2 className="text-center mb-3 text-primary fw-bold">
+            <h2 className="text-center mb-3 text-brown fw-bold">
                 Grooming Video
             </h2>
             <div className="d-flex justify-content-center">

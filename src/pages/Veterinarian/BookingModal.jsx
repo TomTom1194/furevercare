@@ -1,8 +1,9 @@
 import React, { useState, useEffect } from "react";
 import booking from "../../Data/Vet/booking.json";
+import { useLocation } from "react-router-dom";
+import pet from "../../Data/Petowner/pet.json";
 
 function BookingModal() {
-  const [mode, setMode] = useState("user"); // "user" hoặc "vet"
   const [selectedSlot, setSelectedSlot] = useState(null);
   const [appointments, setAppointments] = useState([]);
   const [month, setMonth] = useState(9);
@@ -17,16 +18,32 @@ function BookingModal() {
     phone: "",
     reason: "Cleaning",
   });
+  const [currentUser, setCurrentUser] = useState(null);
+  const [userPet, setUserPet] = useState([]);
+  const location = useLocation();
 
+  useEffect(() => {
+    const storedUser = localStorage.getItem("currentUser");
+    if (storedUser) {
+      const parsedUser = JSON.parse(storedUser);
+      setCurrentUser(parsedUser);
+      setFormData((prev) => ({
+        ...prev,
+        owner: parsedUser.name,
+        email: parsedUser.email,
+        phone: parsedUser.phone,
+      }));
+      const myPets = pet.filter((p) => p.owner_id == parsedUser.id);
+      setUserPet(myPets);
+    }
+
+  }, [location]);
   const hours = Array.from({ length: 10 }, (_, i) => i + 8); // 8-17
   const today = new Date();
   const todayStr = today.toISOString().split("T")[0];
 
   const getDaysInMonth = (month, year) => new Date(year, month, 0).getDate();
-  const days = Array.from(
-    { length: getDaysInMonth(month, year) },
-    (_, i) => i + 1
-  );
+  const days = Array.from({ length: getDaysInMonth(month, year) }, (_, i) => i + 1);
 
   useEffect(() => {
     setAppointments(booking);
@@ -63,11 +80,11 @@ function BookingModal() {
     const booked = isSlotBooked(day, hour);
     const past = isSlotInPast(day, hour);
 
-    if (mode === "user") {
+    if (currentUser?.role === "user") {
       if (past || booked) return;
       setSelectedSlot({ day, hour, month });
       setShowForm(true);
-    } else if (mode === "vet") {
+    } else if (currentUser?.role === "vet") {
       if (booked) {
         setSelectedSlot({ day, hour, month });
         setShowDetail(true);
@@ -99,41 +116,13 @@ function BookingModal() {
     setRecentlyBook({ day: selectedSlot.day, hour: selectedSlot.hour, month });
     setShowForm(false);
     setSelectedSlot(null);
-    setFormData({
-      pet_id: "",
-      owner: "",
-      email: "",
-      phone: "",
-      reason: "Cleaning",
-    });
+    setFormData({ pet_id: "", owner: "", email: "", phone: "", reason: "Cleaning" });
     alert("Booking Successful!");
   };
 
   return (
     <div className="container mt-4">
-      <h2 className="mb-3" style={{ color: "#7f5539" }}>
-        Vet Appointments
-      </h2>
-
-      {/* Mode Buttons */}
-      <div className="mb-3">
-        <button
-          className={`btn ${
-            mode === "user" ? "btn-secondary" : "btn-outline-secondary"
-          } me-2`}
-          onClick={() => setMode("user")}
-        >
-          User Mode
-        </button>
-        <button
-          className={`btn ${
-            mode === "vet" ? "btn-secondary" : "btn-outline-secondary"
-          }`}
-          onClick={() => setMode("vet")}
-        >
-          Veterinarian Mode
-        </button>
-      </div>
+      <h2 className="mb-3">Vet Appointments</h2>
 
       {/* Month & Legend */}
       <div className="d-flex flex-column flex-md-row justify-content-between align-items-center mb-3">
@@ -145,7 +134,7 @@ function BookingModal() {
             &#8592;
           </button>
           <span className="mx-2">
-            {new Date(year, month - 1).toLocaleString("en-US", {
+            {new Date(year, month - 1).toLocaleString("default", {
               month: "long",
               year: "numeric",
             })}
@@ -184,22 +173,11 @@ function BookingModal() {
       </div>
 
       {/* Table */}
-      <div
-        className="table-responsive"
-        style={{ maxHeight: "70vh", overflowY: "auto", overflowX: "auto" }}
-      >
+      <div className="table-responsive" style={{ maxHeight: "70vh", overflowY: "auto", overflowX: "auto" }}>
         <table className="table table-bordered table-hover text-center">
           <thead className="table-light sticky-top">
             <tr>
-              <th
-                style={{
-                  position: "sticky",
-                  top: 0,
-                  left: 0,
-                  background: "#fff",
-                  zIndex: 3,
-                }}
-              >
+              <th style={{ position: "sticky", top: 0, left: 0, background: "#fff", zIndex: 3 }}>
                 Date / Time
               </th>
               {hours.map((hour) => (
@@ -210,24 +188,14 @@ function BookingModal() {
           <tbody>
             {days.map((day) => (
               <tr key={day}>
-                <th
-                  style={{
-                    position: "sticky",
-                    left: 0,
-                    background: "#fff",
-                    zIndex: 1,
-                  }}
-                >
+                <th style={{ position: "sticky", left: 0, background: "#fff", zIndex: 1 }}>
                   {day}
                 </th>
                 {hours.map((hour) => {
                   const past = isSlotInPast(day, hour);
                   const booked = isSlotBooked(day, hour);
                   const todayBooked = appointments.some(
-                    (a) =>
-                      a.create_date.startsWith(todayStr) &&
-                      a.time === hour &&
-                      new Date(a.date).getDate() === day
+                    (a) => a.create_date.startsWith(todayStr) && a.time === hour && new Date(a.date).getDate() === day
                   );
                   const selected =
                     selectedSlot?.day === day &&
@@ -243,26 +211,19 @@ function BookingModal() {
                       key={hour}
                       onClick={() => handleSelect(day, hour)}
                       style={{
-                        cursor:
-                          (mode === "user" && (past || booked)) ||
-                          (mode === "vet" && !booked)
-                            ? "not-allowed"
-                            : "pointer",
+                        cursor: (currentUser?.role === "user" && (past || booked)) || (currentUser?.role === "vet" && !booked) ? "not-allowed" : "pointer",
                         backgroundColor: recently
                           ? "#7402ffff"
                           : booked
-                          ? todayBooked
-                            ? "#FFD700"
-                            : "red"
-                          : selected
-                          ? "#28a745"
-                          : past
-                          ? "#d3d3d3ff"
-                          : "white",
-                        color:
-                          past || booked || todayBooked || selected
-                            ? "white"
-                            : "black",
+                            ? todayBooked
+                              ? "#FFD700"
+                              : "red"
+                            : selected
+                              ? "#28a745"
+                              : past
+                                ? "#d3d3d3ff"
+                                : "white",
+                        color: past || booked || todayBooked || selected ? "white" : "black",
                         transition: "0.2s",
                         minWidth: "50px",
                         height: "40px",
@@ -295,14 +256,18 @@ function BookingModal() {
                 <div className="modal-body">
                   <div className="mb-3">
                     <label className="form-label">Pet ID</label>
-                    <input
-                      type="text"
-                      className="form-control"
+                    <select
                       name="pet_id"
-                      value={formData.pet_id}
+                      id="petid"
+                      className="form-select"
                       onChange={handleChange}
                       required
-                    />
+                    >
+                      <option value="">Select pet</option>
+                      {userPet.map((p) => (
+                        <option key={p.id} value={p.id}>{p.id}: {p.name}</option>
+                      ))}
+                    </select>
                   </div>
                   <div className="mb-3">
                     <label className="form-label">Owner</label>
@@ -352,12 +317,12 @@ function BookingModal() {
                       <option>Grooming</option>
                     </select>
                   </div>
-                  <p>
-                    Date :{" "}
-                    <strong>
-                      {selectedSlot.hour}:00, {year}-{month}-{selectedSlot.day}
-                    </strong>
-                  </p>
+                  {selectedSlot && (
+                    <p>
+                      Date : <strong>{selectedSlot.hour}:00, {year}-{month}-{selectedSlot.day}</strong>
+                    </p>
+                  )}
+
                   <p>
                     Create Date: <strong>{todayStr}</strong>
                   </p>
@@ -400,37 +365,17 @@ function BookingModal() {
               </div>
               <div className="modal-body">
                 {(() => {
-                  const detail = getAppointmentDetail(
-                    selectedSlot.day,
-                    selectedSlot.hour
-                  );
+                  const detail = getAppointmentDetail(selectedSlot.day, selectedSlot.hour);
                   if (!detail) return <p>No detail available</p>;
                   return (
                     <>
-                      <p>
-                        Pet ID: <strong>{detail.pet_id}</strong>
-                      </p>
-                      <p>
-                        Owner: <strong>{detail.owner}</strong>
-                      </p>
-                      <p>
-                        Email: <strong>{detail.email}</strong>
-                      </p>
-                      <p>
-                        Phone: <strong>{detail.phone}</strong>
-                      </p>
-                      <p>
-                        Reason: <strong>{detail.reason}</strong>
-                      </p>
-                      <p>
-                        Date:{" "}
-                        <strong>
-                          {detail.date} {detail.time}:00
-                        </strong>
-                      </p>
-                      <p>
-                        Created: <strong>{detail.create_date}</strong>
-                      </p>
+                      <p>Pet ID: <strong>{detail.pet_id}</strong></p>
+                      <p>Owner: <strong>{detail.owner}</strong></p>
+                      <p>Email: <strong>{detail.email}</strong></p>
+                      <p>Phone: <strong>{detail.phone}</strong></p>
+                      <p>Reason: <strong>{detail.reason}</strong></p>
+                      <p>Date: <strong>{detail.date} {detail.time}:00</strong></p>
+                      <p>Created: <strong>{detail.create_date}</strong></p>
                     </>
                   );
                 })()}
@@ -450,6 +395,7 @@ function BookingModal() {
           </div>
         </div>
       )}
+
     </div>
   );
 }

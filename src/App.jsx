@@ -1,7 +1,4 @@
-
-
-import { Route, Routes } from "react-router-dom";
-import React from "react";
+import { Navigate, Route, Routes } from "react-router-dom";
 import { BrowserRouter as Router } from "react-router-dom";
 import ScrollToTop from "./components/ScrollToTop";
 
@@ -38,6 +35,12 @@ import ShelterContact from "./Component/animalshelter/sheltercontact/ShelterCont
 //Vet
 import HomeVet from "./pages/Veterinarian/HomeVeterinarian";
 import VetProfile from "./pages/Veterinarian/VetProfile";
+import MyProfile from "./Component/pet_owner/myprofile/MyProfile";
+import MyPetDetail from "./Component/pet_owner/myprofile/MyPetDetail";
+
+import "./index.css";
+import SignUp from "./components/SignUp/SignUp";
+import HomeVeterinarian from "./pages/Veterinarian/HomeVeterinarian";
 
 export default function App() {
   return (
@@ -46,28 +49,37 @@ export default function App() {
       <Routes>
         {/*Start*/}
         <Route path="/" element={<Home />} />
-
+        <Route path="/signup" element={<SignUp />} />
         {/* PetOwner routes */}
         <Route path="/petowner" element={<PetOwnerLayout />}>
-                <Route path="homepetowner" element={<HomePetowner pet={petcare} product={petproduct} />} />
-                <Route path="petcare" element={<PetCare db={petcare} />} />
-                <Route path="petproduct" element={<PetProduct db={petproduct} />} />
-                <Route path="feedback" element={<FeedBack />} />
-                <Route path="aboutus" element={<AboutUs />} />
-                <Route path="contactus" element={<ContactUs />} />
-                <Route path="emergency" element={<EmerPage />} />
-                <Route path="petcare/:breed" element={<PetDetail db={petcare} />} />
-                <Route path="petproduct/:id" element={<ProductDetail db={petproduct} />} />
+          <Route path="" element={<Navigate to="home" replace />} />
+          <Route
+            path="home"
+            element={<HomePetowner pet={petcare} product={petproduct} />}
+          />
+          <Route path="petcare" element={<PetCare db={petcare} />} />
+          <Route path="petproduct" element={<PetProduct db={petproduct} />} />
+          <Route path="feedback" element={<FeedBack />} />
+          <Route path="aboutus" element={<AboutUs />} />
+          <Route path="contactus" element={<ContactUs />} />
+          <Route path="emergency" element={<EmerPage />} />
+          <Route path="myprofile" element={<MyProfile />} />
+          <Route path="petcare/:breed" element={<PetDetail db={petcare} />} />
+          <Route
+            path="petproduct/:id"
+            element={<ProductDetail db={petproduct} />}
+          />
+          <Route path="pet/:id" element={<MyPetDetail />} />
         </Route>
 
         {/* Veterinarian routes */}
         <Route path="/veterinarian" element={<VetLayout />}>
-          <Route index element={<HomeVet />} /> 
+          <Route index element={<HomeVeterinarian />} />
           <Route path=":id" element={<VetProfile />} />
         </Route>
 
         {/* Animal Shelter routes */}
-        <Route path="/animalshelter" element={<AnimalShelterLayout />}>
+         <Route path="/animalshelter" element={<AnimalShelterLayout />}>
           <Route path="animal" element={<AnimalShelter />}></Route>
           <Route
               path="animal/:id"
