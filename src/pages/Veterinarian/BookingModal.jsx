@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from "react";
 import booking from "../../Data/Vet/booking.json";
 import { useLocation } from "react-router-dom";
+import pet from "../../Data/Petowner/pet.json";
 
 function BookingModal() {
   const [selectedSlot, setSelectedSlot] = useState(null);
@@ -18,13 +19,24 @@ function BookingModal() {
     reason: "Cleaning",
   });
   const [currentUser, setCurrentUser] = useState(null);
+  const [userPet, setUserPet] = useState([]);
   const location = useLocation();
 
   useEffect(() => {
     const storedUser = localStorage.getItem("currentUser");
     if (storedUser) {
-      setCurrentUser(JSON.parse(storedUser));
+      const parsedUser = JSON.parse(storedUser);
+      setCurrentUser(parsedUser);
+      setFormData((prev) => ({
+        ...prev,
+        owner: parsedUser.name,
+        email: parsedUser.email,
+        phone: parsedUser.phone,
+      }));
+      const myPets = pet.filter((p) => p.owner_id == parsedUser.id);
+      setUserPet(myPets);
     }
+
   }, [location]);
   const hours = Array.from({ length: 10 }, (_, i) => i + 8); // 8-17
   const today = new Date();
@@ -244,14 +256,18 @@ function BookingModal() {
                 <div className="modal-body">
                   <div className="mb-3">
                     <label className="form-label">Pet ID</label>
-                    <input
-                      type="text"
-                      className="form-control"
+                    <select
                       name="pet_id"
-                      value={formData.pet_id}
+                      id="petid"
+                      className="form-select"
                       onChange={handleChange}
                       required
-                    />
+                    >
+                      <option value="">Select pet</option>
+                      {userPet.map((p) => (
+                        <option key={p.id} value={p.id}>{p.id}: {p.name}</option>
+                      ))}
+                    </select>
                   </div>
                   <div className="mb-3">
                     <label className="form-label">Owner</label>
@@ -301,9 +317,12 @@ function BookingModal() {
                       <option>Grooming</option>
                     </select>
                   </div>
-                  <p>
-                    Date : <strong>{selectedSlot.hour}:00, {year}-{month}-{selectedSlot.day}</strong>
-                  </p>
+                  {selectedSlot && (
+                    <p>
+                      Date : <strong>{selectedSlot.hour}:00, {year}-{month}-{selectedSlot.day}</strong>
+                    </p>
+                  )}
+
                   <p>
                     Create Date: <strong>{todayStr}</strong>
                   </p>
