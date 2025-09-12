@@ -175,10 +175,10 @@ export default function AnimalShelter() {
               className="col-12 col-sm-6 col-md-4 col-lg-3 mb-4"
             >
               <Link
-                to={`/animal/${animal.id}`}
+                to={`/animalshelter/animal/${animal.id}`}
                 className="text-decoration-none text-dark"
               >
-                <div className="card h-100 shadow-sm">
+                <div className="card custom-card-hover h-100">
                   <img
                     src={animal.images[0]}
                     alt={animal.name}
@@ -211,7 +211,7 @@ export default function AnimalShelter() {
           <div className="d-flex justify-content-center my-4">
             <button
               onClick={() => setVisibleCount((prev) => prev + 8)}
-              className="px-4 py-2 fw-semibold"
+              className="btn-outline-secondary px-4 py-2 fw-semibold"
             >
               View more {filteredAnimals.length - visibleCount} Animals ↓
             </button>
