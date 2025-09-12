@@ -6,7 +6,7 @@ import Footer from "../components/Footer";
 export default function VetLayout() {
   return (
     <div>
-      <NavVeterinarian />
+      {/* <NavVeterinarian /> */}
       <div className="container mt-4">
         <Outlet />
       </div>
