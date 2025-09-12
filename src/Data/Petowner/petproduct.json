@@ -3,388 +3,450 @@
     "id": 1,
     "typeProduct": "health supplements",
     "name": "Multivitamin Chews for Dogs",
-    "mainImage": "https://www.pethonesty.com/cdn/shop/files/multi2-pack.png?v=1697301910",
+    "mainImage": "https://placehold.co/600x400",
     "images": [
-      "https://www.pethonesty.com/cdn/shop/files/2025_JarMockup_Multi_PB.png?v=1756396612"
+      "https://placehold.co/600x400",
+      "https://placehold.co/600x400",
+      "https://placehold.co/600x400"
     ],
     "description": "Daily multivitamin chews that support overall health, strong immunity, and energy levels for dogs.",
     "price": 25.99,
-    "sale_quantity": 520,
-    "rating": 4.6
+    "sale_quantity": 1320,
+    "rating": 4.7
   },
   {
     "id": 2,
     "typeProduct": "health supplements",
     "name": "Omega-3 Oil for Cats",
-    "mainImage": "https://m.media-amazon.com/images/I/61g4mEQqQnL._UF894,1000_QL80_.jpg",
+    "mainImage": "https://placehold.co/600x400",
     "images": [
-      "https://cdn.shopify.com/s/files/1/0511/3059/7560/files/50515E1-Cat_Omega3_2oz_Box_Front.jpg?v=1752258290"
+      "https://example.com/images/omega_cat_1.jpg",
+      "https://example.com/images/omega_cat_2.jpg",
+      "https://example.com/images/omega_cat_3.jpg"
     ],
     "description": "Premium omega-3 fish oil that supports a shiny coat, healthy skin, and joint health in cats.",
     "price": 19.5,
-    "sale_quantity": 340,
-    "rating": 4.3
+    "sale_quantity": 950,
+    "rating": 4.6
   },
   {
     "id": 3,
     "typeProduct": "health supplements",
     "name": "Joint Care Tablets",
-    "mainImage": "https://m.media-amazon.com/images/S/aplus-media-library-service-media/0c4c83db-efcf-419d-8181-c6169cbaf66a.__CR0,0,970,600_PT0_SX970_V1___.jpg",
+    "mainImage": "https://placehold.co/600x400",
     "images": [
-      "https://m.media-amazon.com/images/I/71esNSJV6dL._UF350,350_QL80_.jpg",
-      "https://m.media-amazon.com/images/I/61OiczXlpcL._UF350,350_QL80_.jpg"
+      "https://example.com/images/joint_care_1.jpg",
+      "https://example.com/images/joint_care_2.jpg",
+      "https://example.com/images/joint_care_3.jpg"
     ],
     "description": "Joint support tablets formulated to improve mobility and flexibility for aging dogs and cats.",
     "price": 29.0,
-    "sale_quantity": 875,
-    "rating": 4.7
+    "sale_quantity": 1830,
+    "rating": 4.8
   },
   {
     "id": 4,
     "typeProduct": "health supplements",
     "name": "Digestive Probiotics",
-    "mainImage": "https://assets.petco.com/petco/image/upload/f_auto,q_auto/3615473-center-1",
-    "images": [],
+    "mainImage": "https://placehold.co/600x400",
+    "images": [
+      "https://example.com/images/probiotics_1.jpg",
+      "https://example.com/images/probiotics_2.jpg",
+      "https://example.com/images/probiotics_3.jpg"
+    ],
     "description": "Probiotic supplements that promote healthy digestion and reduce stomach upset in pets.",
     "price": 21.75,
-    "sale_quantity": 290,
-    "rating": 4.2
+    "sale_quantity": 1475,
+    "rating": 4.5
   },
   {
     "id": 5,
     "typeProduct": "health supplements",
     "name": "Calcium Powder",
-    "mainImage": "https://gooddogpeople.com/cdn/shop/products/Calcium_Phosphorus_Plus_Vitamin_D_P_1lb_NV_04820_REV1116-178140_720x.jpg?v=1632985469",
+    "mainImage": "https://placehold.co/600x400",
     "images": [
-      "https://naturvet.com/cdn/shop/files/Calcium-PhosphorusPowder1lbNV79904820REV08232_91333154-1235-4073-b355-7f89b5eb4e04.jpg?v=1728505669&width=1946"
+      "https://example.com/images/calcium_1.jpg",
+      "https://example.com/images/calcium_2.jpg",
+      "https://example.com/images/calcium_3.jpg"
     ],
     "description": "Calcium supplement powder that strengthens bones and teeth for puppies and kittens.",
     "price": 18.2,
-    "sale_quantity": 610,
-    "rating": 4.5
+    "sale_quantity": 860,
+    "rating": 4.4
   },
   {
     "id": 6,
     "typeProduct": "dog food",
     "name": "Grain-Free Chicken Dog Food",
-    "mainImage": "https://dm.apac.cms.aldi.cx/is/image/aldiprodapac/product/jpg/scaleWidth/500/dc8b7045-1c41-4163-9111-f326c2a6b8bb/Grain%20Free%20Dry%20Dog%20Food%202.5kg",
-    "images": [],
+    "mainImage": "https://placehold.co/600x400",
+    "images": [
+      "https://example.com/images/dog_food_chicken_1.jpg",
+      "https://example.com/images/dog_food_chicken_2.jpg",
+      "https://example.com/images/dog_food_chicken_3.jpg"
+    ],
     "description": "High-protein grain-free dry dog food made with real chicken for strong muscles.",
     "price": 45.5,
-    "sale_quantity": 780,
-    "rating": 4.8
+    "sale_quantity": 2200,
+    "rating": 4.9
   },
   {
     "id": 7,
     "typeProduct": "dog food",
     "name": "Beef & Rice Dog Food",
-    "mainImage": "https://m.media-amazon.com/images/I/8125wH2F5-L.jpg",
+    "mainImage": "https://placehold.co/600x400",
     "images": [
-      "https://www.spunkyjunky.com/cdn/shop/articles/1_8eea16ac-6388-4b10-8f2a-1d9d16a0a629.jpg?v=1684466860&width=2048"
+      "https://example.com/images/dog_food_beef_1.jpg",
+      "https://example.com/images/dog_food_beef_2.jpg",
+      "https://example.com/images/dog_food_beef_3.jpg"
     ],
     "description": "Balanced dry food with beef and rice, designed for easy digestion and energy support.",
     "price": 40.0,
-    "sale_quantity": 900,
-    "rating": 4.6
+    "sale_quantity": 1970,
+    "rating": 4.7
   },
   {
     "id": 8,
     "typeProduct": "dog food",
     "name": "Lamb & Vegetables Dog Food",
-    "mainImage": "https://static1.viovet.co.uk/opt/s=kr,width=720,height=720/familygallery/james-wellbeloved-adult-grain-free-lamb-vegetable-dog-dry-food-u12m.jpg",
-    "images": [],
+    "mainImage": "https://placehold.co/600x400",
+    "images": [
+      "https://example.com/images/dog_food_lamb_1.jpg",
+      "https://example.com/images/dog_food_lamb_2.jpg",
+      "https://example.com/images/dog_food_lamb_3.jpg"
+    ],
     "description": "Nutritious dog food made with lamb and vegetables to support healthy digestion.",
     "price": 48.9,
-    "sale_quantity": 455,
-    "rating": 4.4
+    "sale_quantity": 2650,
+    "rating": 4.8
   },
   {
     "id": 9,
     "typeProduct": "dog food",
     "name": "Puppy Starter Formula",
-    "mainImage": "https://www.purina.com.sg/sites/default/files/2023-11/pp_perf_starter_12kg_xi_-_12519094_2.jpg",
-    "images": [],
+    "mainImage": "https://placehold.co/600x400",
+    "images": [
+      "https://example.com/images/puppy_food_1.jpg",
+      "https://example.com/images/puppy_food_2.jpg",
+      "https://example.com/images/puppy_food_3.jpg"
+    ],
     "description": "Special formula designed to provide essential nutrients for puppies under 1 year old.",
     "price": 35.0,
-    "sale_quantity": 500,
-    "rating": 4.5
+    "sale_quantity": 1420,
+    "rating": 4.6
   },
   {
     "id": 10,
     "typeProduct": "dog food",
     "name": "Senior Dog Food",
-    "mainImage": "https://openfarmpet.ca/cdn/shop/files/OFP-Grain-Free-Senior-Kibble-Recipe-6-668x580.png?v=1738789637",
+    "mainImage": "https://placehold.co/600x400",
     "images": [
-      "https://openfarmpet.ca/cdn/shop/files/OFP-Grain-Free-Senior-Kibble-Recipe-2-668x580.png?v=1738789653"
+      "https://example.com/images/senior_dog_food_1.jpg",
+      "https://example.com/images/senior_dog_food_2.jpg",
+      "https://example.com/images/senior_dog_food_3.jpg"
     ],
     "description": "Complete nutrition for older dogs to maintain mobility and overall well-being.",
     "price": 42.5,
-    "sale_quantity": 670,
-    "rating": 4.6
+    "sale_quantity": 1560,
+    "rating": 4.5
   },
   {
     "id": 11,
     "typeProduct": "cat food",
     "name": "Salmon Recipe Cat Food",
-    "mainImage": "https://delivery-petsuppliesplus.stylelabs.cloud/api/public/content/750683039049_1",
+    "mainImage": "https://placehold.co/600x400",
     "images": [
-      "https://i.ytimg.com/vi/FsXYlq0DwsA/maxresdefault.jpg"
+      "https://example.com/images/cat_food_salmon_1.jpg",
+      "https://example.com/images/cat_food_salmon_2.jpg",
+      "https://example.com/images/cat_food_salmon_3.jpg"
     ],
     "description": "Dry cat food made with real salmon, rich in omega-3 for skin and coat health.",
     "price": 38.75,
-    "sale_quantity": 420,
-    "rating": 4.4
+    "sale_quantity": 1350,
+    "rating": 4.7
   },
   {
     "id": 12,
     "typeProduct": "cat food",
     "name": "Chicken Flavored Cat Food",
-    "mainImage": "https://www.gosupps.com/media/catalog/product/7/1/71xvN_BGzWL.jpg",
+    "mainImage": "https://placehold.co/600x400",
     "images": [
-      "https://m.media-amazon.com/images/I/71Onypg0AaL.jpg"
+      "https://example.com/images/cat_food_chicken_1.jpg",
+      "https://example.com/images/cat_food_chicken_2.jpg",
+      "https://example.com/images/cat_food_chicken_3.jpg"
     ],
     "description": "Tasty chicken-flavored cat food, easy to digest and suitable for all breeds.",
     "price": 32.5,
-    "sale_quantity": 510,
-    "rating": 4.3
+    "sale_quantity": 1250,
+    "rating": 4.5
   },
   {
     "id": 13,
     "typeProduct": "cat food",
     "name": "Tuna Delight Cat Food",
-    "mainImage": "https://www.kohepets.com.sg/cdn/shop/files/DailyDelightMousseWithTunaCannedCatFood80g.jpg?v=1693474125",
+    "mainImage": "https://placehold.co/600x400",
     "images": [
-      "https://www.yappypets.sg/cdn/shop/files/Yappy_Pets_Daily_Delight_Fresh_Tuna_Mousse_Cat_Wet_Food_80g_Carton_Deal_Cat.jpg?v=1755847247&width=1206"
+      "https://example.com/images/cat_food_tuna_1.jpg",
+      "https://example.com/images/cat_food_tuna_2.jpg",
+      "https://example.com/images/cat_food_tuna_3.jpg"
     ],
     "description": "Delicious tuna-flavored dry food that provides complete nutrition for cats.",
     "price": 36.0,
-    "sale_quantity": 650,
-    "rating": 4.5
+    "sale_quantity": 990,
+    "rating": 4.6
   },
   {
     "id": 14,
     "typeProduct": "cat food",
     "name": "Kitten Growth Formula",
-    "mainImage": "https://m.media-amazon.com/images/I/81NPAH8XsiL.jpg",
+    "mainImage": "https://placehold.co/600x400",
     "images": [
-      "https://m.media-amazon.com/images/I/81fsYUdfDqL.jpg"
+      "https://example.com/images/kitten_food_1.jpg",
+      "https://example.com/images/kitten_food_2.jpg",
+      "https://example.com/images/kitten_food_3.jpg"
     ],
     "description": "Nutrient-rich formula specially designed to support healthy growth in kittens.",
     "price": 30.0,
-    "sale_quantity": 470,
-    "rating": 4.6
+    "sale_quantity": 880,
+    "rating": 4.4
   },
   {
     "id": 15,
     "typeProduct": "cat food",
     "name": "Senior Cat Formula",
-    "mainImage": "https://i5.walmartimages.com/seo/Pure-Balance-Pro-Senior-Formula-with-Chicken-Dry-Cat-Food-7-lbs_d2343038-8975-4947-ab9e-d57a5b25f974.a04ab9bb2f3d234367c272df44e8d586.jpeg?odnHeight=612&odnWidth=612&odnBg=FFFFFF",
+    "mainImage": "https://placehold.co/600x400",
     "images": [
-      "https://i5.walmartimages.com/asr/04403f30-8d75-4112-95df-0aab3612d466.dcc89f91212826775298aea1aff6c711.jpeg?odnHeight=768&odnWidth=768&odnBg=FFFFFF"
+      "https://example.com/images/senior_cat_food_1.jpg",
+      "https://example.com/images/senior_cat_food_2.jpg",
+      "https://example.com/images/senior_cat_food_3.jpg"
     ],
     "description": "Balanced nutrition for senior cats, supporting digestion and joint health.",
     "price": 34.5,
-    "sale_quantity": 390,
-    "rating": 4.2
+    "sale_quantity": 720,
+    "rating": 4.3
   },
   {
     "id": 16,
     "typeProduct": "grooming essential",
     "name": "Pet Grooming Brush",
-    "mainImage": "https://m.media-amazon.com/images/I/71Z3-5FnNsL.jpg",
+    "mainImage": "https://placehold.co/600x400",
     "images": [
-      "https://d3dxkzk9npnkec.cloudfront.net/uploads/images/202506/img_1920x_685d92ef731b89-46489054-13196345.webp"
+      "https://example.com/images/grooming_brush_1.jpg",
+      "https://example.com/images/grooming_brush_2.jpg",
+      "https://example.com/images/grooming_brush_3.jpg"
     ],
     "description": "Durable grooming brush that removes loose hair and keeps your pet’s coat shiny.",
     "price": 15.2,
-    "sale_quantity": 720,
-    "rating": 4.7
+    "sale_quantity": 530,
+    "rating": 4.4
   },
   {
     "id": 17,
     "typeProduct": "grooming essential",
     "name": "Nail Clipper for Pets",
-    "mainImage": "https://m.media-amazon.com/images/I/61QfrOQpHfL.jpg",
+    "mainImage": "https://placehold.co/600x400",
     "images": [
-      "https://i.ebayimg.com/00/s/OTc1WDEwMDA=/z/zUgAAOSwWj1jK8U8/$_57.JPG?set_id=8800005007"
+      "https://example.com/images/nail_clipper_1.jpg",
+      "https://example.com/images/nail_clipper_2.jpg",
+      "https://example.com/images/nail_clipper_3.jpg"
     ],
     "description": "Safe and easy-to-use nail clippers designed for cats and dogs of all sizes.",
     "price": 12.0,
-    "sale_quantity": 640,
-    "rating": 4.4
+    "sale_quantity": 650,
+    "rating": 4.3
   },
   {
     "id": 18,
     "typeProduct": "grooming essential",
     "name": "Shampoo for Sensitive Skin",
-    "mainImage": "https://www.shopdogandco.com/cdn/shop/products/ProductImages_21_1200x.png?v=1645110695",
+    "mainImage": "https://placehold.co/600x400",
     "images": [
-      "https://d4yxl4pe8dqlj.cloudfront.net/images/532e12fa-144e-403e-aab9-7802d30aaae5/9fc0c2da-8bf8-408d-b916-b7ab0ac500c1_large.jpg"
+      "https://example.com/images/pet_shampoo_1.jpg",
+      "https://example.com/images/pet_shampoo_2.jpg",
+      "https://example.com/images/pet_shampoo_3.jpg"
     ],
     "description": "Gentle shampoo made for pets with sensitive skin, leaving coat soft and fresh.",
     "price": 17.5,
-    "sale_quantity": 530,
+    "sale_quantity": 740,
     "rating": 4.5
   },
   {
     "id": 19,
     "typeProduct": "grooming essential",
     "name": "Ear Cleaner Solution",
-    "mainImage": "https://m.media-amazon.com/images/I/515zDqFWONL._UF1000,1000_QL80_.jpg",
+    "mainImage": "https://placehold.co/600x400",
     "images": [
-      "https://wholesale.liquidhealth.us/cdn/shop/products/k9-ear-sales-3_700x700.jpg?v=1687524229",
-      "https://liquidhealthpets.com/cdn/shop/products/EarSolutionsquadpack_1.png?v=1679612194&width=1445"
+      "https://example.com/images/ear_cleaner_1.jpg",
+      "https://example.com/images/ear_cleaner_2.jpg",
+      "https://example.com/images/ear_cleaner_3.jpg"
     ],
     "description": "Liquid ear cleaner that helps prevent ear infections and odor in pets.",
     "price": 14.5,
-    "sale_quantity": 450,
-    "rating": 4.3
+    "sale_quantity": 480,
+    "rating": 4.2
   },
   {
     "id": 20,
     "typeProduct": "grooming essential",
     "name": "Pet Wipes Pack",
-    "mainImage": "https://cdn4.volusion.store/hyfac-agsmn/v/vspfiles/photos/5571-2.jpg?v-cache=1738855860",
+    "mainImage": "https://placehold.co/600x400",
     "images": [
-      "https://m.media-amazon.com/images/I/81Xp-tzLXBL.jpg",
-      "https://m.media-amazon.com/images/I/81MjKhiAZ8L._UF894,1000_QL80_.jpg"
+      "https://example.com/images/pet_wipes_1.jpg",
+      "https://example.com/images/pet_wipes_2.jpg",
+      "https://example.com/images/pet_wipes_3.jpg"
     ],
     "description": "Convenient pet wipes for cleaning paws, fur, and face on the go.",
     "price": 10.9,
-    "sale_quantity": 860,
+    "sale_quantity": 820,
     "rating": 4.6
   },
   {
     "id": 21,
     "typeProduct": "bedding",
     "name": "Cozy Round Pet Bed",
-    "mainImage": "https://i5.walmartimages.com/seo/Cozy-Round-Rattan-Pet-Bed-for-Dogs-Cats-Breathable-Washable-All-Seasons-Pet-Cushion-Mat-for-Indoor-Use-Portable-and-Comfortable_9e5bd57d-472f-49a2-ba65-ce7754fca3d8.a085a604c0a354bd94102cacb7042730.jpeg?odnHeight=768&odnWidth=768&odnBg=FFFFF",
+    "mainImage": "https://placehold.co/600x400",
     "images": [
-      "https://m.media-amazon.com/images/I/51b2jp6vwmL._UF350,350_QL80_.jpg",
-      "https://m.media-amazon.com/images/I/61VcT7pbliL._UF1000,1000_QL80_.jpg",
-      "https://m.media-amazon.com/images/I/71Qwahb9-fL._UF1000,1000_QL80_.jpg"
+      "https://example.com/images/pet_bed_round_1.jpg",
+      "https://example.com/images/pet_bed_round_2.jpg",
+      "https://example.com/images/pet_bed_round_3.jpg"
     ],
     "description": "Soft and comfortable round pet bed that provides warmth and security.",
     "price": 55.0,
-    "sale_quantity": 720,
-    "rating": 4.7
+    "sale_quantity": 1320,
+    "rating": 4.8
   },
   {
     "id": 22,
     "typeProduct": "bedding",
     "name": "Orthopedic Pet Mattress",
-    "mainImage": "https://m.media-amazon.com/images/I/81OPxO1+oCL.jpg",
+    "mainImage": "https://placehold.co/600x400",
     "images": [
-      "https://www.newtonbaby.com/cdn/shop/files/PET_BED_3000_5.jpg?v=1746547636&width=1946"
+      "https://example.com/images/pet_mattress_1.jpg",
+      "https://example.com/images/pet_mattress_2.jpg",
+      "https://example.com/images/pet_mattress_3.jpg"
     ],
     "description": "Supportive orthopedic mattress designed for senior pets with joint issues.",
     "price": 70.5,
-    "sale_quantity": 510,
-    "rating": 4.5
+    "sale_quantity": 1100,
+    "rating": 4.7
   },
   {
     "id": 23,
     "typeProduct": "bedding",
     "name": "Heated Pet Bed",
-    "mainImage": "https://files.ekmcdn.com/pawstrading/images/k-h-heated-nest-dog-bed-thermo-snuggly-sleeper-heated-pet-bed-medium-sage-26-x-20-6w-26500-p.jpg",
+    "mainImage": "https://placehold.co/600x400",
     "images": [
-      "https://m.media-amazon.com/images/I/81eiwrkD9vL._UF1000,1000_QL80_.jpg",
-      "https://www.luckypet.com.au/assets/alt_1/KHE013.jpg?20210318034810"
+      "https://example.com/images/heated_bed_1.jpg",
+      "https://example.com/images/heated_bed_2.jpg",
+      "https://example.com/images/heated_bed_3.jpg"
     ],
     "description": "Heated bed that keeps pets warm and cozy during cold weather.",
     "price": 85.0,
-    "sale_quantity": 480,
+    "sale_quantity": 980,
     "rating": 4.6
   },
   {
     "id": 24,
     "typeProduct": "bedding",
     "name": "Travel Carrier Bed",
-    "mainImage": "https://shopfurme.com/cdn/shop/files/QuiltedPetCarrier_CarSeatOatmeal_1024x.jpg?v=1693078516",
+    "mainImage": "https://placehold.co/600x400",
     "images": [
-      "https://down-th.img.susercontent.com/file/th-11134208-7r991-lncjhtiwps3f07"
+      "https://example.com/images/travel_bed_1.jpg",
+      "https://example.com/images/travel_bed_2.jpg",
+      "https://example.com/images/travel_bed_3.jpg"
     ],
-    "description": "Dual-purpose travel carrier that converts into a comfortable pet bed.",
-    "price": 60.0,
-    "sale_quantity": 420,
-    "rating": 4.4
+    "description": "Convertible carrier and bed perfect for travel and outdoor adventures.",
+    "price": 65.9,
+    "sale_quantity": 870,
+    "rating": 4.5
   },
   {
     "id": 25,
     "typeProduct": "bedding",
-    "name": "Luxury Sofa Pet Bed",
-    "mainImage": "https://thepawsitive.co/cdn/shop/products/8_4aaf3603-ef62-42f4-b27f-3ed5e18ad96c_540x.jpg?v=1630371914",
+    "name": "Luxury Plush Bed",
+    "mainImage": "https://placehold.co/600x400",
     "images": [
-      "https://m.media-amazon.com/images/I/81hguD9bfZL.jpg"
+      "https://example.com/images/luxury_bed_1.jpg",
+      "https://example.com/images/luxury_bed_2.jpg",
+      "https://example.com/images/luxury_bed_3.jpg"
     ],
-    "description": "Stylish sofa-like pet bed that adds elegance to your home decor.",
-    "price": 95.5,
-    "sale_quantity": 390,
-    "rating": 4.3
+    "description": "Premium plush bed with extra cushioning for maximum comfort.",
+    "price": 90.0,
+    "sale_quantity": 760,
+    "rating": 4.7
   },
   {
     "id": 26,
-    "typeProduct": "toys",
-    "name": "Chew Toy Bone",
-    "mainImage": "https://cdn11.bigcommerce.com/s-rdn5vmj/images/stencil/1280x1280/products/328/13845/012578-XL-CHW-TY-PIK__24858.1553021111.jpg?c=2?imbypass=on",
+    "typeProduct": "apparel",
+    "name": "Winter Sweater for Dogs",
+    "mainImage": "https://placehold.co/600x400",
     "images": [
-      "https://www.petexpress.com.ph/cdn/shop/products/booda-dog-chew-bones-rope-toy-8-inch-natural.jpg?v=1721805460"
+      "https://example.com/images/dog_sweater_1.jpg",
+      "https://example.com/images/dog_sweater_2.jpg",
+      "https://example.com/images/dog_sweater_3.jpg"
     ],
-    "description": "Durable chew toy bone that keeps dogs entertained and promotes dental health.",
-    "price": 8.5,
-    "sale_quantity": 950,
-    "rating": 4.8
-  },
-  {
-    "id": 27,
-    "typeProduct": "toys",
-    "name": "Interactive Cat Toy",
-    "mainImage": "https://m.media-amazon.com/images/I/81KkhA3ur8L.jpg",
-    "images": [
-      "https://down-vn.img.susercontent.com/file/sg-11134201-23010-59yq0c6eb9lvbb"
-    ],
-    "description": "Interactive toy designed to keep cats mentally stimulated and active.",
-    "price": 12.75,
-    "sale_quantity": 620,
-    "rating": 4.5
-  },
-  {
-    "id": 28,
-    "typeProduct": "toys",
-    "name": "Squeaky Plush Toy",
-    "mainImage": "https://m.media-amazon.com/images/I/61TwZdsPuxL._AC_SL1001_.jpg",
-    "images": [
-      "https://i.ebayimg.com/images/g/UuEAAOSwb7lm0pM2/s-l500.jpg"
-    ],
-    "description": "Soft plush toy with a built-in squeaker for endless fun.",
-    "price": 9.9,
-    "sale_quantity": 730,
+    "description": "Cozy winter sweater designed to keep your dog warm during cold walks.",
+    "price": 30.99,
+    "sale_quantity": 640,
     "rating": 4.6
   },
   {
-    "id": 29,
-    "typeProduct": "toys",
-    "name": "Rope Tug Toy",
-    "mainImage": "https://m.media-amazon.com/images/I/91nTWSQUsQL.jpg",
+    "id": 27,
+    "typeProduct": "apparel",
+    "name": "Raincoat for Cats",
+    "mainImage": "https://placehold.co/600x400",
     "images": [
-      "https://m.media-amazon.com/images/I/81u+Zk4SOzL.jpg"
+      "https://example.com/images/cat_raincoat_1.jpg",
+      "https://example.com/images/cat_raincoat_2.jpg",
+      "https://example.com/images/cat_raincoat_3.jpg"
     ],
-    "description": "Sturdy rope tug toy that encourages exercise and bonding playtime.",
-    "price": 11.2,
-    "sale_quantity": 680,
+    "description": "Lightweight waterproof raincoat to keep your cat dry and comfortable.",
+    "price": 25.5,
+    "sale_quantity": 520,
+    "rating": 4.3
+  },
+  {
+    "id": 28,
+    "typeProduct": "apparel",
+    "name": "Bandana Set for Pets",
+    "mainImage": "https://placehold.co/600x400",
+    "images": [
+      "https://example.com/images/pet_bandana_1.jpg",
+      "https://example.com/images/pet_bandana_2.jpg",
+      "https://example.com/images/pet_bandana_3.jpg"
+    ],
+    "description": "Set of 3 stylish bandanas that add flair to your pet’s everyday look.",
+    "price": 15.0,
+    "sale_quantity": 780,
+    "rating": 4.5
+  },
+  {
+    "id": 29,
+    "typeProduct": "apparel",
+    "name": "Halloween Costume",
+    "mainImage": "https://placehold.co/600x400",
+    "images": [
+      "https://example.com/images/halloween_costume_1.jpg",
+      "https://example.com/images/halloween_costume_2.jpg",
+      "https://example.com/images/halloween_costume_3.jpg"
+    ],
+    "description": "Adorable Halloween costume for pets, perfect for parties and photo sessions.",
+    "price": 28.75,
+    "sale_quantity": 560,
     "rating": 4.4
   },
   {
     "id": 30,
-    "typeProduct": "toys",
-    "name": "Ball Launcher Set",
-    "mainImage": "https://down-vn.img.susercontent.com/file/vn-11134207-7qukw-lj2sems1dj2x72",
+    "typeProduct": "apparel",
+    "name": "Summer Cooling Vest",
+    "mainImage": "https://placehold.co/600x400",
     "images": [
-      "https://down-vn.img.susercontent.com/file/sg-11134201-7rd5j-lrlj9j5b1dj731"
+      "https://example.com/images/cooling_vest_1.jpg",
+      "https://example.com/images/cooling_vest_2.jpg",
+      "https://example.com/images/cooling_vest_3.jpg"
     ],
-    "description": "Fun ball launcher set that provides hours of fetch and exercise for dogs.",
-    "price": 20.0,
-    "sale_quantity": 840,
+    "description": "Lightweight cooling vest that keeps pets comfortable during hot days.",
+    "price": 32.5,
+    "sale_quantity": 600,
     "rating": 4.7
   }
 ]
