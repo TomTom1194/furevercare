@@ -20,6 +20,7 @@ function MyProfile() {
         localStorage.removeItem("currentUser");
         navigate("/");
     }
+    console.log(1);
 
     if (!currentUser) {
         return <div className="container mt-5">No user logged in.</div>;
