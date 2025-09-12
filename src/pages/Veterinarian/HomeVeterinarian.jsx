@@ -1,8 +1,6 @@
 import React, { useEffect } from "react";
 import { useNavigate } from "react-router-dom";
 import vets from "../../Data/Vet/veterinarian.json";
-import AOS from "aos";
-import "aos/dist/aos.css";
 import "./TitleHomeVets.css";
 
 // Dữ liệu slide cho carousel
@@ -31,9 +29,6 @@ const HomeVeterinarian = () => {
     navigate(`/veterinarian/${id}`);
   };
 
-  useEffect(() => {
-    AOS.init({ duration: 1000, once: true });
-  }, []);
 
   return (
     <div>

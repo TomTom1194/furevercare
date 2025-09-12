@@ -72,7 +72,7 @@ export default function App() {
         </Route>
 
         {/* Animal Shelter routes */}
-        <Route path="/animalshelter" element={<AnimalShelterLayout />}>
+        {/* <Route path="/animalshelter" element={<AnimalShelterLayout />}>
           <Route path="animal" element={<AnimalShelter />}></Route>
           <Route
             path="animal/:id"
@@ -82,7 +82,7 @@ export default function App() {
           <Route path="story/:id" element={<StoryDetail />}></Route>
           <Route path="event" element={<Event />}></Route>
           <Route path="sheltercontact" element={<ShelterContact />}></Route>
-        </Route>
+        </Route> */}
 
         {/* 404 */}
         <Route

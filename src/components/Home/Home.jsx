@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import { useNavigate } from "react-router-dom";
-import users from "../../Data/user.json";
+import user from "../../Data/user.json";
 import "./Home.css";
 
 const Home = () => {
@@ -15,7 +15,7 @@ const Home = () => {
     }
 
     // Tìm user trong JSON
-    const existingUser = users.find((u) => u.email === email);
+    const existingUser = user.find((u) => u.email === email);
 
     if (!existingUser) {
       alert("Email does not exist in our system!");
